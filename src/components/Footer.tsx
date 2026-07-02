@@ -1,12 +1,16 @@
 import Link from 'next/link'
 import NewsletterForm from './NewsletterForm'
+import { getDictionary } from '@/lib/dictionary'
+import type { Locale } from '@/lib/i18n'
 
-export default function Footer() {
+export default function Footer({ locale }: { locale: Locale }) {
+  const t = getDictionary(locale)
+
   return (
     <footer>
       <div className="bg-brand px-4 py-6">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <NewsletterForm />
+          <NewsletterForm locale={locale} />
           <div className="flex items-center gap-3">
             <a
               href="#"
@@ -27,14 +31,14 @@ export default function Footer() {
       </div>
       <div className="bg-brand-dark px-4 py-4">
         <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-white/80">
-          <Link href="/site-map" className="hover:text-white">Site Map</Link>
-          <Link href="/licenses" className="hover:text-white">Licenses</Link>
-          <Link href="/legal-notice" className="hover:text-white">Legal Notice</Link>
-          <Link href="/terms" className="hover:text-white">Terms &amp; Conditions</Link>
-          <Link href="/cookie-settings" className="hover:text-white">Cookie Settings</Link>
+          <Link href={`/${locale}/site-map`} className="hover:text-white">{t.siteMap}</Link>
+          <Link href={`/${locale}/licenses`} className="hover:text-white">{t.licenses}</Link>
+          <Link href={`/${locale}/legal-notice`} className="hover:text-white">{t.legalNotice}</Link>
+          <Link href={`/${locale}/terms`} className="hover:text-white">{t.terms}</Link>
+          <Link href={`/${locale}/cookie-settings`} className="hover:text-white">{t.cookieSettings}</Link>
         </div>
         <p className="text-center text-[11px] text-white/50 mt-3">
-          &copy; {new Date().getFullYear()} EquiConnected — Association founded October 2025
+          &copy; {new Date().getFullYear()} {t.founded}
         </p>
       </div>
     </footer>

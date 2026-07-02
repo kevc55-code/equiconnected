@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import { DM_Sans, Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -34,9 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${dmSans.variable} ${garamond.variable} font-sans antialiased bg-white text-ink`}>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        {children}
       </body>
     </html>
   )

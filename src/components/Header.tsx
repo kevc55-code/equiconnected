@@ -2,8 +2,11 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import Logo from './Logo'
-import { primaryNav, secondaryNav, type NavItem } from '@/lib/nav'
+import LanguageSwitcher from './LanguageSwitcher'
+import { getPrimaryNav, getSecondaryNav, type NavItem } from '@/lib/nav'
+import { locales, type Locale } from '@/lib/i18n'
 
 function NavRow({ items }: { items: NavItem[] }) {
   const [open, setOpen] = useState<string | null>(null)
@@ -42,8 +45,9 @@ function NavRow({ items }: { items: NavItem[] }) {
   )
 }
 
-function MobileNav({ onNavigate }: { onNavigate: () => void }) {
-  const all = [...primaryNav, ...secondaryNav]
+function MobileNav({ locale, onNavigate }: { locale: Locale; onNavigate: () => void }) {
+  const pathname = usePathname()
+  const all = [...getPrimaryNav(locale), ...getSecondaryNav(locale)]
   return (
     <div className="bg-brand-darker px-4 py-4 space-y-1">
       {all.map((item) => (
@@ -71,17 +75,32 @@ function MobileNav({ onNavigate }: { onNavigate: () => void }) {
           ) : null}
         </div>
       ))}
+      <div className="pt-3 flex gap-2">
+        {locales.map((l) => (
+          <Link
+            key={l}
+            href={pathname.replace(`/${locale}`, `/${l}`)}
+            className={`px-3 py-1 rounded-full text-xs font-semibold border ${
+              l === locale ? 'bg-white text-brand-darker border-white' : 'border-white/40 text-white/70'
+            }`}
+          >
+            {l.toUpperCase()}
+          </Link>
+        ))}
+      </div>
     </div>
   )
 }
 
-export default function Header() {
+export default function Header({ locale }: { locale: Locale }) {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const primaryNav = getPrimaryNav(locale)
+  const secondaryNav = getSecondaryNav(locale)
 
   return (
     <header className="sticky top-0 z-40 bg-brand shadow-md">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-3 py-2 text-white">
+        <Link href={`/${locale}`} className="flex items-center gap-3 py-2 text-white">
           <Logo className="h-9 w-9" />
           <span className="font-serif text-lg font-semibold tracking-wide hidden sm:inline">
             EquiConnected
@@ -96,16 +115,19 @@ export default function Header() {
             <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-        <nav className="hidden md:block">
-          <NavRow items={primaryNav} />
-        </nav>
+        <div className="hidden md:flex items-center gap-4">
+          <nav>
+            <NavRow items={primaryNav} />
+          </nav>
+          <LanguageSwitcher locale={locale} />
+        </div>
       </div>
       <div className="hidden md:block border-t border-white/10 bg-brand-dark">
         <div className="max-w-6xl mx-auto">
           <NavRow items={secondaryNav} />
         </div>
       </div>
-      {mobileOpen ? <MobileNav onNavigate={() => setMobileOpen(false)} /> : null}
+      {mobileOpen ? <MobileNav locale={locale} onNavigate={() => setMobileOpen(false)} /> : null}
     </header>
   )
 }
