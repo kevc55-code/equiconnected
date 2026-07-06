@@ -8,8 +8,10 @@ content:
     type: collection
     path: content
     format: json
+    extension: json
+    filename: '{primary}.json'
     view:
-      fields: [en.hero.title]
+      fields: [name, en.hero.title]
     fields:
       - name: en
         label: English
