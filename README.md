@@ -1,0 +1,42 @@
+# EquiConnected
+
+Website for the EquiConnected association — promoting harmonious relationships between horses and humans through Paddock Paradise, natural care, horsemanship, Mountain Trail, and equine-assisted coaching.
+
+Built with Next.js 14 (static export) + Tailwind CSS. Deployed on Cloudflare Pages: every push to `master` triggers an automatic rebuild and deploy (~2 minutes).
+
+## Editing the site content (no coding required)
+
+All page text and photos live in the `content/` folder — one JSON file per page, with `en` / `fr` / `de` sections side by side. Editors use **[Pages CMS](https://app.pagescms.org)**, a free editing interface on top of this GitHub repository.
+
+### One-time setup (site owner)
+
+1. Create a free GitHub account for the editor (if they don't have one).
+2. Add them as a collaborator on this repository: GitHub → Settings → Collaborators → Add people.
+3. The editor signs in at **app.pagescms.org** with their GitHub account and selects this repository. The editing screens are defined by `.pages.yml` in this repo.
+
+### Editing workflow
+
+1. Sign in at app.pagescms.org and open the site.
+2. Pick a page under **Site pages**, choose the language section (English / Français / Deutsch), and edit the text fields.
+3. To add a photo, use the image field on a block — uploads land in `public/images/` and are referenced automatically.
+4. Hit **Save**. This creates a commit; Cloudflare Pages rebuilds and the change is live in ~2 minutes.
+
+Body text supports simple formatting: a blank line starts a new paragraph, lines starting with `- ` become bullet points, and `**bold**` makes text bold.
+
+Anything structural — new pages, navigation changes, design tweaks — still needs a developer.
+
+## Development
+
+```bash
+npm install
+npm run dev        # local dev server on :3000
+npm run build      # static export to out/
+npm run typecheck
+```
+
+- Routes live under `src/app/[locale]/` and render content from `content/*.json` via `src/lib/content.ts`.
+- Page content is a list of typed blocks rendered by `src/components/Blocks.tsx` (text, split, image, quotes, blockquote, cards, video, team, events, galleries, highlight).
+- Navigation labels and UI strings (buttons, footer) are code-owned: `src/lib/nav.ts` and `src/lib/dictionary.ts`.
+- Languages: `en` (default), `fr`, `de` — added in `src/lib/i18n.ts`.
+
+> Note: the French and German content started as AI translations of the English copy. Have a native speaker review before promoting those languages heavily.

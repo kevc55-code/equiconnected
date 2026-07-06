@@ -1,0 +1,50 @@
+{
+  "en": {
+    "hero": { "title": "The Team", "intro": "The people behind EquiConnected." },
+    "blocks": [
+      {
+        "type": "team",
+        "members": [
+          { "name": "Myriam Hertzog", "role": "Co-President" },
+          { "name": "Erika Ver Berne", "role": "Co-President" },
+          { "name": "Virginie Tièche", "role": "Secretary" },
+          { "name": "Xavier Wittig", "role": "Treasurer" },
+          { "name": "Agnès Gamp", "role": "Assessor" },
+          { "name": "Laure Flota", "role": "Social Media" }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "hero": { "title": "L'Équipe", "intro": "Les personnes derrière EquiConnected." },
+    "blocks": [
+      {
+        "type": "team",
+        "members": [
+          { "name": "Myriam Hertzog", "role": "Co-Présidente" },
+          { "name": "Erika Ver Berne", "role": "Co-Présidente" },
+          { "name": "Virginie Tièche", "role": "Secrétaire" },
+          { "name": "Xavier Wittig", "role": "Trésorier" },
+          { "name": "Agnès Gamp", "role": "Assesseure" },
+          { "name": "Laure Flota", "role": "Réseaux sociaux" }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "hero": { "title": "Das Team", "intro": "Die Menschen hinter EquiConnected." },
+    "blocks": [
+      {
+        "type": "team",
+        "members": [
+          { "name": "Myriam Hertzog", "role": "Ko-Präsidentin" },
+          { "name": "Erika Ver Berne", "role": "Ko-Präsidentin" },
+          { "name": "Virginie Tièche", "role": "Schriftführerin" },
+          { "name": "Xavier Wittig", "role": "Schatzmeister" },
+          { "name": "Agnès Gamp", "role": "Beisitzerin" },
+          { "name": "Laure Flota", "role": "Soziale Medien" }
+        ]
+      }
+    ]
+  }
+}

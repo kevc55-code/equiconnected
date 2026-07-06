@@ -1,0 +1,29 @@
+{
+  "en": {
+    "hero": { "title": "Cookie Settings" },
+    "blocks": [
+      {
+        "type": "text",
+        "body": "This site uses cookies only for essential site functionality. No tracking cookies are set."
+      }
+    ]
+  },
+  "fr": {
+    "hero": { "title": "Paramétrer vos cookies" },
+    "blocks": [
+      {
+        "type": "text",
+        "body": "Ce site utilise des cookies uniquement pour son fonctionnement essentiel. Aucun cookie de suivi n'est déposé."
+      }
+    ]
+  },
+  "de": {
+    "hero": { "title": "Cookie-Einstellungen" },
+    "blocks": [
+      {
+        "type": "text",
+        "body": "Diese Website verwendet Cookies nur für die wesentliche Funktionalität. Es werden keine Tracking-Cookies gesetzt."
+      }
+    ]
+  }
+}

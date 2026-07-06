@@ -1,0 +1,68 @@
+{
+  "en": {
+    "hero": { "title": "Useful Links", "intro": "Organizations and resources referenced across our work." },
+    "blocks": [
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "MTHA France",
+            "body": "The federation offering Mountain Trail practiced with a horsemanship approach."
+          },
+          {
+            "title": "Jaime Jackson — Paddock Paradise research",
+            "body": "The original studies on wild horse movement that shaped the Paddock Paradise concept."
+          },
+          {
+            "title": "French equine dental technician federation",
+            "body": "The professional body training and grouping equine dental technicians in France."
+          }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "hero": { "title": "Liens Utiles", "intro": "Organisations et ressources référencées dans notre travail." },
+    "blocks": [
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "MTHA France",
+            "body": "La fédération proposant un Mountain Trail pratiqué avec une approche Horsemanship."
+          },
+          {
+            "title": "Jaime Jackson — recherches sur le Paddock Paradise",
+            "body": "Les études d'origine sur le déplacement du cheval sauvage qui ont façonné le concept de Paddock Paradise."
+          },
+          {
+            "title": "Fédération française des techniciens dentaires équins",
+            "body": "L'organisme professionnel qui forme et regroupe les techniciens dentaires équins en France."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "hero": { "title": "Nützliche Links", "intro": "Organisationen und Ressourcen, auf die wir uns in unserer Arbeit beziehen." },
+    "blocks": [
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "MTHA France",
+            "body": "Der Verband, der Mountain Trail mit einem Horsemanship-Ansatz anbietet."
+          },
+          {
+            "title": "Jaime Jackson — Paddock-Paradise-Forschung",
+            "body": "Die ursprünglichen Studien über die Bewegung wild lebender Pferde, die das Paddock-Paradise-Konzept prägten."
+          },
+          {
+            "title": "Französischer Verband für Pferdezahntechniker",
+            "body": "Die Berufsorganisation, die Pferdezahntechniker in Frankreich ausbildet und organisiert."
+          }
+        ]
+      }
+    ]
+  }
+}

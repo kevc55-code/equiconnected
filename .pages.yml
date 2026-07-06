@@ -1,0 +1,104 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: pages
+    label: Site pages
+    type: collection
+    path: content
+    format: json
+    view:
+      fields: [en.hero.title]
+    fields:
+      - name: en
+        label: English
+        type: object
+        fields: &localeFields
+          - name: hero
+            label: Page header
+            type: object
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: intro, label: Intro line, type: string }
+          - { name: banner, label: "Banner text (home page only)", type: string }
+          - name: quickLinks
+            label: "Quick links (home page only)"
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Label, type: string }
+              - { name: href, label: "Link path (without language prefix)", type: string }
+          - name: blocks
+            label: Content blocks
+            type: object
+            list: true
+            view:
+              fields: [type, heading]
+            fields:
+              - name: type
+                label: Block type
+                type: select
+                options:
+                  values: [text, split, image, quotes, blockquote, cards, video, team, events, galleries, highlight]
+              - { name: heading, label: Heading, type: string }
+              - name: body
+                label: "Body text (blank line = new paragraph, '- ' = bullet, **bold**)"
+                type: text
+              - name: imageSide
+                label: "Image side (split blocks)"
+                type: select
+                options:
+                  values: [left, right]
+              - name: image
+                label: Image
+                type: object
+                fields:
+                  - { name: src, label: Photo, type: image }
+                  - { name: caption, label: Caption, type: string }
+                  - { name: ratio, label: "Aspect ratio (advanced)", type: string }
+              - { name: text, label: "Quote text (blockquote blocks)", type: text }
+              - { name: author, label: "Quote author", type: string }
+              - { name: label, label: "Video label", type: string }
+              - { name: viewLabel, label: "Gallery link label", type: string }
+              - { name: note, label: "Footer note (events blocks)", type: text }
+              - name: items
+                label: "Items (quotes / cards / events / galleries)"
+                type: object
+                list: true
+                fields:
+                  - { name: eyebrow, label: "Quote card label", type: string }
+                  - { name: lines, label: "Quote card lines", type: string, list: true }
+                  - { name: title, label: Title, type: string }
+                  - { name: body, label: Text, type: text }
+                  - { name: href, label: "Link path (without language prefix)", type: string }
+                  - { name: day, label: "Event day", type: string }
+                  - { name: month, label: "Event month", type: string }
+                  - { name: detail, label: "Event detail", type: string }
+                  - { name: status, label: "Event status", type: string }
+                  - { name: count, label: "Photo count", type: number }
+                  - name: image
+                    label: Image
+                    type: object
+                    fields:
+                      - { name: src, label: Photo, type: image }
+              - name: members
+                label: "Team members (team blocks)"
+                type: object
+                list: true
+                fields:
+                  - { name: name, label: Name, type: string }
+                  - { name: role, label: Role, type: string }
+                  - name: image
+                    label: Photo
+                    type: object
+                    fields:
+                      - { name: src, label: Photo, type: image }
+      - name: fr
+        label: Français
+        type: object
+        fields: *localeFields
+      - name: de
+        label: Deutsch
+        type: object
+        fields: *localeFields

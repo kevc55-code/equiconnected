@@ -1,0 +1,56 @@
+{
+  "en": {
+    "hero": { "title": "Events", "intro": "Upcoming sessions and workshops." },
+    "blocks": [
+      {
+        "type": "events",
+        "items": [
+          {
+            "day": "19",
+            "month": "JUL",
+            "title": "Mountain Trail Session",
+            "detail": "Group session on the obstacle course — open to all levels.",
+            "status": "Open"
+          }
+        ],
+        "note": "No other events are scheduled for this month. Check back soon, or subscribe to the newsletter below to be notified of new dates."
+      }
+    ]
+  },
+  "fr": {
+    "hero": { "title": "Événements", "intro": "Prochaines séances et ateliers." },
+    "blocks": [
+      {
+        "type": "events",
+        "items": [
+          {
+            "day": "19",
+            "month": "JUIL",
+            "title": "Séance Mountain Trail",
+            "detail": "Séance de groupe sur le parcours d'obstacles — ouverte à tous les niveaux.",
+            "status": "Ouvert"
+          }
+        ],
+        "note": "Aucun autre événement n'est prévu ce mois-ci. Revenez bientôt, ou abonnez-vous à la newsletter ci-dessous pour être informé des nouvelles dates."
+      }
+    ]
+  },
+  "de": {
+    "hero": { "title": "Termine", "intro": "Kommende Sitzungen und Workshops." },
+    "blocks": [
+      {
+        "type": "events",
+        "items": [
+          {
+            "day": "19",
+            "month": "JUL",
+            "title": "Mountain-Trail-Sitzung",
+            "detail": "Gruppensitzung auf dem Hindernisparcours — offen für alle Niveaus.",
+            "status": "Offen"
+          }
+        ],
+        "note": "Diesen Monat sind keine weiteren Termine geplant. Schauen Sie bald wieder vorbei oder abonnieren Sie unten den Newsletter, um über neue Termine informiert zu werden."
+      }
+    ]
+  }
+}

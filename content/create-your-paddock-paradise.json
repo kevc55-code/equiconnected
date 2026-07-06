@@ -1,0 +1,59 @@
+{
+  "en": {
+    "hero": {
+      "title": "Create Your Paddock Paradise",
+      "intro": "Turning any property into a track system starts with observing your land, your horses, and how the two can move together."
+    },
+    "blocks": [
+      {
+        "type": "split",
+        "heading": "Where to start",
+        "image": { "caption": "Sketching a track layout on site" },
+        "body": "Every property is different, so every track is designed around what is already there: existing fence lines, natural shade, slopes, and water sources. The goal is to turn the whole space into a **journey** rather than a single open field.\n\n- Map the perimeter and identify natural obstacles to work with, not against.\n- Space hay, water, and shelter stations far apart to encourage constant movement.\n- Vary the ground surface — sand, gravel, packed earth — to condition healthy hooves.\n- Add loafing and rolling areas along the track for rest and social contact."
+      },
+      {
+        "type": "text",
+        "heading": "How we can help",
+        "body": "We offer on-site visits to walk your land with you, sketch a first track layout, and talk through fencing, footing, and station placement that fits your budget and your herd. Whether you are starting from a bare pasture or adapting an existing paddock, the aim is always the same: more steps, more foraging, more natural behavior."
+      }
+    ]
+  },
+  "fr": {
+    "hero": {
+      "title": "Créez votre Paddock Paradise",
+      "intro": "Transformer une propriété en système de pistes commence par observer votre terrain, vos chevaux, et la manière dont les deux peuvent évoluer ensemble."
+    },
+    "blocks": [
+      {
+        "type": "split",
+        "heading": "Par où commencer",
+        "image": { "caption": "Esquisse du tracé de la piste sur site" },
+        "body": "Chaque propriété est différente, c'est pourquoi chaque piste est conçue autour de l'existant : clôtures déjà en place, ombre naturelle, pentes et points d'eau. L'objectif est de transformer tout l'espace en un **parcours** plutôt qu'en un simple champ ouvert.\n\n- Cartographiez le périmètre et identifiez les obstacles naturels avec lesquels composer.\n- Espacez largement les postes de foin, d'eau et d'abri pour encourager un mouvement constant.\n- Variez la nature du sol — sable, gravier, terre battue — pour conditionner des sabots sains.\n- Ajoutez des zones de repos et de roulade le long de la piste pour le repos et le contact social."
+      },
+      {
+        "type": "text",
+        "heading": "Comment nous pouvons vous aider",
+        "body": "Nous proposons des visites sur site pour parcourir votre terrain avec vous, esquisser un premier tracé de piste, et discuter des clôtures, du revêtement au sol et de l'emplacement des postes en fonction de votre budget et de votre troupeau. Que vous partiez d'un pâturage nu ou que vous adaptiez un paddock existant, l'objectif reste le même : plus de pas, plus de fourrage, plus de comportement naturel."
+      }
+    ]
+  },
+  "de": {
+    "hero": {
+      "title": "Ihr Paddock Paradise gestalten",
+      "intro": "Ein Grundstück in ein Trail-System zu verwandeln beginnt damit, Ihr Land, Ihre Pferde und ihr gemeinsames Bewegungsmuster zu beobachten."
+    },
+    "blocks": [
+      {
+        "type": "split",
+        "heading": "Wo Sie anfangen sollten",
+        "image": { "caption": "Skizzieren eines Trail-Layouts vor Ort" },
+        "body": "Jedes Grundstück ist anders, deshalb wird jeder Trail um das Vorhandene herum gestaltet: bestehende Zäune, natürlicher Schatten, Gefälle und Wasserquellen. Ziel ist es, den gesamten Raum in eine **Wegstrecke** zu verwandeln statt in eine einzige offene Weide.\n\n- Kartieren Sie den Umfang und identifizieren Sie natürliche Hindernisse, mit denen Sie arbeiten können.\n- Platzieren Sie Heu-, Wasser- und Unterstellstationen weit auseinander, um ständige Bewegung zu fördern.\n- Variieren Sie den Untergrund — Sand, Kies, festgetretene Erde — um gesunde Hufe zu konditionieren.\n- Fügen Sie entlang des Trails Ruhe- und Wälzzonen für Erholung und sozialen Kontakt hinzu."
+      },
+      {
+        "type": "text",
+        "heading": "Wie wir helfen können",
+        "body": "Wir bieten Vor-Ort-Besuche an, um gemeinsam mit Ihnen Ihr Grundstück zu begehen, einen ersten Trail-Entwurf zu skizzieren und Zäune, Bodenbelag und Stationsplatzierung passend zu Ihrem Budget und Ihrer Herde zu besprechen. Ob Sie von einer kahlen Weide ausgehen oder einen bestehenden Paddock anpassen — das Ziel bleibt immer dasselbe: mehr Schritte, mehr Futtersuche, mehr natürliches Verhalten."
+      }
+    ]
+  }
+}

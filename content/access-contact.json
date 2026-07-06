@@ -1,0 +1,23 @@
+{
+  "en": {
+    "hero": {
+      "title": "Access & Contact",
+      "intro": "We offer support both on-site and at your location within a 30 km radius."
+    },
+    "blocks": []
+  },
+  "fr": {
+    "hero": {
+      "title": "Accès et Contact",
+      "intro": "Nous proposons un accompagnement à la fois sur site et chez vous dans un rayon de 30 km."
+    },
+    "blocks": []
+  },
+  "de": {
+    "hero": {
+      "title": "Anfahrt & Kontakt",
+      "intro": "Wir bieten Begleitung sowohl bei uns vor Ort als auch bei Ihnen in einem Umkreis von 30 km."
+    },
+    "blocks": []
+  }
+}

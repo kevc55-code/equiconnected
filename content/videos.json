@@ -1,0 +1,14 @@
+{
+  "en": {
+    "hero": { "title": "Videos" },
+    "blocks": [{ "type": "video", "label": "\"What They LOVE That Humans Ignore\" — Inside Horses" }]
+  },
+  "fr": {
+    "hero": { "title": "Vidéos" },
+    "blocks": [{ "type": "video", "label": "« What They LOVE That Humans Ignore » — Inside Horses" }]
+  },
+  "de": {
+    "hero": { "title": "Videos" },
+    "blocks": [{ "type": "video", "label": "„What They LOVE That Humans Ignore\" — Inside Horses" }]
+  }
+}

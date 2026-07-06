@@ -1,0 +1,41 @@
+{
+  "en": {
+    "hero": { "title": "Photo Galleries" },
+    "blocks": [
+      {
+        "type": "galleries",
+        "viewLabel": "View gallery",
+        "items": [
+          { "title": "Pension Paddock Paradise", "count": 12 },
+          { "title": "Mountain Trail — 25 obstacles", "count": 7 }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "hero": { "title": "Galeries Photo" },
+    "blocks": [
+      {
+        "type": "galleries",
+        "viewLabel": "Voir la galerie",
+        "items": [
+          { "title": "Pension Paddock Paradise", "count": 12 },
+          { "title": "Mountain Trail — 25 dispositifs", "count": 7 }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "hero": { "title": "Fotogalerien" },
+    "blocks": [
+      {
+        "type": "galleries",
+        "viewLabel": "Galerie ansehen",
+        "items": [
+          { "title": "Pension Paddock Paradise", "count": 12 },
+          { "title": "Mountain Trail — 25 Hindernisse", "count": 7 }
+        ]
+      }
+    ]
+  }
+}

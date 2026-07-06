@@ -1,0 +1,143 @@
+{
+  "en": {
+    "hero": { "title": "EquiConnected" },
+    "banner": "Listening to the horse above all",
+    "quickLinks": [
+      { "label": "Horsemanship", "href": "/horsemanship/philosophy" },
+      { "label": "Mountain Trail", "href": "/mountain-trail" },
+      { "label": "Natural care", "href": "/natural-care/natural-food" },
+      { "label": "Paddock Paradise", "href": "/paddock-paradise" }
+    ],
+    "blocks": [
+      { "type": "image", "image": { "caption": "Horses resting in the shelter", "ratio": "aspect-[21/9]" } },
+      {
+        "type": "split",
+        "imageSide": "right",
+        "heading": "Our approach — Base line",
+        "image": { "caption": "A horse resting under the trees" },
+        "body": "**The EquiConnected** association was founded in October 2025. Its main goal is to promote **harmonious relationships between horses and humans**. Indeed, what rider hasn't dreamed of getting along with their horse to the point of becoming one with their mount?\n\nOur respective journeys left us wanting more in the area of connecting with animals, so we observed horses a lot, opened our minds to other possibilities by drawing inspiration from the connection some people have with their horses in freedom and, above all, by experiencing the immense joy that this new approach provides.\n\nClearly, the horse deserves to be better understood as a sensitive animal. It has much to teach us if we know how to listen to it.\n\nTo do this we were inspired by **Maslow's famous pyramid**, which we adapted **for horses.**\n\nOur support is geared towards this goal, by meeting the fundamental needs of horses, enabling them to be available for harmonious interspecies relationships such as:\n\n- Equine-assisted coaching\n- Horsemanship\n- Mountain Trail\n\nThe **horse** is housed and cared for **naturally.**"
+      },
+      { "type": "video", "label": "Video: \"What They LOVE That Humans Ignore\" — Inside Horses" },
+      {
+        "type": "cards",
+        "heading": "Our support services",
+        "items": [
+          {
+            "title": "Equine-assisted coaching",
+            "href": "/equine-coaching/introduction",
+            "body": "Horses are true masters of full presence, anchored in the here and now. As human beings, we often live in our heads, caught up in our thoughts, worries, and expectations. Working alongside horses helps us step out of the flow of our thoughts and reconnect with what truly matters."
+          },
+          {
+            "title": "Horsemanship",
+            "href": "/horsemanship/philosophy",
+            "body": "A deep and sincere connection between horse and human, based on awareness, trust, presence, and genuine understanding. Connection comes before training — it is the art of listening to the horse's silent language."
+          },
+          {
+            "title": "Mountain Trail",
+            "href": "/mountain-trail",
+            "body": "Complicity and calmness in the movements of the rider/horse pair over natural and constructed obstacles encountered outdoors, practiced on the ground, mounted, accompanied, on a lead rope, bareback, without a bit."
+          },
+          {
+            "title": "Paddock Paradise",
+            "href": "/paddock-paradise",
+            "body": "A natural horse management system based on tracks, designed to replicate how horses live and move in the wild — supporting healthier hooves, improved fitness, mental stimulation, and natural social behavior."
+          }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "hero": { "title": "EquiConnected" },
+    "banner": "L'écoute du cheval avant tout",
+    "quickLinks": [
+      { "label": "Horsemanship", "href": "/horsemanship/philosophy" },
+      { "label": "Mountain Trail", "href": "/mountain-trail" },
+      { "label": "Soins naturels", "href": "/natural-care/natural-food" },
+      { "label": "Paddock Paradise", "href": "/paddock-paradise" }
+    ],
+    "blocks": [
+      { "type": "image", "image": { "caption": "Des chevaux au repos sous l'abri", "ratio": "aspect-[21/9]" } },
+      {
+        "type": "split",
+        "imageSide": "right",
+        "heading": "Notre approche — Ligne directrice",
+        "image": { "caption": "Un cheval au repos sous les arbres" },
+        "body": "**L'association EquiConnected** a été fondée en octobre 2025. Son objectif principal est de promouvoir des **relations harmonieuses entre chevaux et humains**. En effet, quel cavalier n'a jamais rêvé de s'entendre avec son cheval au point de ne faire qu'un avec sa monture ?\n\nNos parcours respectifs nous ont donné envie d'aller plus loin dans la connexion avec les animaux. Nous avons donc beaucoup observé les chevaux, ouvert notre esprit à d'autres possibilités en nous inspirant de la connexion que certaines personnes entretiennent avec leurs chevaux en liberté et, surtout, en faisant l'expérience de l'immense joie que procure cette nouvelle approche.\n\nDe toute évidence, le cheval mérite d'être mieux compris en tant qu'animal sensible. Il a beaucoup à nous apprendre si nous savons l'écouter.\n\nPour cela, nous nous sommes inspirées de la **célèbre pyramide de Maslow**, que nous avons **adaptée aux chevaux.**\n\nNotre accompagnement vise cet objectif, en répondant aux besoins fondamentaux des chevaux afin qu'ils soient disponibles pour des relations interspécifiques harmonieuses telles que :\n\n- Coaching équin\n- Horsemanship\n- Mountain Trail\n\nLe **cheval** est hébergé et soigné de manière **naturelle.**"
+      },
+      { "type": "video", "label": "Vidéo : « What They LOVE That Humans Ignore » — Inside Horses" },
+      {
+        "type": "cards",
+        "heading": "Nos services d'accompagnement",
+        "items": [
+          {
+            "title": "Coaching équin",
+            "href": "/equine-coaching/introduction",
+            "body": "Les chevaux sont de véritables maîtres de la pleine présence, ancrés dans l'ici et maintenant. En tant qu'êtres humains, nous vivons souvent dans notre tête, pris par nos pensées, nos inquiétudes et nos attentes. Travailler aux côtés des chevaux nous aide à sortir du flot de nos pensées et à renouer avec l'essentiel."
+          },
+          {
+            "title": "Horsemanship",
+            "href": "/horsemanship/philosophy",
+            "body": "Une connexion profonde et sincère entre le cheval et l'humain, fondée sur la conscience, la confiance, la présence et une compréhension authentique. La connexion avant la formation — c'est l'art d'écouter le langage silencieux du cheval."
+          },
+          {
+            "title": "Mountain Trail",
+            "href": "/mountain-trail",
+            "body": "Complicité et calme dans les déplacements du couple cavalier/cheval sur des obstacles naturels et construits rencontrés en extérieur, pratiqués à pied, monté, accompagné, en longe, à cru, sans mors."
+          },
+          {
+            "title": "Paddock Paradise",
+            "href": "/paddock-paradise",
+            "body": "Un système naturel de gestion des chevaux basé sur des pistes, conçu pour reproduire la vie et les déplacements du cheval à l'état sauvage — favorisant des sabots plus sains, une meilleure forme physique, une stimulation mentale et un comportement social naturel."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "hero": { "title": "EquiConnected" },
+    "banner": "Dem Pferd zuhören, vor allem anderen",
+    "quickLinks": [
+      { "label": "Horsemanship", "href": "/horsemanship/philosophy" },
+      { "label": "Mountain Trail", "href": "/mountain-trail" },
+      { "label": "Natürliche Pflege", "href": "/natural-care/natural-food" },
+      { "label": "Paddock Paradise", "href": "/paddock-paradise" }
+    ],
+    "blocks": [
+      { "type": "image", "image": { "caption": "Pferde ruhen im Unterstand", "ratio": "aspect-[21/9]" } },
+      {
+        "type": "split",
+        "imageSide": "right",
+        "heading": "Unser Ansatz — Leitlinie",
+        "image": { "caption": "Ein Pferd ruht unter den Bäumen" },
+        "body": "**Der Verein EquiConnected** wurde im Oktober 2025 gegründet. Sein Hauptziel ist die Förderung **harmonischer Beziehungen zwischen Pferd und Mensch**. Welcher Reiter hat nicht schon davon geträumt, mit seinem Pferd so sehr im Einklang zu sein, dass beide eins werden?\n\nUnsere jeweiligen Wege ließen in uns den Wunsch nach mehr Verbindung zu Tieren wachsen. So beobachteten wir Pferde intensiv, öffneten uns neuen Möglichkeiten, ließen uns von der Verbindung inspirieren, die manche Menschen mit ihren frei lebenden Pferden pflegen, und erlebten vor allem die immense Freude, die dieser neue Ansatz schenkt.\n\nDas Pferd verdient es eindeutig, als empfindsames Wesen besser verstanden zu werden. Es hat uns viel zu lehren, wenn wir ihm zuzuhören wissen.\n\nDazu ließen wir uns von **Maslows berühmter Pyramide** inspirieren, die wir **für Pferde angepasst haben.**\n\nUnsere Begleitung ist auf dieses Ziel ausgerichtet, indem sie die grundlegenden Bedürfnisse der Pferde erfüllt und sie so für harmonische Beziehungen zwischen den Arten verfügbar macht, wie zum Beispiel:\n\n- Pferdegestütztes Coaching\n- Horsemanship\n- Mountain Trail\n\nDas **Pferd** wird auf **natürliche Weise untergebracht und versorgt.**"
+      },
+      { "type": "video", "label": "Video: „What They LOVE That Humans Ignore\" — Inside Horses" },
+      {
+        "type": "cards",
+        "heading": "Unsere Angebote",
+        "items": [
+          {
+            "title": "Pferdegestütztes Coaching",
+            "href": "/equine-coaching/introduction",
+            "body": "Pferde sind wahre Meister der vollen Präsenz, verankert im Hier und Jetzt. Als Menschen leben wir oft in unserem Kopf, gefangen in Gedanken, Sorgen und Erwartungen. Die Arbeit mit Pferden hilft uns, aus diesem Gedankenstrom auszusteigen und uns wieder mit dem Wesentlichen zu verbinden."
+          },
+          {
+            "title": "Horsemanship",
+            "href": "/horsemanship/philosophy",
+            "body": "Eine tiefe und aufrichtige Verbindung zwischen Pferd und Mensch, basierend auf Achtsamkeit, Vertrauen, Präsenz und echtem Verständnis. Verbindung kommt vor Training — es ist die Kunst, die stille Sprache des Pferdes zu verstehen."
+          },
+          {
+            "title": "Mountain Trail",
+            "href": "/mountain-trail",
+            "body": "Einvernehmen und Ruhe in den Bewegungen des Reiter-Pferd-Paares über natürliche und errichtete Hindernisse im Freien, geübt zu Fuß, geritten, begleitet, am Führstrick, ungesattelt, ohne Gebiss."
+          },
+          {
+            "title": "Paddock Paradise",
+            "href": "/paddock-paradise",
+            "body": "Ein natürliches Haltungssystem auf Trails, das nachbildet, wie Pferde in freier Wildbahn leben und sich bewegen — für gesündere Hufe, bessere Fitness, geistige Anregung und natürliches Sozialverhalten."
+          }
+        ]
+      }
+    ]
+  }
+}

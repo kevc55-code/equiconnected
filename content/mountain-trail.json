@@ -1,0 +1,44 @@
+{
+  "en": {
+    "hero": {
+      "title": "Mountain Trail",
+      "intro": "Complicity and calmness in the movements of the rider/horse pair over natural obstacles."
+    },
+    "blocks": [
+      {
+        "type": "split",
+        "image": { "caption": "Natural obstacle course" },
+        "body": "The Mountain Trail was created in the United States in 2001 and imported to France in 2017.\n\nThis discipline has as its ethos the **complicity and calmness in the movements of the rider/horse pair over natural and constructed obstacles encountered outdoors (bridges, water crossings, stone courses...)**.\n\nThe initial objective of this sport is to prepare the horse and rider for outdoor riding. However, all riding styles can benefit from this mental and physical preparation, which necessarily involves groundwork fundamentals.\n\nMore than just a discipline, a Mountain Trail session is a true assessment of the relationship with one's horse.\n\nThe practice takes place on the ground, mounted, accompanied, on a lead rope, on the right, bareback, without a bit, ... In competition, the classes are distinguished as mini horse, young horse, long-rein or Horse & Dog... No level required for riders, all equines with or without papers can participate.\n\nWe are members of **MTHA France**, which offers a Mountain Trail respecting a Horsemanship approach."
+      },
+      { "type": "image", "image": { "caption": "Crossing a bridge obstacle", "ratio": "aspect-[21/9]" } }
+    ]
+  },
+  "fr": {
+    "hero": {
+      "title": "Mountain Trail",
+      "intro": "Complicité et calme dans les déplacements du couple cavalier/cheval sur des obstacles naturels."
+    },
+    "blocks": [
+      {
+        "type": "split",
+        "image": { "caption": "Parcours d'obstacles naturels" },
+        "body": "Le Mountain Trail a été créé aux États-Unis en 2001 et importé en France en 2017.\n\nCette discipline a pour éthique la **complicité et le calme dans les déplacements du couple cavalier/cheval sur des obstacles naturels et construits rencontrés en extérieur (ponts, passages d'eau, parcours de pierres...)**.\n\nL'objectif initial de ce sport est de préparer le cheval et le cavalier à la randonnée extérieure. Cependant, tous les styles d'équitation peuvent bénéficier de cette préparation mentale et physique, qui implique nécessairement les fondamentaux du travail au sol.\n\nPlus qu'une simple discipline, une séance de Mountain Trail est une véritable évaluation de la relation avec son cheval.\n\nLa pratique se déroule à pied, monté, accompagné, en longe, à droite, à cru, sans mors... En compétition, les catégories se distinguent en mini poney, jeune cheval, longues rênes ou Horse & Dog... Aucun niveau n'est requis pour les cavaliers, tous les équidés avec ou sans papiers peuvent participer.\n\nNous sommes membres de **MTHA France**, qui propose un Mountain Trail respectueux d'une approche Horsemanship."
+      },
+      { "type": "image", "image": { "caption": "Franchissement d'un obstacle de type pont", "ratio": "aspect-[21/9]" } }
+    ]
+  },
+  "de": {
+    "hero": {
+      "title": "Mountain Trail",
+      "intro": "Einvernehmen und Ruhe in den Bewegungen des Reiter-Pferd-Paares über natürliche Hindernisse."
+    },
+    "blocks": [
+      {
+        "type": "split",
+        "image": { "caption": "Natürlicher Hindernisparcours" },
+        "body": "Der Mountain Trail wurde 2001 in den USA entwickelt und 2017 nach Frankreich gebracht.\n\nDas Ethos dieser Disziplin ist das **Einvernehmen und die Ruhe in den Bewegungen des Reiter-Pferd-Paares über natürliche und errichtete Hindernisse im Freien (Brücken, Wasserdurchquerungen, Steinparcours...)**.\n\nDas ursprüngliche Ziel dieses Sports ist es, Pferd und Reiter auf das Ausreiten im Freien vorzubereiten. Doch alle Reitstile können von dieser mentalen und körperlichen Vorbereitung profitieren, die zwangsläufig Bodenarbeit-Grundlagen einschließt.\n\nMehr als nur eine Disziplin ist eine Mountain-Trail-Sitzung eine echte Bestandsaufnahme der Beziehung zum eigenen Pferd.\n\nDie Praxis findet zu Fuß, geritten, begleitet, am Führstrick, an der rechten Seite, ungesattelt, ohne Gebiss statt... Im Wettkampf unterscheiden sich die Klassen in Minipferd, Jungpferd, Langzügel oder Horse & Dog... Für Reiter ist kein Niveau erforderlich, alle Pferde mit oder ohne Papiere können teilnehmen.\n\nWir sind Mitglied von **MTHA France**, das einen Mountain Trail im Einklang mit einem Horsemanship-Ansatz anbietet."
+      },
+      { "type": "image", "image": { "caption": "Überquerung eines Brückenhindernisses", "ratio": "aspect-[21/9]" } }
+    ]
+  }
+}

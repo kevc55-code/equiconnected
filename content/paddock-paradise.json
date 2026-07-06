@@ -1,0 +1,59 @@
+{
+  "en": {
+    "hero": {
+      "title": "Paddock Paradise",
+      "intro": "A natural horse management system based on tracks, designed to replicate how horses live and move in the wild."
+    },
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Concept",
+        "body": "In the early 1980s, farrier Jaime Jackson spent several years studying wild horses in the Great Basin National Park in North America. By carefully observing their movement patterns, social structures, and hoof health in a dry, rocky desert environment, he identified key factors that contribute to the horses' long-term health and well-being.\n\nThese observations formed the basis of the Paddock Paradise® concept, which Jackson later documented and developed in his books. The system relies on **supporting the horse's natural biology** rather than adapting the horse to traditional management systems."
+      },
+      {
+        "type": "text",
+        "heading": "What is a Paddock Paradise®?",
+        "body": "**Origin**\n\nA Paddock Paradise® is a natural horse management system based on tracks, designed to replicate how horses live and move in the wild. Instead of living in large open pastures, horses are guided along a looped track that encourages continuous movement, natural foraging, and social interaction.\n\nThe track includes **varied terrain**, **hay and water stations**, **rest areas**, and **enrichment zones**. This layout promotes:\n\n- Healthier hooves\n- Improved physical fitness\n- Mental stimulation\n- More natural social behavior\n\nAccess to green grass represents a departure from the concept. It allows horses to let off steam and roll around in a limited time frame, which is highly appreciated. Compared to conventional grazing systems, a Paddock Paradise® offers a **more stimulating and biologically appropriate environment.**"
+      },
+      { "type": "image", "image": { "caption": "Aerial view of a track system", "ratio": "aspect-[21/9]" } }
+    ]
+  },
+  "fr": {
+    "hero": {
+      "title": "Paddock Paradise",
+      "intro": "Un système naturel de gestion des chevaux basé sur des pistes, conçu pour reproduire la vie et les déplacements du cheval à l'état sauvage."
+    },
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Concept",
+        "body": "Au début des années 1980, le maréchal-ferrant Jaime Jackson a passé plusieurs années à étudier les chevaux sauvages du Great Basin National Park, en Amérique du Nord. En observant attentivement leurs déplacements, leur organisation sociale et la santé de leurs sabots dans un environnement désertique, sec et rocailleux, il a identifié les facteurs clés de leur santé et de leur bien-être à long terme.\n\nCes observations ont formé la base du concept Paddock Paradise®, que Jackson a ensuite documenté et développé dans ses livres. Le système repose sur le fait de **soutenir la biologie naturelle du cheval** plutôt que d'adapter le cheval aux systèmes de gestion traditionnels."
+      },
+      {
+        "type": "text",
+        "heading": "Qu'est-ce qu'un Paddock Paradise® ?",
+        "body": "**Origine**\n\nUn Paddock Paradise® est un système naturel de gestion des chevaux basé sur des pistes, conçu pour reproduire la vie et les déplacements du cheval à l'état sauvage. Au lieu de vivre dans de grands pâturages ouverts, les chevaux sont guidés le long d'une piste en boucle qui encourage le mouvement continu, la recherche naturelle de nourriture et l'interaction sociale.\n\nLa piste comprend un **terrain varié**, des **postes de foin et d'eau**, des **zones de repos** et des **zones d'enrichissement**. Cet aménagement favorise :\n\n- Des sabots plus sains\n- Une meilleure condition physique\n- Une stimulation mentale\n- Un comportement social plus naturel\n\nL'accès à l'herbe verte représente un écart au concept. Il permet aux chevaux de se défouler et de se rouler pendant un temps limité, ce qui est très apprécié. Comparé aux systèmes de pâturage conventionnels, un Paddock Paradise® offre un **environnement plus stimulant et biologiquement approprié.**"
+      },
+      { "type": "image", "image": { "caption": "Vue aérienne d'un système de pistes", "ratio": "aspect-[21/9]" } }
+    ]
+  },
+  "de": {
+    "hero": {
+      "title": "Paddock Paradise",
+      "intro": "Ein natürliches Haltungssystem auf Trails, das nachbildet, wie Pferde in freier Wildbahn leben und sich bewegen."
+    },
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Konzept",
+        "body": "In den frühen 1980er-Jahren verbrachte der Hufschmied Jaime Jackson mehrere Jahre damit, wild lebende Pferde im Great Basin National Park in Nordamerika zu untersuchen. Durch sorgfältige Beobachtung ihrer Bewegungsmuster, Sozialstrukturen und Hufgesundheit in einer trockenen, felsigen Wüstenumgebung identifizierte er Schlüsselfaktoren für die langfristige Gesundheit und das Wohlbefinden der Pferde.\n\nDiese Beobachtungen bildeten die Grundlage des Paddock-Paradise®-Konzepts, das Jackson später in seinen Büchern dokumentierte und weiterentwickelte. Das System beruht darauf, die **natürliche Biologie des Pferdes zu unterstützen**, anstatt das Pferd an traditionelle Haltungssysteme anzupassen."
+      },
+      {
+        "type": "text",
+        "heading": "Was ist ein Paddock Paradise®?",
+        "body": "**Ursprung**\n\nEin Paddock Paradise® ist ein natürliches Haltungssystem auf Trails, das nachbildet, wie Pferde in freier Wildbahn leben und sich bewegen. Statt auf großen offenen Weiden zu leben, werden Pferde entlang eines Rundwegs geführt, der kontinuierliche Bewegung, natürliches Fressverhalten und soziale Interaktion fördert.\n\nDer Trail umfasst **abwechslungsreiches Gelände**, **Heu- und Wasserstationen**, **Ruhezonen** und **Anreicherungszonen**. Dieses Layout fördert:\n\n- Gesündere Hufe\n- Bessere körperliche Fitness\n- Geistige Anregung\n- Natürlicheres Sozialverhalten\n\nDer Zugang zu grünem Gras stellt eine Abweichung vom Konzept dar. Er erlaubt es den Pferden, sich in einem begrenzten Zeitfenster auszutoben und zu wälzen, was sehr geschätzt wird. Im Vergleich zu konventionellen Weidesystemen bietet ein Paddock Paradise® eine **anregendere und biologisch angemessenere Umgebung.**"
+      },
+      { "type": "image", "image": { "caption": "Luftaufnahme eines Trail-Systems", "ratio": "aspect-[21/9]" } }
+    ]
+  }
+}

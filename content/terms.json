@@ -1,0 +1,29 @@
+{
+  "en": {
+    "hero": { "title": "Terms & Conditions" },
+    "blocks": [
+      {
+        "type": "text",
+        "body": "General terms and conditions of use and sale for EquiConnected events, workshops, and shop."
+      }
+    ]
+  },
+  "fr": {
+    "hero": { "title": "CGUV" },
+    "blocks": [
+      {
+        "type": "text",
+        "body": "Conditions générales d'utilisation et de vente pour les événements, ateliers et la boutique EquiConnected."
+      }
+    ]
+  },
+  "de": {
+    "hero": { "title": "AGB" },
+    "blocks": [
+      {
+        "type": "text",
+        "body": "Allgemeine Nutzungs- und Verkaufsbedingungen für Veranstaltungen, Workshops und den Shop von EquiConnected."
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "en": {
+    "hero": { "title": "Licenses" },
+    "blocks": [
+      {
+        "type": "text",
+        "body": "Information about membership licenses and affiliations, including MTHA France."
+      }
+    ]
+  },
+  "fr": {
+    "hero": { "title": "Licences" },
+    "blocks": [
+      {
+        "type": "text",
+        "body": "Informations sur les licences d'adhésion et les affiliations, dont MTHA France."
+      }
+    ]
+  },
+  "de": {
+    "hero": { "title": "Lizenzen" },
+    "blocks": [
+      {
+        "type": "text",
+        "body": "Informationen zu Mitgliedschaftslizenzen und Verbandszugehörigkeiten, einschließlich MTHA France."
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "en": {
+    "hero": { "title": "Shop", "intro": "Support the association and its mission." },
+    "blocks": [
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Support EquiConnected",
+            "body": "Support an association valorizing the human-horse relationship"
+          }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "hero": { "title": "Boutique", "intro": "Soutenez l'association et sa mission." },
+    "blocks": [
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Soutenir EquiConnected",
+            "body": "Soutenez une association valorisant la relation homme-cheval"
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "hero": { "title": "Shop", "intro": "Unterstützen Sie den Verein und seine Mission." },
+    "blocks": [
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "EquiConnected unterstützen",
+            "body": "Unterstützen Sie einen Verein, der die Mensch-Pferd-Beziehung fördert"
+          }
+        ]
+      }
+    ]
+  }
+}
