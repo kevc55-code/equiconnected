@@ -1,11 +1,16 @@
 {
+  "label": "Horsemanship — Philosophy",
   "en": {
-    "hero": { "title": "EquiConnected Horsemanship — listening above all" },
+    "hero": {
+      "title": "EquiConnected Horsemanship — listening above all"
+    },
     "blocks": [
       {
         "type": "split",
         "imageSide": "right",
-        "image": { "caption": "Groundwork session" },
+        "image": {
+          "caption": "Groundwork session"
+        },
         "body": "The EquiConnected Horsemanship relationship is a deep and sincere connection between horse and human, based on awareness, trust, presence, and genuine understanding. **Connection comes before training!**\n\nIt is **the art of listening to the horse's silent language,** respecting its nature, and creating a **relationship based on mutual trust** where both feel safe.\n\nThe EquiConnected Horsemanship relationship is not about control or obedience, but about awareness, communication with gentleness, clarity, and intention. It involves ethical exchanges with the horse that invite us to slow down, connect with ourselves, and encounter the horse authentically. In turn, the horse reflects our emotions, teaches us patience, and guides us toward a more grounded and compassionate way of interacting.\n\nAnd that's where the joy of understanding each other well is born."
       },
       {
@@ -16,12 +21,16 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Horsemanship EquiConnected — l'écoute avant tout" },
+    "hero": {
+      "title": "Horsemanship EquiConnected — l'écoute avant tout"
+    },
     "blocks": [
       {
         "type": "split",
         "imageSide": "right",
-        "image": { "caption": "Séance de travail au sol" },
+        "image": {
+          "caption": "Séance de travail au sol"
+        },
         "body": "La relation Horsemanship EquiConnected est une connexion profonde et sincère entre le cheval et l'humain, fondée sur la conscience, la confiance, la présence et une compréhension authentique. **La connexion avant la formation !**\n\nC'est **l'art d'écouter le langage silencieux du cheval,** de respecter sa nature, et de créer une **relation fondée sur la confiance mutuelle** où chacun se sent en sécurité.\n\nLa relation Horsemanship EquiConnected ne porte pas sur le contrôle ou l'obéissance, mais sur la conscience, la communication en douceur, la clarté et l'intention. Elle implique des échanges éthiques avec le cheval qui nous invitent à ralentir, à nous connecter à nous-mêmes et à rencontrer le cheval de manière authentique. En retour, le cheval reflète nos émotions, nous enseigne la patience et nous guide vers une manière d'interagir plus ancrée et plus bienveillante.\n\nEt c'est là que naît la joie de bien se comprendre."
       },
       {
@@ -32,12 +41,16 @@
     ]
   },
   "de": {
-    "hero": { "title": "EquiConnected Horsemanship — Zuhören vor allem anderen" },
+    "hero": {
+      "title": "EquiConnected Horsemanship — Zuhören vor allem anderen"
+    },
     "blocks": [
       {
         "type": "split",
         "imageSide": "right",
-        "image": { "caption": "Bodenarbeit-Sitzung" },
+        "image": {
+          "caption": "Bodenarbeit-Sitzung"
+        },
         "body": "Die EquiConnected-Horsemanship-Beziehung ist eine tiefe und aufrichtige Verbindung zwischen Pferd und Mensch, basierend auf Achtsamkeit, Vertrauen, Präsenz und echtem Verständnis. **Verbindung kommt vor Training!**\n\nEs ist **die Kunst, die stille Sprache des Pferdes zu verstehen,** seine Natur zu respektieren und eine **Beziehung auf gegenseitigem Vertrauen** aufzubauen, in der sich beide sicher fühlen.\n\nBei der EquiConnected-Horsemanship-Beziehung geht es nicht um Kontrolle oder Gehorsam, sondern um Achtsamkeit, sanfte Kommunikation, Klarheit und Intention. Sie beinhaltet ethische Begegnungen mit dem Pferd, die uns einladen, langsamer zu werden, mit uns selbst in Verbindung zu treten und dem Pferd authentisch zu begegnen. Im Gegenzug spiegelt das Pferd unsere Emotionen wider, lehrt uns Geduld und führt uns zu einer geerdeteren und einfühlsameren Art der Interaktion.\n\nUnd genau daraus entsteht die Freude, sich gut zu verstehen."
       },
       {

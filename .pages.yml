@@ -11,8 +11,12 @@ content:
     extension: json
     filename: '{primary}.json'
     view:
-      fields: [name, en.hero.title]
+      primary: label
+      fields: [label, name]
     fields:
+      - name: label
+        label: Page name (shown in this list only, not on the site)
+        type: string
       - name: en
         label: English
         type: object

@@ -1,6 +1,10 @@
 {
+  "label": "Events",
   "en": {
-    "hero": { "title": "Events", "intro": "Upcoming sessions and workshops." },
+    "hero": {
+      "title": "Events",
+      "intro": "Upcoming sessions and workshops."
+    },
     "blocks": [
       {
         "type": "events",
@@ -18,7 +22,10 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Événements", "intro": "Prochaines séances et ateliers." },
+    "hero": {
+      "title": "Événements",
+      "intro": "Prochaines séances et ateliers."
+    },
     "blocks": [
       {
         "type": "events",
@@ -36,7 +43,10 @@
     ]
   },
   "de": {
-    "hero": { "title": "Termine", "intro": "Kommende Sitzungen und Workshops." },
+    "hero": {
+      "title": "Termine",
+      "intro": "Kommende Sitzungen und Workshops."
+    },
     "blocks": [
       {
         "type": "events",

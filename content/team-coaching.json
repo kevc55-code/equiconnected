@@ -1,12 +1,17 @@
 {
+  "label": "Coaching — Team",
   "en": {
-    "hero": { "title": "A powerful, experiential approach to building stronger, more connected teams." },
+    "hero": {
+      "title": "A powerful, experiential approach to building stronger, more connected teams."
+    },
     "blocks": [
       {
         "type": "split",
         "imageSide": "right",
         "heading": "What Is Team Coaching with Horses?",
-        "image": { "caption": "A team working together on the ground" },
+        "image": {
+          "caption": "A team working together on the ground"
+        },
         "body": "Team coaching with horses is an experiential team-development method in which horses help reveal communication styles, leadership behaviors, and group dynamics within a team.\n\nBecause horses are highly sensitive to human energy, intention, and emotional signals, they provide immediate, honest, and non-judgmental feedback about how a team interacts—both individually and collectively.\n\nDuring a session, your team works with the horses from the ground (no riding). Through structured exercises, the horse mirrors the group's behavior in real time. This makes hidden patterns visible, such as unclear roles, tension, lack of trust, or ineffective communication. With the guidance of a skilled facilitator, these insights are translated into practical learning that your team can immediately apply in the workplace."
       },
       {
@@ -27,13 +32,17 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Une approche expérientielle puissante pour bâtir des équipes plus fortes et plus connectées." },
+    "hero": {
+      "title": "Une approche expérientielle puissante pour bâtir des équipes plus fortes et plus connectées."
+    },
     "blocks": [
       {
         "type": "split",
         "imageSide": "right",
         "heading": "Qu'est-ce que le coaching d'équipe avec les chevaux ?",
-        "image": { "caption": "Une équipe travaillant ensemble au sol" },
+        "image": {
+          "caption": "Une équipe travaillant ensemble au sol"
+        },
         "body": "Le coaching d'équipe avec les chevaux est une méthode expérientielle de développement d'équipe dans laquelle les chevaux aident à révéler les styles de communication, les comportements de leadership et les dynamiques de groupe au sein d'une équipe.\n\nParce que les chevaux sont extrêmement sensibles à l'énergie, à l'intention et aux signaux émotionnels humains, ils offrent un retour immédiat, honnête et sans jugement sur la manière dont une équipe interagit — individuellement et collectivement.\n\nPendant une séance, votre équipe travaille avec les chevaux au sol (sans monte). À travers des exercices structurés, le cheval reflète en temps réel le comportement du groupe. Cela rend visibles des schémas cachés, tels que des rôles flous, des tensions, un manque de confiance ou une communication inefficace. Avec l'accompagnement d'un facilitateur expérimenté, ces observations sont traduites en apprentissages concrets que votre équipe peut appliquer immédiatement au travail."
       },
       {
@@ -54,13 +63,17 @@
     ]
   },
   "de": {
-    "hero": { "title": "Ein kraftvoller, erfahrungsbasierter Ansatz für stärkere, verbundenere Teams." },
+    "hero": {
+      "title": "Ein kraftvoller, erfahrungsbasierter Ansatz für stärkere, verbundenere Teams."
+    },
     "blocks": [
       {
         "type": "split",
         "imageSide": "right",
         "heading": "Was ist Teamcoaching mit Pferden?",
-        "image": { "caption": "Ein Team arbeitet gemeinsam am Boden" },
+        "image": {
+          "caption": "Ein Team arbeitet gemeinsam am Boden"
+        },
         "body": "Teamcoaching mit Pferden ist eine erfahrungsbasierte Teamentwicklungsmethode, bei der Pferde helfen, Kommunikationsstile, Führungsverhalten und Gruppendynamiken innerhalb eines Teams sichtbar zu machen.\n\nDa Pferde sehr sensibel auf menschliche Energie, Absicht und emotionale Signale reagieren, geben sie unmittelbares, ehrliches und urteilsfreies Feedback darüber, wie ein Team interagiert — sowohl individuell als auch als Gruppe.\n\nWährend einer Sitzung arbeitet Ihr Team mit den Pferden am Boden (kein Reiten). Durch strukturierte Übungen spiegelt das Pferd das Verhalten der Gruppe in Echtzeit wider. Dadurch werden verborgene Muster sichtbar, wie unklare Rollen, Spannungen, mangelndes Vertrauen oder ineffektive Kommunikation. Mit der Anleitung eines erfahrenen Facilitators werden diese Erkenntnisse in praktisches Lernen übersetzt, das Ihr Team sofort am Arbeitsplatz anwenden kann."
       },
       {

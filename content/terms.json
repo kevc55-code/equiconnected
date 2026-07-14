@@ -1,6 +1,9 @@
 {
+  "label": "Footer — Terms & Conditions",
   "en": {
-    "hero": { "title": "Terms & Conditions" },
+    "hero": {
+      "title": "Terms & Conditions"
+    },
     "blocks": [
       {
         "type": "text",
@@ -9,7 +12,9 @@
     ]
   },
   "fr": {
-    "hero": { "title": "CGUV" },
+    "hero": {
+      "title": "CGUV"
+    },
     "blocks": [
       {
         "type": "text",
@@ -18,7 +23,9 @@
     ]
   },
   "de": {
-    "hero": { "title": "AGB" },
+    "hero": {
+      "title": "AGB"
+    },
     "blocks": [
       {
         "type": "text",

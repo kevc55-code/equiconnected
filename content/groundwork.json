@@ -1,30 +1,46 @@
 {
+  "label": "Horsemanship — Groundwork",
   "en": {
-    "hero": { "title": "Groundwork", "intro": "Before the saddle, everything is decided on the ground." },
+    "hero": {
+      "title": "Groundwork",
+      "intro": "Before the saddle, everything is decided on the ground."
+    },
     "blocks": [
       {
         "type": "split",
-        "image": { "caption": "Reading the horse's body language, on the ground" },
+        "image": {
+          "caption": "Reading the horse's body language, on the ground"
+        },
         "body": "Groundwork is where the relationship is built before any riding takes place. Working at the end of a lead rope or at liberty, we focus on reading the horse's micro-signals — ears, breathing, tension in the neck and back — and adjusting our own energy in response.\n\n- Clear, consistent pressure-and-release communication.\n- Leadership built through trust and consistency, never force.\n- Practical work on loading, leading, and everyday handling.\n- A calm foundation that carries through directly into ridden work.\n\nSessions are tailored to each horse-and-human pair, whether the goal is resolving a specific issue or simply deepening an already good relationship."
       }
     ]
   },
   "fr": {
-    "hero": { "title": "Travail au Sol", "intro": "Avant la selle, tout se joue au sol." },
+    "hero": {
+      "title": "Travail au Sol",
+      "intro": "Avant la selle, tout se joue au sol."
+    },
     "blocks": [
       {
         "type": "split",
-        "image": { "caption": "Lire le langage corporel du cheval, au sol" },
+        "image": {
+          "caption": "Lire le langage corporel du cheval, au sol"
+        },
         "body": "Le travail au sol est le lieu où se construit la relation avant même de monter en selle. En travaillant en longe ou en liberté, nous nous concentrons sur la lecture des micro-signaux du cheval — oreilles, respiration, tensions dans l'encolure et le dos — et sur l'ajustement de notre propre énergie en conséquence.\n\n- Une communication claire et cohérente par pression et relâchement.\n- Un leadership construit par la confiance et la constance, jamais par la force.\n- Un travail pratique sur l'embarquement, la conduite en main et la manipulation quotidienne.\n- Une base calme qui se prolonge directement dans le travail monté.\n\nLes séances sont adaptées à chaque couple cheval-humain, que l'objectif soit de résoudre un problème spécifique ou simplement d'approfondir une relation déjà bonne."
       }
     ]
   },
   "de": {
-    "hero": { "title": "Bodenarbeit", "intro": "Vor dem Sattel wird alles am Boden entschieden." },
+    "hero": {
+      "title": "Bodenarbeit",
+      "intro": "Vor dem Sattel wird alles am Boden entschieden."
+    },
     "blocks": [
       {
         "type": "split",
-        "image": { "caption": "Die Körpersprache des Pferdes lesen, am Boden" },
+        "image": {
+          "caption": "Die Körpersprache des Pferdes lesen, am Boden"
+        },
         "body": "Bodenarbeit ist der Ort, an dem die Beziehung aufgebaut wird, bevor überhaupt geritten wird. Am Führstrick oder in Freiheit arbeitend, konzentrieren wir uns darauf, die Mikrosignale des Pferdes zu lesen — Ohren, Atmung, Anspannung im Hals und Rücken — und unsere eigene Energie entsprechend anzupassen.\n\n- Klare, konsistente Kommunikation durch Druck und Nachgeben.\n- Führung, die durch Vertrauen und Konsequenz aufgebaut wird, niemals durch Zwang.\n- Praktische Arbeit beim Verladen, Führen und im alltäglichen Umgang.\n- Eine ruhige Grundlage, die sich direkt in die gerittene Arbeit überträgt.\n\nDie Sitzungen werden auf jedes Pferd-Mensch-Paar zugeschnitten, egal ob das Ziel darin besteht, ein bestimmtes Problem zu lösen oder einfach eine bereits gute Beziehung zu vertiefen."
       }
     ]

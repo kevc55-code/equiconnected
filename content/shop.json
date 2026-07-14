@@ -1,6 +1,10 @@
 {
+  "label": "Shop",
   "en": {
-    "hero": { "title": "Shop", "intro": "Support the association and its mission." },
+    "hero": {
+      "title": "Shop",
+      "intro": "Support the association and its mission."
+    },
     "blocks": [
       {
         "type": "cards",
@@ -14,7 +18,10 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Boutique", "intro": "Soutenez l'association et sa mission." },
+    "hero": {
+      "title": "Boutique",
+      "intro": "Soutenez l'association et sa mission."
+    },
     "blocks": [
       {
         "type": "cards",
@@ -28,7 +35,10 @@
     ]
   },
   "de": {
-    "hero": { "title": "Shop", "intro": "Unterstützen Sie den Verein und seine Mission." },
+    "hero": {
+      "title": "Shop",
+      "intro": "Unterstützen Sie den Verein und seine Mission."
+    },
     "blocks": [
       {
         "type": "cards",

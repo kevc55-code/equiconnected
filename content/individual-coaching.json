@@ -1,30 +1,46 @@
 {
+  "label": "Coaching — Individual",
   "en": {
-    "hero": { "title": "Individual Coaching", "intro": "One-to-one sessions on the ground, with a horse as your mirror." },
+    "hero": {
+      "title": "Individual Coaching",
+      "intro": "One-to-one sessions on the ground, with a horse as your mirror."
+    },
     "blocks": [
       {
         "type": "split",
-        "image": { "caption": "An individual ground session" },
+        "image": {
+          "caption": "An individual ground session"
+        },
         "body": "No riding, no prior horse experience needed. Individual sessions take place on the ground, in a secure space, where you and a horse work through simple exercises together. How the horse responds — moving away, staying close, hesitating, following — reflects your posture, confidence, and the way you communicate without realizing it.\n\n- Confidence, self-assurance, and stress management\n- Working through a specific personal or professional transition\n- Understanding recurring patterns in how you relate to others\n- A private, judgment-free space to slow down and reconnect with yourself\n\nSessions are tailored around what brings you, and paced to what feels right for you and the horse."
       }
     ]
   },
   "fr": {
-    "hero": { "title": "Coaching Individuel", "intro": "Des séances individuelles au sol, avec un cheval comme miroir." },
+    "hero": {
+      "title": "Coaching Individuel",
+      "intro": "Des séances individuelles au sol, avec un cheval comme miroir."
+    },
     "blocks": [
       {
         "type": "split",
-        "image": { "caption": "Une séance individuelle au sol" },
+        "image": {
+          "caption": "Une séance individuelle au sol"
+        },
         "body": "Aucune monte, aucune expérience préalable du cheval requise. Les séances individuelles se déroulent au sol, dans un espace sécurisé, où vous travaillez avec un cheval au fil d'exercices simples. La manière dont le cheval réagit — s'éloigner, rester proche, hésiter, suivre — reflète votre posture, votre assurance et votre façon de communiquer sans même vous en rendre compte.\n\n- Confiance en soi, assurance et gestion du stress\n- Traverser une transition personnelle ou professionnelle spécifique\n- Comprendre les schémas récurrents dans votre manière de vous relier aux autres\n- Un espace privé, sans jugement, pour ralentir et vous reconnecter à vous-même\n\nLes séances sont adaptées à ce qui vous amène, et rythmées selon ce qui convient à vous et au cheval."
       }
     ]
   },
   "de": {
-    "hero": { "title": "Einzelcoaching", "intro": "Einzelsitzungen am Boden, mit einem Pferd als Spiegel." },
+    "hero": {
+      "title": "Einzelcoaching",
+      "intro": "Einzelsitzungen am Boden, mit einem Pferd als Spiegel."
+    },
     "blocks": [
       {
         "type": "split",
-        "image": { "caption": "Eine individuelle Bodensitzung" },
+        "image": {
+          "caption": "Eine individuelle Bodensitzung"
+        },
         "body": "Kein Reiten, keine Vorerfahrung mit Pferden nötig. Einzelsitzungen finden am Boden statt, in einem sicheren Raum, in dem Sie gemeinsam mit einem Pferd einfache Übungen durchführen. Wie das Pferd reagiert — sich entfernt, in der Nähe bleibt, zögert, folgt — spiegelt Ihre Haltung, Ihr Selbstvertrauen und die Art wider, wie Sie kommunizieren, ohne es zu merken.\n\n- Selbstvertrauen, Sicherheit und Stressbewältigung\n- Die Bewältigung eines bestimmten persönlichen oder beruflichen Übergangs\n- Das Verstehen wiederkehrender Muster in Ihrer Art, sich zu anderen zu verhalten\n- Ein privater, urteilsfreier Raum, um langsamer zu werden und sich mit sich selbst zu verbinden\n\nDie Sitzungen werden auf das ausgerichtet, was Sie mitbringen, und im Tempo gestaltet, das für Sie und das Pferd stimmig ist."
       }
     ]

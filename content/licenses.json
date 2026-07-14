@@ -1,6 +1,9 @@
 {
+  "label": "Footer — Licenses",
   "en": {
-    "hero": { "title": "Licenses" },
+    "hero": {
+      "title": "Licenses"
+    },
     "blocks": [
       {
         "type": "text",
@@ -9,7 +12,9 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Licences" },
+    "hero": {
+      "title": "Licences"
+    },
     "blocks": [
       {
         "type": "text",
@@ -18,7 +23,9 @@
     ]
   },
   "de": {
-    "hero": { "title": "Lizenzen" },
+    "hero": {
+      "title": "Lizenzen"
+    },
     "blocks": [
       {
         "type": "text",

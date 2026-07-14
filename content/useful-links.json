@@ -1,6 +1,10 @@
 {
+  "label": "Useful Links",
   "en": {
-    "hero": { "title": "Useful Links", "intro": "Organizations and resources referenced across our work." },
+    "hero": {
+      "title": "Useful Links",
+      "intro": "Organizations and resources referenced across our work."
+    },
     "blocks": [
       {
         "type": "cards",
@@ -22,7 +26,10 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Liens Utiles", "intro": "Organisations et ressources référencées dans notre travail." },
+    "hero": {
+      "title": "Liens Utiles",
+      "intro": "Organisations et ressources référencées dans notre travail."
+    },
     "blocks": [
       {
         "type": "cards",
@@ -44,7 +51,10 @@
     ]
   },
   "de": {
-    "hero": { "title": "Nützliche Links", "intro": "Organisationen und Ressourcen, auf die wir uns in unserer Arbeit beziehen." },
+    "hero": {
+      "title": "Nützliche Links",
+      "intro": "Organisationen und Ressourcen, auf die wir uns in unserer Arbeit beziehen."
+    },
     "blocks": [
       {
         "type": "cards",

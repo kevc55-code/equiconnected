@@ -1,4 +1,5 @@
 {
+  "label": "Natural Care — Natural Food",
   "en": {
     "hero": {
       "title": "Natural Food",
@@ -17,7 +18,12 @@
           }
         ]
       },
-      { "type": "image", "image": { "caption": "Horses foraging together in the shade" } },
+      {
+        "type": "image",
+        "image": {
+          "caption": "Horses foraging together in the shade"
+        }
+      },
       {
         "type": "text",
         "heading": "Our approach to natural food and care",
@@ -62,7 +68,12 @@
           }
         ]
       },
-      { "type": "image", "image": { "caption": "Des chevaux qui broutent ensemble à l'ombre" } },
+      {
+        "type": "image",
+        "image": {
+          "caption": "Des chevaux qui broutent ensemble à l'ombre"
+        }
+      },
       {
         "type": "text",
         "heading": "Notre approche de l'alimentation et des soins naturels",
@@ -107,7 +118,12 @@
           }
         ]
       },
-      { "type": "image", "image": { "caption": "Pferde fressen gemeinsam im Schatten" } },
+      {
+        "type": "image",
+        "image": {
+          "caption": "Pferde fressen gemeinsam im Schatten"
+        }
+      },
       {
         "type": "text",
         "heading": "Unser Ansatz für natürliche Fütterung und Pflege",

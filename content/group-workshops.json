@@ -1,33 +1,49 @@
 {
+  "label": "Horsemanship — Group Workshops",
   "en": {
-    "hero": { "title": "Group Workshops", "intro": "Learning alongside other horse-and-human pairs, at a shared pace." },
+    "hero": {
+      "title": "Group Workshops",
+      "intro": "Learning alongside other horse-and-human pairs, at a shared pace."
+    },
     "blocks": [
       {
         "type": "split",
         "imageSide": "right",
-        "image": { "caption": "A group workshop in progress" },
+        "image": {
+          "caption": "A group workshop in progress"
+        },
         "body": "Our group workshops bring together a small number of participants and their horses to practice groundwork exercises together, observe one another, and share feedback in a supportive setting.\n\n- Small groups, capped to keep everyone's safety and attention in focus.\n- A mix of demonstration, hands-on practice, and group discussion.\n- Open to all levels — what matters is willingness to listen and observe.\n- Horses provided for participants without their own, on request."
       }
     ]
   },
   "fr": {
-    "hero": { "title": "Ateliers Collectifs", "intro": "Apprendre aux côtés d'autres binômes cheval-humain, à un rythme partagé." },
+    "hero": {
+      "title": "Ateliers Collectifs",
+      "intro": "Apprendre aux côtés d'autres binômes cheval-humain, à un rythme partagé."
+    },
     "blocks": [
       {
         "type": "split",
         "imageSide": "right",
-        "image": { "caption": "Un atelier collectif en cours" },
+        "image": {
+          "caption": "Un atelier collectif en cours"
+        },
         "body": "Nos ateliers collectifs réunissent un petit nombre de participants et leurs chevaux pour pratiquer ensemble des exercices de travail au sol, s'observer mutuellement et échanger des retours dans un cadre bienveillant.\n\n- Des petits groupes, limités pour garder l'attention et la sécurité de chacun.\n- Un mélange de démonstration, de pratique et de discussion en groupe.\n- Ouvert à tous les niveaux — ce qui compte, c'est la volonté d'écouter et d'observer.\n- Des chevaux mis à disposition pour les participants qui n'en ont pas, sur demande."
       }
     ]
   },
   "de": {
-    "hero": { "title": "Gruppenworkshops", "intro": "Gemeinsam lernen mit anderen Pferd-Mensch-Paaren, in einem geteilten Tempo." },
+    "hero": {
+      "title": "Gruppenworkshops",
+      "intro": "Gemeinsam lernen mit anderen Pferd-Mensch-Paaren, in einem geteilten Tempo."
+    },
     "blocks": [
       {
         "type": "split",
         "imageSide": "right",
-        "image": { "caption": "Ein Gruppenworkshop im Gange" },
+        "image": {
+          "caption": "Ein Gruppenworkshop im Gange"
+        },
         "body": "Unsere Gruppenworkshops bringen eine kleine Anzahl von Teilnehmern und ihren Pferden zusammen, um gemeinsam Bodenarbeitsübungen zu praktizieren, einander zu beobachten und Feedback in einem unterstützenden Rahmen auszutauschen.\n\n- Kleine Gruppen, begrenzt, um Sicherheit und Aufmerksamkeit für alle zu gewährleisten.\n- Eine Mischung aus Vorführung, praktischer Übung und Gruppendiskussion.\n- Offen für alle Niveaus — entscheidend ist die Bereitschaft zuzuhören und zu beobachten.\n- Pferde werden auf Anfrage für Teilnehmer ohne eigenes Pferd zur Verfügung gestellt."
       }
     ]

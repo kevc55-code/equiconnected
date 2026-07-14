@@ -1,4 +1,5 @@
 {
+  "label": "Paddock Paradise — Concept",
   "en": {
     "hero": {
       "title": "Paddock Paradise",
@@ -15,7 +16,13 @@
         "heading": "What is a Paddock Paradise®?",
         "body": "**Origin**\n\nA Paddock Paradise® is a natural horse management system based on tracks, designed to replicate how horses live and move in the wild. Instead of living in large open pastures, horses are guided along a looped track that encourages continuous movement, natural foraging, and social interaction.\n\nThe track includes **varied terrain**, **hay and water stations**, **rest areas**, and **enrichment zones**. This layout promotes:\n\n- Healthier hooves\n- Improved physical fitness\n- Mental stimulation\n- More natural social behavior\n\nAccess to green grass represents a departure from the concept. It allows horses to let off steam and roll around in a limited time frame, which is highly appreciated. Compared to conventional grazing systems, a Paddock Paradise® offers a **more stimulating and biologically appropriate environment.**"
       },
-      { "type": "image", "image": { "caption": "Aerial view of a track system", "ratio": "aspect-[21/9]" } }
+      {
+        "type": "image",
+        "image": {
+          "caption": "Aerial view of a track system",
+          "ratio": "aspect-[21/9]"
+        }
+      }
     ]
   },
   "fr": {
@@ -34,7 +41,13 @@
         "heading": "Qu'est-ce qu'un Paddock Paradise® ?",
         "body": "**Origine**\n\nUn Paddock Paradise® est un système naturel de gestion des chevaux basé sur des pistes, conçu pour reproduire la vie et les déplacements du cheval à l'état sauvage. Au lieu de vivre dans de grands pâturages ouverts, les chevaux sont guidés le long d'une piste en boucle qui encourage le mouvement continu, la recherche naturelle de nourriture et l'interaction sociale.\n\nLa piste comprend un **terrain varié**, des **postes de foin et d'eau**, des **zones de repos** et des **zones d'enrichissement**. Cet aménagement favorise :\n\n- Des sabots plus sains\n- Une meilleure condition physique\n- Une stimulation mentale\n- Un comportement social plus naturel\n\nL'accès à l'herbe verte représente un écart au concept. Il permet aux chevaux de se défouler et de se rouler pendant un temps limité, ce qui est très apprécié. Comparé aux systèmes de pâturage conventionnels, un Paddock Paradise® offre un **environnement plus stimulant et biologiquement approprié.**"
       },
-      { "type": "image", "image": { "caption": "Vue aérienne d'un système de pistes", "ratio": "aspect-[21/9]" } }
+      {
+        "type": "image",
+        "image": {
+          "caption": "Vue aérienne d'un système de pistes",
+          "ratio": "aspect-[21/9]"
+        }
+      }
     ]
   },
   "de": {
@@ -53,7 +66,13 @@
         "heading": "Was ist ein Paddock Paradise®?",
         "body": "**Ursprung**\n\nEin Paddock Paradise® ist ein natürliches Haltungssystem auf Trails, das nachbildet, wie Pferde in freier Wildbahn leben und sich bewegen. Statt auf großen offenen Weiden zu leben, werden Pferde entlang eines Rundwegs geführt, der kontinuierliche Bewegung, natürliches Fressverhalten und soziale Interaktion fördert.\n\nDer Trail umfasst **abwechslungsreiches Gelände**, **Heu- und Wasserstationen**, **Ruhezonen** und **Anreicherungszonen**. Dieses Layout fördert:\n\n- Gesündere Hufe\n- Bessere körperliche Fitness\n- Geistige Anregung\n- Natürlicheres Sozialverhalten\n\nDer Zugang zu grünem Gras stellt eine Abweichung vom Konzept dar. Er erlaubt es den Pferden, sich in einem begrenzten Zeitfenster auszutoben und zu wälzen, was sehr geschätzt wird. Im Vergleich zu konventionellen Weidesystemen bietet ein Paddock Paradise® eine **anregendere und biologisch angemessenere Umgebung.**"
       },
-      { "type": "image", "image": { "caption": "Luftaufnahme eines Trail-Systems", "ratio": "aspect-[21/9]" } }
+      {
+        "type": "image",
+        "image": {
+          "caption": "Luftaufnahme eines Trail-Systems",
+          "ratio": "aspect-[21/9]"
+        }
+      }
     ]
   }
 }

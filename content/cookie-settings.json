@@ -1,6 +1,9 @@
 {
+  "label": "Footer — Cookie Settings",
   "en": {
-    "hero": { "title": "Cookie Settings" },
+    "hero": {
+      "title": "Cookie Settings"
+    },
     "blocks": [
       {
         "type": "text",
@@ -9,7 +12,9 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Paramétrer vos cookies" },
+    "hero": {
+      "title": "Paramétrer vos cookies"
+    },
     "blocks": [
       {
         "type": "text",
@@ -18,7 +23,9 @@
     ]
   },
   "de": {
-    "hero": { "title": "Cookie-Einstellungen" },
+    "hero": {
+      "title": "Cookie-Einstellungen"
+    },
     "blocks": [
       {
         "type": "text",

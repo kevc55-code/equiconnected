@@ -1,6 +1,9 @@
 {
+  "label": "Coaching — Personal Development Workshops",
   "en": {
-    "hero": { "title": "Personal Development Workshops" },
+    "hero": {
+      "title": "Personal Development Workshops"
+    },
     "blocks": [
       {
         "type": "text",
@@ -9,7 +12,9 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Ateliers de Développement Personnel" },
+    "hero": {
+      "title": "Ateliers de Développement Personnel"
+    },
     "blocks": [
       {
         "type": "text",
@@ -18,7 +23,9 @@
     ]
   },
   "de": {
-    "hero": { "title": "Workshops zur Persönlichkeitsentwicklung" },
+    "hero": {
+      "title": "Workshops zur Persönlichkeitsentwicklung"
+    },
     "blocks": [
       {
         "type": "text",

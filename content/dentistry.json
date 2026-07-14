@@ -1,4 +1,5 @@
 {
+  "label": "Natural Care — Dentistry",
   "en": {
     "hero": {
       "title": "Dentistry",
@@ -7,7 +8,9 @@
     "blocks": [
       {
         "type": "split",
-        "image": { "caption": "A dental technician at work, caring for a defective tooth" },
+        "image": {
+          "caption": "A dental technician at work, caring for a defective tooth"
+        },
         "body": "Equine dental technicians, trained and grouped within a federation in France, perform dental care **without sedation** using the same professional equipment as a veterinarian who would prefer to sedate the horse with a chemical product.\n\nA conscientious technician will also know when to hand over to a veterinarian when the situation requires it."
       },
       {
@@ -30,7 +33,9 @@
     "blocks": [
       {
         "type": "split",
-        "image": { "caption": "Une technicienne dentaire à l'œuvre, ici pour le soin d'une dent défectueuse" },
+        "image": {
+          "caption": "Une technicienne dentaire à l'œuvre, ici pour le soin d'une dent défectueuse"
+        },
         "body": "Les techniciens dentaires équins, formés et regroupés au sein d'une fédération en France, réalisent les soins dentaires **sans sédation** en utilisant le même matériel professionnel qu'un vétérinaire, qui préférerait sédater le cheval avec un produit chimique.\n\nUn technicien consciencieux saura aussi passer la main à un vétérinaire lorsque la situation l'exige."
       },
       {
@@ -53,7 +58,9 @@
     "blocks": [
       {
         "type": "split",
-        "image": { "caption": "Eine Zahntechnikerin bei der Arbeit, hier bei der Behandlung eines defekten Zahns" },
+        "image": {
+          "caption": "Eine Zahntechnikerin bei der Arbeit, hier bei der Behandlung eines defekten Zahns"
+        },
         "body": "Pferdezahntechniker, die in Frankreich in einem Verband ausgebildet und organisiert sind, führen die Zahnpflege **ohne Sedierung** durch, mit derselben professionellen Ausrüstung wie ein Tierarzt, der das Pferd lieber mit einem chemischen Mittel sedieren würde.\n\nEin gewissenhafter Techniker weiß auch, wann er die Behandlung an einen Tierarzt übergeben sollte, wenn die Situation es erfordert."
       },
       {

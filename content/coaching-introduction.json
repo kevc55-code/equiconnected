@@ -1,6 +1,9 @@
 {
+  "label": "Coaching — Introduction",
   "en": {
-    "hero": { "title": "Equine-Assisted Coaching" },
+    "hero": {
+      "title": "Equine-Assisted Coaching"
+    },
     "blocks": [
       {
         "type": "highlight",
@@ -10,7 +13,9 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Coaching Équin" },
+    "hero": {
+      "title": "Coaching Équin"
+    },
     "blocks": [
       {
         "type": "highlight",
@@ -20,7 +25,9 @@
     ]
   },
   "de": {
-    "hero": { "title": "Pferdegestütztes Coaching" },
+    "hero": {
+      "title": "Pferdegestütztes Coaching"
+    },
     "blocks": [
       {
         "type": "highlight",

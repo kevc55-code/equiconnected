@@ -1,4 +1,5 @@
 {
+  "label": "Paddock Paradise — Create Your Own",
   "en": {
     "hero": {
       "title": "Create Your Paddock Paradise",
@@ -8,7 +9,9 @@
       {
         "type": "split",
         "heading": "Where to start",
-        "image": { "caption": "Sketching a track layout on site" },
+        "image": {
+          "caption": "Sketching a track layout on site"
+        },
         "body": "Every property is different, so every track is designed around what is already there: existing fence lines, natural shade, slopes, and water sources. The goal is to turn the whole space into a **journey** rather than a single open field.\n\n- Map the perimeter and identify natural obstacles to work with, not against.\n- Space hay, water, and shelter stations far apart to encourage constant movement.\n- Vary the ground surface — sand, gravel, packed earth — to condition healthy hooves.\n- Add loafing and rolling areas along the track for rest and social contact."
       },
       {
@@ -27,7 +30,9 @@
       {
         "type": "split",
         "heading": "Par où commencer",
-        "image": { "caption": "Esquisse du tracé de la piste sur site" },
+        "image": {
+          "caption": "Esquisse du tracé de la piste sur site"
+        },
         "body": "Chaque propriété est différente, c'est pourquoi chaque piste est conçue autour de l'existant : clôtures déjà en place, ombre naturelle, pentes et points d'eau. L'objectif est de transformer tout l'espace en un **parcours** plutôt qu'en un simple champ ouvert.\n\n- Cartographiez le périmètre et identifiez les obstacles naturels avec lesquels composer.\n- Espacez largement les postes de foin, d'eau et d'abri pour encourager un mouvement constant.\n- Variez la nature du sol — sable, gravier, terre battue — pour conditionner des sabots sains.\n- Ajoutez des zones de repos et de roulade le long de la piste pour le repos et le contact social."
       },
       {
@@ -46,7 +51,9 @@
       {
         "type": "split",
         "heading": "Wo Sie anfangen sollten",
-        "image": { "caption": "Skizzieren eines Trail-Layouts vor Ort" },
+        "image": {
+          "caption": "Skizzieren eines Trail-Layouts vor Ort"
+        },
         "body": "Jedes Grundstück ist anders, deshalb wird jeder Trail um das Vorhandene herum gestaltet: bestehende Zäune, natürlicher Schatten, Gefälle und Wasserquellen. Ziel ist es, den gesamten Raum in eine **Wegstrecke** zu verwandeln statt in eine einzige offene Weide.\n\n- Kartieren Sie den Umfang und identifizieren Sie natürliche Hindernisse, mit denen Sie arbeiten können.\n- Platzieren Sie Heu-, Wasser- und Unterstellstationen weit auseinander, um ständige Bewegung zu fördern.\n- Variieren Sie den Untergrund — Sand, Kies, festgetretene Erde — um gesunde Hufe zu konditionieren.\n- Fügen Sie entlang des Trails Ruhe- und Wälzzonen für Erholung und sozialen Kontakt hinzu."
       },
       {

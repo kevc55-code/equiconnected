@@ -1,6 +1,10 @@
 {
+  "label": "Shop — Online Memberships",
   "en": {
-    "hero": { "title": "Online Memberships", "intro": "Join EquiConnected and support our mission year-round." },
+    "hero": {
+      "title": "Online Memberships",
+      "intro": "Join EquiConnected and support our mission year-round."
+    },
     "blocks": [
       {
         "type": "text",
@@ -9,7 +13,10 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Adhésions en Ligne", "intro": "Rejoignez EquiConnected et soutenez notre mission toute l'année." },
+    "hero": {
+      "title": "Adhésions en Ligne",
+      "intro": "Rejoignez EquiConnected et soutenez notre mission toute l'année."
+    },
     "blocks": [
       {
         "type": "text",
@@ -18,7 +25,10 @@
     ]
   },
   "de": {
-    "hero": { "title": "Online-Mitgliedschaft", "intro": "Werden Sie Mitglied bei EquiConnected und unterstützen Sie unsere Mission das ganze Jahr über." },
+    "hero": {
+      "title": "Online-Mitgliedschaft",
+      "intro": "Werden Sie Mitglied bei EquiConnected und unterstützen Sie unsere Mission das ganze Jahr über."
+    },
     "blocks": [
       {
         "type": "text",
