@@ -114,10 +114,10 @@ content:
                     fields:
                       - { name: src, label: Photo, type: image }
       - name: fr
-        label: Français
+        label: "Français (les photos ajoutées dans English s'appliquent automatiquement)"
         type: object
         fields: *localeFields
       - name: de
-        label: Deutsch
+        label: "Deutsch (les photos ajoutées dans English s'appliquent automatiquement)"
         type: object
         fields: *localeFields
