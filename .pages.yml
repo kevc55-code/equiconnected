@@ -78,7 +78,7 @@ content:
                 label: "Texte (ligne vide = nouveau paragraphe, '- ' = puce, **gras**)"
                 type: text
               - name: imageSide
-                label: "Position de l'image (blocs image + texte)"
+                label: "Position de l'image — s'applique UNIQUEMENT au type de bloc « Image + texte », sans effet sur les autres types"
                 type: select
                 options:
                   values:
@@ -90,7 +90,9 @@ content:
                 fields:
                   - { name: src, label: "Photo (utilisée pour toutes les langues)", type: image }
                   - { name: caption, label: Légende, type: string }
-                  - { name: ratio, label: "Format d'image (avancé)", type: string }
+                  - name: ratio
+                    label: "Format d'image (avancé, optionnel) — écrire largeur/hauteur, ex. 16/9, 4/3, 1/1, 21/9. Laisser vide pour le format standard."
+                    type: string
               - { name: text, label: "Texte de la citation (blocs citation)", type: text }
               - { name: author, label: "Auteur de la citation", type: string }
               - { name: label, label: "Titre de la vidéo", type: string }

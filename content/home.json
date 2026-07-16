@@ -28,7 +28,7 @@
         "type": "image",
         "image": {
           "caption": "Horses resting in the shelter",
-          "ratio": "aspect-[21/9]"
+          "ratio": "21/9"
         }
       },
       {
@@ -100,7 +100,7 @@
         "type": "image",
         "image": {
           "caption": "Des chevaux au repos sous l'abri",
-          "ratio": "aspect-[21/9]"
+          "ratio": "21/9"
         }
       },
       {
@@ -172,7 +172,7 @@
         "type": "image",
         "image": {
           "caption": "Pferde ruhen im Unterstand",
-          "ratio": "aspect-[21/9]"
+          "ratio": "21/9"
         }
       },
       {

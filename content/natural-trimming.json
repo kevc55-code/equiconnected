@@ -24,7 +24,7 @@
         "type": "image",
         "image": {
           "caption": "Barefoot trim in progress",
-          "ratio": "aspect-[16/8]"
+          "ratio": "16/8"
         }
       }
     ]
@@ -53,7 +53,7 @@
         "type": "image",
         "image": {
           "caption": "Parage pieds nus en cours",
-          "ratio": "aspect-[16/8]"
+          "ratio": "16/8"
         }
       }
     ]
@@ -82,7 +82,7 @@
         "type": "image",
         "image": {
           "caption": "Barhufbearbeitung im Gange",
-          "ratio": "aspect-[16/8]"
+          "ratio": "16/8"
         }
       }
     ]

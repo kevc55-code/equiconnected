@@ -20,7 +20,7 @@
         "type": "image",
         "image": {
           "caption": "Aerial view of a track system",
-          "ratio": "aspect-[21/9]"
+          "ratio": "21/9"
         }
       }
     ]
@@ -45,7 +45,7 @@
         "type": "image",
         "image": {
           "caption": "Vue aérienne d'un système de pistes",
-          "ratio": "aspect-[21/9]"
+          "ratio": "21/9"
         }
       }
     ]
@@ -70,7 +70,7 @@
         "type": "image",
         "image": {
           "caption": "Luftaufnahme eines Trail-Systems",
-          "ratio": "aspect-[21/9]"
+          "ratio": "21/9"
         }
       }
     ]

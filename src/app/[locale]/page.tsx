@@ -11,7 +11,7 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
   return (
     <div>
       <div className="relative">
-        <ImagePlaceholder ratio="aspect-[16/7]" className="[&_figcaption]:hidden" />
+        <ImagePlaceholder ratio="16/7" className="[&_figcaption]:hidden" />
         <div className="absolute inset-x-0 -bottom-6 flex flex-wrap justify-center gap-3 px-4">
           {(content.quickLinks ?? []).map((link) => (
             <Link
