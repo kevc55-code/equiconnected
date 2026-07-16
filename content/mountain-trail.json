@@ -1,5 +1,11 @@
 {
   "label": "Mountain Trail",
+  "photos": [
+    {
+      "src": "/images/photo-mountain-trail-017-1.jpg",
+      "caption": "test1"
+    }
+  ],
   "en": {
     "hero": {
       "title": "Mountain Trail",
