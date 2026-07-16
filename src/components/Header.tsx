@@ -8,8 +8,12 @@ import LanguageSwitcher from './LanguageSwitcher'
 import { getPrimaryNav, getSecondaryNav, type NavItem } from '@/lib/nav'
 import { locales, type Locale } from '@/lib/i18n'
 
-function NavRow({ items }: { items: NavItem[] }) {
+function NavRow({ items, variant = 'primary' }: { items: NavItem[]; variant?: 'primary' | 'secondary' }) {
   const [open, setOpen] = useState<string | null>(null)
+  const linkClass =
+    variant === 'primary'
+      ? 'block px-3 py-3 text-xs md:text-sm font-bold uppercase tracking-wide text-white hover:bg-white/10 transition-colors'
+      : 'block px-3 py-2 text-[11px] font-medium uppercase tracking-wide text-white/60 hover:bg-white/10 hover:text-white/90 transition-colors'
 
   return (
     <ul className="flex flex-wrap items-center">
@@ -20,10 +24,7 @@ function NavRow({ items }: { items: NavItem[] }) {
           onMouseEnter={() => item.children && setOpen(item.label)}
           onMouseLeave={() => item.children && setOpen(null)}
         >
-          <Link
-            href={item.href}
-            className="block px-4 py-3 text-xs md:text-sm font-semibold uppercase tracking-wide text-white/90 hover:bg-white/10 hover:text-white transition-colors"
-          >
+          <Link href={item.href} className={linkClass}>
             {item.label}
           </Link>
           {item.children && open === item.label ? (
@@ -122,14 +123,14 @@ export default function Header({ locale, logoSrc }: { locale: Locale; logoSrc?: 
         </button>
         <div className="hidden md:flex items-center gap-4">
           <nav>
-            <NavRow items={primaryNav} />
+            <NavRow items={primaryNav} variant="primary" />
           </nav>
           <LanguageSwitcher locale={locale} />
         </div>
       </div>
-      <div className="hidden md:block border-t border-white/10 bg-brand-dark">
+      <div className="hidden md:block border-t border-white/10 bg-brand-darker">
         <div className="max-w-6xl mx-auto">
-          <NavRow items={secondaryNav} />
+          <NavRow items={secondaryNav} variant="secondary" />
         </div>
       </div>
       {mobileOpen ? <MobileNav locale={locale} onNavigate={() => setMobileOpen(false)} /> : null}
