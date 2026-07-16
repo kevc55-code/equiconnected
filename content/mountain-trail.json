@@ -16,12 +16,15 @@
       },
       {
         "type": "image",
-        "imageSide": "right",
+        "imageSide": "left",
         "image": {
           "src": "/images/cheval-traverse-riviere-1.jpg",
           "caption": "Crossing a bridge obstacle",
           "ratio": "aspect-[7/3]"
-        }
+        },
+        "items": [
+          {}
+        ]
       }
     ]
   },
