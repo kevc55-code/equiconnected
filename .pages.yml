@@ -75,7 +75,7 @@ content:
                     - { value: highlight, label: Encadré }
               - { name: heading, label: Titre de section, type: string }
               - name: body
-                label: "Texte (ligne vide = nouveau paragraphe, '- ' = puce, **gras**)"
+                label: "Texte (ligne vide = nouveau paragraphe, '- ' = puce, **gras**, [texte du lien](https://exemple.fr) = lien)"
                 type: text
               - name: imageSide
                 label: "Position de l'image — s'applique UNIQUEMENT au type de bloc « Image + texte », sans effet sur les autres types"
@@ -173,7 +173,7 @@ content:
                     - { value: highlight, label: Encadré }
               - { name: heading, label: Titre de section, type: string }
               - name: body
-                label: "Texte (ligne vide = nouveau paragraphe, '- ' = puce, **gras**)"
+                label: "Texte (ligne vide = nouveau paragraphe, '- ' = puce, **gras**, [texte du lien](https://exemple.fr) = lien)"
                 type: text
               - name: image
                 label: Image
