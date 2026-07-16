@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import ImagePlaceholder from '@/components/ImagePlaceholder'
 import Blocks from '@/components/Blocks'
+import SmartImage from '@/components/SmartImage'
 import { getContent } from '@/lib/content'
 import type { Locale } from '@/lib/i18n'
 
@@ -30,6 +31,13 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
 
       <div className="max-w-6xl mx-auto px-4 py-12">
         <Blocks blocks={content.blocks} locale={params.locale} />
+        {content.photos?.length ? (
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12">
+            {content.photos.map((photo, i) => (
+              <SmartImage key={i} image={photo} />
+            ))}
+          </div>
+        ) : null}
       </div>
     </div>
   )

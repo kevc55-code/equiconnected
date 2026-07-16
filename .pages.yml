@@ -25,6 +25,13 @@ content:
       - name: label
         label: Nom de la page (affiché uniquement dans cette liste, pas sur le site)
         type: string
+      - name: photos
+        label: "Photos de la page (galerie en bas de page, toutes langues — ajoutez autant de photos que nécessaire)"
+        type: object
+        list: true
+        fields:
+          - { name: src, label: Photo, type: image }
+          - { name: caption, label: "Légende (optionnelle)", type: string }
       - name: en
         label: "English (les photos et la mise en page se règlent ici, pour toutes les langues)"
         type: object

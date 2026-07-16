@@ -26,6 +26,7 @@ export type PageContent = {
   banner?: string
   quickLinks?: { label: string; href: string }[]
   blocks: Block[]
+  photos?: Img[]
 }
 
 export type SiteSettings = { logo?: string }
@@ -44,6 +45,10 @@ export function getContent(locale: Locale, slug: string): PageContent {
   const data = JSON.parse(fs.readFileSync(file, 'utf-8'))
   const content = data[locale]
   if (locale !== 'en' && data.en) inheritImages(content, data.en)
+  // Top-level photo gallery, shared across all locales
+  if (Array.isArray(data.photos) && data.photos.length > 0) {
+    content.photos = data.photos.filter((p: Img) => p?.src)
+  }
   return content
 }
 
