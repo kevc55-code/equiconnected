@@ -28,6 +28,17 @@ export type PageContent = {
   blocks: Block[]
 }
 
+export type SiteSettings = { logo?: string }
+
+export function getSettings(): SiteSettings {
+  const file = path.join(process.cwd(), 'content', 'settings.json')
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf-8'))
+  } catch {
+    return {}
+  }
+}
+
 export function getContent(locale: Locale, slug: string): PageContent {
   const file = path.join(process.cwd(), 'content', `${slug}.json`)
   const data = JSON.parse(fs.readFileSync(file, 'utf-8'))

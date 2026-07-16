@@ -3,6 +3,13 @@ media:
   output: /images
 
 content:
+  - name: settings
+    label: Réglages du site
+    type: file
+    path: content/settings.json
+    format: json
+    fields:
+      - { name: logo, label: "Logo du site (affiché dans l'en-tête ; laisser vide pour le logo par défaut)", type: image }
   - name: pages
     label: Pages du site
     type: collection

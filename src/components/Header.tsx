@@ -92,7 +92,7 @@ function MobileNav({ locale, onNavigate }: { locale: Locale; onNavigate: () => v
   )
 }
 
-export default function Header({ locale }: { locale: Locale }) {
+export default function Header({ locale, logoSrc }: { locale: Locale; logoSrc?: string }) {
   const [mobileOpen, setMobileOpen] = useState(false)
   const primaryNav = getPrimaryNav(locale)
   const secondaryNav = getSecondaryNav(locale)
@@ -101,7 +101,12 @@ export default function Header({ locale }: { locale: Locale }) {
     <header className="sticky top-0 z-40 bg-brand shadow-md">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4">
         <Link href={`/${locale}`} className="flex items-center gap-3 py-2 text-white">
-          <Logo className="h-9 w-9" />
+          {logoSrc ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={logoSrc} alt="EquiConnected" className="h-10 w-auto max-w-[120px] object-contain" />
+          ) : (
+            <Logo className="h-9 w-9" />
+          )}
           <span className="font-serif text-lg font-semibold tracking-wide hidden sm:inline">
             EquiConnected
           </span>
