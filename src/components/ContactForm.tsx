@@ -36,6 +36,7 @@ export default function ContactForm({ locale }: { locale: Locale }) {
       >
         {t.send}
       </button>
+      <p className="text-xs text-ink/50">{t.contactPrivacyNote}</p>
     </form>
   )
 }

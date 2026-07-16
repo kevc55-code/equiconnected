@@ -1,35 +1,29 @@
 {
   "label": "Pied de page — Cookies",
   "en": {
-    "hero": {
-      "title": "Cookie Settings"
-    },
+    "hero": { "title": "Cookie Settings" },
     "blocks": [
       {
         "type": "text",
-        "body": "This site uses cookies only for essential site functionality. No tracking cookies are set."
+        "body": "This site sets **no tracking or advertising cookies**, which is why no cookie consent banner is shown — there is nothing to consent to.\n\nThe only cookie that may appear is a strictly technical security cookie set by our host Cloudflare (such as `__cf_bm`), used to protect the site against automated abuse. It stores no personal profile and is exempt from consent requirements.\n\nFor full details, see our Privacy Policy page."
       }
     ]
   },
   "fr": {
-    "hero": {
-      "title": "Paramétrer vos cookies"
-    },
+    "hero": { "title": "Paramétrer vos cookies" },
     "blocks": [
       {
         "type": "text",
-        "body": "Ce site utilise des cookies uniquement pour son fonctionnement essentiel. Aucun cookie de suivi n'est déposé."
+        "body": "Ce site ne dépose **aucun cookie de suivi ou publicitaire**, c'est pourquoi aucun bandeau de consentement n'est affiché — il n'y a rien à consentir.\n\nLe seul cookie susceptible d'apparaître est un cookie de sécurité strictement technique déposé par notre hébergeur Cloudflare (comme `__cf_bm`), utilisé pour protéger le site contre les abus automatisés. Il ne contient aucun profil personnel et est exempté de consentement.\n\nPour plus de détails, consultez notre page Politique de confidentialité."
       }
     ]
   },
   "de": {
-    "hero": {
-      "title": "Cookie-Einstellungen"
-    },
+    "hero": { "title": "Cookie-Einstellungen" },
     "blocks": [
       {
         "type": "text",
-        "body": "Diese Website verwendet Cookies nur für die wesentliche Funktionalität. Es werden keine Tracking-Cookies gesetzt."
+        "body": "Diese Website setzt **keine Tracking- oder Werbe-Cookies**, weshalb kein Cookie-Banner angezeigt wird — es gibt nichts, dem zugestimmt werden müsste.\n\nDas einzige Cookie, das erscheinen kann, ist ein rein technisches Sicherheits-Cookie unseres Hosters Cloudflare (wie `__cf_bm`), das die Website vor automatisiertem Missbrauch schützt. Es enthält kein persönliches Profil und ist von der Einwilligungspflicht ausgenommen.\n\nWeitere Einzelheiten finden Sie auf unserer Seite Datenschutzerklärung."
       }
     ]
   }

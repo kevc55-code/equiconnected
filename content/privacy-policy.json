@@ -1,0 +1,123 @@
+{
+  "label": "Pied de page — Politique de confidentialité",
+  "en": {
+    "hero": { "title": "Privacy Policy" },
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Who we are",
+        "body": "The data controller is the association **EquiConnected**, a French association (loi 1901).\n\nAddress: [TO FILL — registered address of the association]\n\nContact for any privacy question or request: [TO FILL — association email address]"
+      },
+      {
+        "type": "text",
+        "heading": "What data we collect and why",
+        "body": "This website does not require any account and does not track you for advertising.\n\n- **Newsletter**: if you subscribe, we collect your email address, based on your consent, in order to send you our newsletter. You can withdraw consent at any time via the unsubscribe link in every email.\n- **Contact form**: if you write to us, we collect your name, email address and message, solely to answer your request.\n\nWe collect nothing else, and we never sell or share your data for marketing purposes."
+      },
+      {
+        "type": "text",
+        "heading": "How long we keep it",
+        "body": "- Newsletter addresses: until you unsubscribe.\n- Contact requests: up to 12 months after our last exchange, then deleted."
+      },
+      {
+        "type": "text",
+        "heading": "Who processes it",
+        "body": "- **Hosting**: this site is hosted by Cloudflare, Inc. (USA), under standard contractual clauses for international transfers.\n- **Newsletter sending**: [TO FILL — name of the newsletter service once chosen].\n\nThese providers act as processors on our behalf and cannot use your data for their own purposes."
+      },
+      {
+        "type": "text",
+        "heading": "Cookies",
+        "body": "This site sets **no tracking or advertising cookies**. Our host Cloudflare may set a strictly technical security cookie (such as `__cf_bm`) to protect the site against automated abuse; it is exempt from consent. That is why this site shows no cookie banner — there is nothing to consent to."
+      },
+      {
+        "type": "text",
+        "heading": "Your rights",
+        "body": "Under the GDPR you have the right to access, rectify, erase, and receive your data, to object to or restrict its processing, and to withdraw consent at any time. To exercise these rights, contact us at the address above.\n\nYou may also lodge a complaint with the French supervisory authority, the **CNIL** (cnil.fr)."
+      },
+      {
+        "type": "text",
+        "heading": "Updates",
+        "body": "This policy may be updated as the site evolves. Last updated: [TO FILL — date when published]."
+      }
+    ]
+  },
+  "fr": {
+    "hero": { "title": "Politique de confidentialité" },
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Qui sommes-nous",
+        "body": "Le responsable du traitement est l'association **EquiConnected**, association loi 1901.\n\nAdresse : [À COMPLÉTER — adresse du siège de l'association]\n\nContact pour toute question ou demande relative à vos données : [À COMPLÉTER — adresse email de l'association]"
+      },
+      {
+        "type": "text",
+        "heading": "Quelles données collectons-nous, et pourquoi",
+        "body": "Ce site ne nécessite aucun compte et ne vous suit pas à des fins publicitaires.\n\n- **Newsletter** : si vous vous abonnez, nous collectons votre adresse email, sur la base de votre consentement, afin de vous envoyer notre newsletter. Vous pouvez retirer votre consentement à tout moment via le lien de désabonnement présent dans chaque email.\n- **Formulaire de contact** : si vous nous écrivez, nous collectons vos nom, adresse email et message, uniquement pour répondre à votre demande.\n\nNous ne collectons rien d'autre, et nous ne vendons ni ne partageons jamais vos données à des fins commerciales."
+      },
+      {
+        "type": "text",
+        "heading": "Durées de conservation",
+        "body": "- Adresses newsletter : jusqu'à votre désabonnement.\n- Demandes de contact : au maximum 12 mois après notre dernier échange, puis suppression."
+      },
+      {
+        "type": "text",
+        "heading": "Qui traite vos données",
+        "body": "- **Hébergement** : ce site est hébergé par Cloudflare, Inc. (États-Unis), dans le cadre de clauses contractuelles types pour les transferts internationaux.\n- **Envoi de la newsletter** : [À COMPLÉTER — nom du service d'envoi une fois choisi].\n\nCes prestataires agissent comme sous-traitants pour notre compte et ne peuvent pas utiliser vos données pour leurs propres besoins."
+      },
+      {
+        "type": "text",
+        "heading": "Cookies",
+        "body": "Ce site ne dépose **aucun cookie de suivi ou publicitaire**. Notre hébergeur Cloudflare peut déposer un cookie de sécurité strictement technique (comme `__cf_bm`) pour protéger le site contre les abus automatisés ; il est exempté de consentement. C'est pourquoi ce site n'affiche pas de bandeau cookies — il n'y a rien à consentir."
+      },
+      {
+        "type": "text",
+        "heading": "Vos droits",
+        "body": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement et de portabilité de vos données, d'un droit d'opposition et de limitation du traitement, ainsi que du droit de retirer votre consentement à tout moment. Pour exercer ces droits, contactez-nous à l'adresse indiquée ci-dessus.\n\nVous pouvez également adresser une réclamation à la **CNIL** (cnil.fr)."
+      },
+      {
+        "type": "text",
+        "heading": "Mises à jour",
+        "body": "Cette politique pourra être mise à jour au fil de l'évolution du site. Dernière mise à jour : [À COMPLÉTER — date de publication]."
+      }
+    ]
+  },
+  "de": {
+    "hero": { "title": "Datenschutzerklärung" },
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Wer wir sind",
+        "body": "Verantwortlicher für die Datenverarbeitung ist der Verein **EquiConnected**, ein französischer Verein (loi 1901).\n\nAdresse: [AUSZUFÜLLEN — Sitzadresse des Vereins]\n\nKontakt für alle Datenschutzfragen und -anfragen: [AUSZUFÜLLEN — E-Mail-Adresse des Vereins]"
+      },
+      {
+        "type": "text",
+        "heading": "Welche Daten wir erheben und warum",
+        "body": "Diese Website erfordert kein Konto und verfolgt Sie nicht zu Werbezwecken.\n\n- **Newsletter**: Wenn Sie sich anmelden, erheben wir Ihre E-Mail-Adresse auf Grundlage Ihrer Einwilligung, um Ihnen unseren Newsletter zu senden. Sie können Ihre Einwilligung jederzeit über den Abmeldelink in jeder E-Mail widerrufen.\n- **Kontaktformular**: Wenn Sie uns schreiben, erheben wir Ihren Namen, Ihre E-Mail-Adresse und Ihre Nachricht, ausschließlich um Ihre Anfrage zu beantworten.\n\nWir erheben nichts weiter und verkaufen oder teilen Ihre Daten niemals zu Marketingzwecken."
+      },
+      {
+        "type": "text",
+        "heading": "Speicherdauer",
+        "body": "- Newsletter-Adressen: bis zu Ihrer Abmeldung.\n- Kontaktanfragen: höchstens 12 Monate nach unserem letzten Austausch, danach Löschung."
+      },
+      {
+        "type": "text",
+        "heading": "Wer Ihre Daten verarbeitet",
+        "body": "- **Hosting**: Diese Website wird von Cloudflare, Inc. (USA) gehostet, im Rahmen von Standardvertragsklauseln für internationale Datenübermittlungen.\n- **Newsletter-Versand**: [AUSZUFÜLLEN — Name des Versanddienstes nach Auswahl].\n\nDiese Dienstleister handeln als Auftragsverarbeiter in unserem Auftrag und dürfen Ihre Daten nicht für eigene Zwecke verwenden."
+      },
+      {
+        "type": "text",
+        "heading": "Cookies",
+        "body": "Diese Website setzt **keine Tracking- oder Werbe-Cookies**. Unser Hoster Cloudflare kann ein rein technisches Sicherheits-Cookie (wie `__cf_bm`) setzen, um die Website vor automatisiertem Missbrauch zu schützen; dieses ist von der Einwilligungspflicht ausgenommen. Deshalb zeigt diese Website kein Cookie-Banner — es gibt nichts, dem zugestimmt werden müsste."
+      },
+      {
+        "type": "text",
+        "heading": "Ihre Rechte",
+        "body": "Nach der DSGVO haben Sie das Recht auf Auskunft, Berichtigung, Löschung und Übertragbarkeit Ihrer Daten, das Recht auf Widerspruch und Einschränkung der Verarbeitung sowie das Recht, Ihre Einwilligung jederzeit zu widerrufen. Zur Ausübung dieser Rechte kontaktieren Sie uns unter der oben genannten Adresse.\n\nSie können außerdem eine Beschwerde bei der französischen Aufsichtsbehörde **CNIL** (cnil.fr) einreichen."
+      },
+      {
+        "type": "text",
+        "heading": "Aktualisierungen",
+        "body": "Diese Erklärung kann im Zuge der Weiterentwicklung der Website aktualisiert werden. Letzte Aktualisierung: [AUSZUFÜLLEN — Veröffentlichungsdatum]."
+      }
+    ]
+  }
+}

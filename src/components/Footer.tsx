@@ -34,6 +34,7 @@ export default function Footer({ locale }: { locale: Locale }) {
           <Link href={`/${locale}/site-map`} className="hover:text-white">{t.siteMap}</Link>
           <Link href={`/${locale}/licenses`} className="hover:text-white">{t.licenses}</Link>
           <Link href={`/${locale}/legal-notice`} className="hover:text-white">{t.legalNotice}</Link>
+          <Link href={`/${locale}/privacy-policy`} className="hover:text-white">{t.privacyPolicy}</Link>
           <Link href={`/${locale}/terms`} className="hover:text-white">{t.terms}</Link>
           <Link href={`/${locale}/cookie-settings`} className="hover:text-white">{t.cookieSettings}</Link>
         </div>

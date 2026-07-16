@@ -17,6 +17,9 @@ export const dictionary = {
     email: 'Email',
     message: 'Message',
     send: 'Send my request',
+    privacyPolicy: 'Privacy Policy',
+    newsletterConsent: 'I agree to receive the newsletter. I can unsubscribe at any time.',
+    contactPrivacyNote: 'Your details are used only to answer your request. See our Privacy Policy.',
   },
   fr: {
     newsletterLabel: "Je m'abonne à la newsletter",
@@ -34,6 +37,9 @@ export const dictionary = {
     email: 'Email',
     message: 'Message',
     send: 'Envoyer ma demande',
+    privacyPolicy: 'Politique de confidentialité',
+    newsletterConsent: "J'accepte de recevoir la newsletter. Je peux me désabonner à tout moment.",
+    contactPrivacyNote: 'Vos données sont utilisées uniquement pour répondre à votre demande. Voir notre Politique de confidentialité.',
   },
   de: {
     newsletterLabel: 'Ich abonniere den Newsletter',
@@ -51,6 +57,9 @@ export const dictionary = {
     email: 'E-Mail',
     message: 'Nachricht',
     send: 'Anfrage senden',
+    privacyPolicy: 'Datenschutzerklärung',
+    newsletterConsent: 'Ich stimme dem Erhalt des Newsletters zu. Ich kann mich jederzeit abmelden.',
+    contactPrivacyNote: 'Ihre Daten werden ausschließlich zur Beantwortung Ihrer Anfrage verwendet. Siehe unsere Datenschutzerklärung.',
   },
 } satisfies Record<Locale, Record<string, string>>
 

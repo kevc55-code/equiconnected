@@ -1,35 +1,77 @@
 {
   "label": "Pied de page — Mentions légales",
   "en": {
-    "hero": {
-      "title": "Legal Notice"
-    },
+    "hero": { "title": "Legal Notice" },
     "blocks": [
       {
         "type": "text",
-        "body": "EquiConnected is an association founded in October 2025, promoting harmonious relationships between horses and humans.\n\nFor any legal inquiries, please reach out via our contact page."
+        "heading": "Publisher",
+        "body": "This website is published by the association **EquiConnected**, a French association (loi 1901), founded in October 2025.\n\n- Registered address: [TO FILL — registered address of the association]\n- Association registration (RNA) number: [TO FILL]\n- Contact: [TO FILL — association email address]\n\n**Director of publication**: [TO FILL — name of the Co-President responsible, e.g. Erika Ver Berne or Myriam Hertzog]"
+      },
+      {
+        "type": "text",
+        "heading": "Hosting",
+        "body": "This website is hosted by:\n\n**Cloudflare, Inc.**\n101 Townsend Street, San Francisco, CA 94107, United States\nwww.cloudflare.com"
+      },
+      {
+        "type": "text",
+        "heading": "Intellectual property",
+        "body": "All content on this site (texts, photographs, logo) is the property of the EquiConnected association or its contributors and may not be reproduced without prior authorization. Paddock Paradise® is a registered trademark of Jaime Jackson."
+      },
+      {
+        "type": "text",
+        "heading": "Personal data",
+        "body": "For information on how personal data is handled on this site, see our Privacy Policy page."
       }
     ]
   },
   "fr": {
-    "hero": {
-      "title": "Mentions légales"
-    },
+    "hero": { "title": "Mentions légales" },
     "blocks": [
       {
         "type": "text",
-        "body": "EquiConnected est une association fondée en octobre 2025, promouvant des relations harmonieuses entre chevaux et humains.\n\nPour toute question juridique, merci de nous contacter via notre page de contact."
+        "heading": "Éditeur",
+        "body": "Ce site est édité par l'association **EquiConnected**, association loi 1901, fondée en octobre 2025.\n\n- Siège social : [À COMPLÉTER — adresse du siège de l'association]\n- Numéro RNA : [À COMPLÉTER]\n- Contact : [À COMPLÉTER — adresse email de l'association]\n\n**Directrice de la publication** : [À COMPLÉTER — nom de la Co-Présidente responsable, ex. Erika Ver Berne ou Myriam Hertzog]"
+      },
+      {
+        "type": "text",
+        "heading": "Hébergement",
+        "body": "Ce site est hébergé par :\n\n**Cloudflare, Inc.**\n101 Townsend Street, San Francisco, CA 94107, États-Unis\nwww.cloudflare.com"
+      },
+      {
+        "type": "text",
+        "heading": "Propriété intellectuelle",
+        "body": "L'ensemble des contenus de ce site (textes, photographies, logo) est la propriété de l'association EquiConnected ou de ses contributeurs et ne peut être reproduit sans autorisation préalable. Paddock Paradise® est une marque déposée de Jaime Jackson."
+      },
+      {
+        "type": "text",
+        "heading": "Données personnelles",
+        "body": "Pour toute information sur le traitement des données personnelles sur ce site, consultez notre page Politique de confidentialité."
       }
     ]
   },
   "de": {
-    "hero": {
-      "title": "Impressum"
-    },
+    "hero": { "title": "Impressum" },
     "blocks": [
       {
         "type": "text",
-        "body": "EquiConnected ist ein im Oktober 2025 gegründeter Verein, der harmonische Beziehungen zwischen Pferd und Mensch fördert.\n\nBei rechtlichen Fragen kontaktieren Sie uns bitte über unsere Kontaktseite."
+        "heading": "Herausgeber",
+        "body": "Diese Website wird herausgegeben vom Verein **EquiConnected**, einem französischen Verein (loi 1901), gegründet im Oktober 2025.\n\n- Sitz: [AUSZUFÜLLEN — Sitzadresse des Vereins]\n- Vereinsregisternummer (RNA): [AUSZUFÜLLEN]\n- Kontakt: [AUSZUFÜLLEN — E-Mail-Adresse des Vereins]\n\n**Verantwortlich für die Veröffentlichung**: [AUSZUFÜLLEN — Name der verantwortlichen Ko-Präsidentin, z. B. Erika Ver Berne oder Myriam Hertzog]"
+      },
+      {
+        "type": "text",
+        "heading": "Hosting",
+        "body": "Diese Website wird gehostet von:\n\n**Cloudflare, Inc.**\n101 Townsend Street, San Francisco, CA 94107, USA\nwww.cloudflare.com"
+      },
+      {
+        "type": "text",
+        "heading": "Geistiges Eigentum",
+        "body": "Alle Inhalte dieser Website (Texte, Fotografien, Logo) sind Eigentum des Vereins EquiConnected oder seiner Mitwirkenden und dürfen nicht ohne vorherige Genehmigung vervielfältigt werden. Paddock Paradise® ist eine eingetragene Marke von Jaime Jackson."
+      },
+      {
+        "type": "text",
+        "heading": "Personenbezogene Daten",
+        "body": "Informationen zur Verarbeitung personenbezogener Daten auf dieser Website finden Sie auf unserer Seite Datenschutzerklärung."
       }
     ]
   }
