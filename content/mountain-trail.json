@@ -18,6 +18,7 @@
         "type": "image",
         "imageSide": "left",
         "image": {
+          "src": "/images/cheval-traverse-riviere-2.jpg",
           "caption": "Crossing a bridge obstacle",
           "ratio": "aspect-[7/3]"
         },
