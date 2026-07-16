@@ -47,17 +47,24 @@ export function getContent(locale: Locale, slug: string): PageContent {
   return content
 }
 
-// Photos are uploaded once, on the English section; other locales inherit the
-// same src (captions stay per-locale). A locale can still override by setting
-// its own src. Matching is by block position, guarded by block type.
+// Photos and visual layout are managed once, on the English section; other
+// locales inherit src, ratio, and imageSide (captions stay per-locale).
+// Matching is by block position, guarded by block type.
 function inheritImages(target: PageContent, source: PageContent) {
   const tBlocks: any[] = target.blocks ?? []
   const sBlocks: any[] = source.blocks ?? []
   tBlocks.forEach((tb, i) => {
     const sb = sBlocks[i]
     if (!sb || tb.type !== sb.type) return
-    if (sb.image?.src && !tb.image?.src) {
-      tb.image = { ...(tb.image ?? {}), src: sb.image.src }
+    if (sb.image) {
+      tb.image = {
+        ...(tb.image ?? {}),
+        src: tb.image?.src || sb.image.src,
+        ratio: tb.image?.ratio || sb.image.ratio,
+      }
+    }
+    if (sb.imageSide && !tb.imageSide) {
+      tb.imageSide = sb.imageSide
     }
     for (const key of ['items', 'members'] as const) {
       if (Array.isArray(tb[key]) && Array.isArray(sb[key])) {

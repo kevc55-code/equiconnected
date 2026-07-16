@@ -17,6 +17,7 @@ content:
     format: json
     extension: json
     filename: '{primary}.json'
+    exclude: [settings.json]
     view:
       primary: label
       fields: [label, name]
@@ -25,9 +26,9 @@ content:
         label: Nom de la page (affiché uniquement dans cette liste, pas sur le site)
         type: string
       - name: en
-        label: English
+        label: "English (les photos et la mise en page se règlent ici, pour toutes les langues)"
         type: object
-        fields: &localeFields
+        fields:
           - name: hero
             label: En-tête de page
             type: object
@@ -80,7 +81,7 @@ content:
                 label: Image
                 type: object
                 fields:
-                  - { name: src, label: Photo, type: image }
+                  - { name: src, label: "Photo (utilisée pour toutes les langues)", type: image }
                   - { name: caption, label: Légende, type: string }
                   - { name: ratio, label: "Format d'image (avancé)", type: string }
               - { name: text, label: "Texte de la citation (blocs citation)", type: text }
@@ -107,7 +108,7 @@ content:
                     label: Image
                     type: object
                     fields:
-                      - { name: src, label: Photo, type: image }
+                      - { name: src, label: "Photo (utilisée pour toutes les langues)", type: image }
               - name: members
                 label: "Membres de l'équipe (blocs équipe)"
                 type: object
@@ -119,12 +120,85 @@ content:
                     label: Photo
                     type: object
                     fields:
-                      - { name: src, label: Photo, type: image }
+                      - { name: src, label: "Photo (utilisée pour toutes les langues)", type: image }
       - name: fr
-        label: "Français (les photos ajoutées dans English s'appliquent automatiquement)"
+        label: "Français (textes uniquement — les photos viennent de la section English)"
         type: object
-        fields: *localeFields
+        fields: &translatedFields
+          - name: hero
+            label: En-tête de page
+            type: object
+            fields:
+              - { name: title, label: Titre, type: string }
+              - { name: intro, label: "Phrase d'introduction", type: string }
+          - { name: banner, label: "Texte du bandeau (page d'accueil uniquement)", type: string }
+          - name: quickLinks
+            label: "Liens rapides (page d'accueil uniquement)"
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Libellé, type: string }
+              - { name: href, label: "Chemin du lien (sans préfixe de langue)", type: string }
+          - name: blocks
+            label: Blocs de contenu
+            type: object
+            list: true
+            view:
+              fields: [type, heading]
+            fields:
+              - name: type
+                label: Type de bloc
+                type: select
+                options:
+                  values:
+                    - { value: text, label: Texte }
+                    - { value: split, label: "Image + texte" }
+                    - { value: image, label: Image }
+                    - { value: quotes, label: "Cartes citation" }
+                    - { value: blockquote, label: Citation }
+                    - { value: cards, label: Cartes }
+                    - { value: video, label: Vidéo }
+                    - { value: team, label: Équipe }
+                    - { value: events, label: Événements }
+                    - { value: galleries, label: Galeries }
+                    - { value: highlight, label: Encadré }
+              - { name: heading, label: Titre de section, type: string }
+              - name: body
+                label: "Texte (ligne vide = nouveau paragraphe, '- ' = puce, **gras**)"
+                type: text
+              - name: image
+                label: Image
+                type: object
+                fields:
+                  - { name: caption, label: "Légende (la photo se règle dans English)", type: string }
+              - { name: text, label: "Texte de la citation (blocs citation)", type: text }
+              - { name: author, label: "Auteur de la citation", type: string }
+              - { name: label, label: "Titre de la vidéo", type: string }
+              - { name: viewLabel, label: "Libellé du lien galerie", type: string }
+              - { name: note, label: "Note de bas de liste (blocs événements)", type: text }
+              - name: items
+                label: "Éléments (citations / cartes / événements / galeries)"
+                type: object
+                list: true
+                fields:
+                  - { name: eyebrow, label: "Étiquette de la carte citation", type: string }
+                  - { name: lines, label: "Lignes de la carte citation", type: string, list: true }
+                  - { name: title, label: Titre, type: string }
+                  - { name: body, label: Texte, type: text }
+                  - { name: href, label: "Chemin du lien (sans préfixe de langue)", type: string }
+                  - { name: day, label: "Jour de l'événement", type: string }
+                  - { name: month, label: "Mois de l'événement", type: string }
+                  - { name: detail, label: "Détail de l'événement", type: string }
+                  - { name: status, label: "Statut de l'événement", type: string }
+                  - { name: count, label: "Nombre de photos", type: number }
+              - name: members
+                label: "Membres de l'équipe (blocs équipe)"
+                type: object
+                list: true
+                fields:
+                  - { name: name, label: Nom, type: string }
+                  - { name: role, label: Rôle, type: string }
       - name: de
-        label: "Deutsch (les photos ajoutées dans English s'appliquent automatiquement)"
+        label: "Deutsch (textes uniquement — les photos viennent de la section English)"
         type: object
-        fields: *localeFields
+        fields: *translatedFields
