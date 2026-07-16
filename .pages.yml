@@ -4,7 +4,7 @@ media:
 
 content:
   - name: pages
-    label: Site pages
+    label: Pages du site
     type: collection
     path: content
     format: json
@@ -15,86 +15,99 @@ content:
       fields: [label, name]
     fields:
       - name: label
-        label: Page name (shown in this list only, not on the site)
+        label: Nom de la page (affiché uniquement dans cette liste, pas sur le site)
         type: string
       - name: en
         label: English
         type: object
         fields: &localeFields
           - name: hero
-            label: Page header
+            label: En-tête de page
             type: object
             fields:
-              - { name: title, label: Title, type: string }
-              - { name: intro, label: Intro line, type: string }
-          - { name: banner, label: "Banner text (home page only)", type: string }
+              - { name: title, label: Titre, type: string }
+              - { name: intro, label: "Phrase d'introduction", type: string }
+          - { name: banner, label: "Texte du bandeau (page d'accueil uniquement)", type: string }
           - name: quickLinks
-            label: "Quick links (home page only)"
+            label: "Liens rapides (page d'accueil uniquement)"
             type: object
             list: true
             fields:
-              - { name: label, label: Label, type: string }
-              - { name: href, label: "Link path (without language prefix)", type: string }
+              - { name: label, label: Libellé, type: string }
+              - { name: href, label: "Chemin du lien (sans préfixe de langue)", type: string }
           - name: blocks
-            label: Content blocks
+            label: Blocs de contenu
             type: object
             list: true
             view:
               fields: [type, heading]
             fields:
               - name: type
-                label: Block type
+                label: Type de bloc
                 type: select
                 options:
-                  values: [text, split, image, quotes, blockquote, cards, video, team, events, galleries, highlight]
-              - { name: heading, label: Heading, type: string }
+                  values:
+                    - { value: text, label: Texte }
+                    - { value: split, label: "Image + texte" }
+                    - { value: image, label: Image }
+                    - { value: quotes, label: "Cartes citation" }
+                    - { value: blockquote, label: Citation }
+                    - { value: cards, label: Cartes }
+                    - { value: video, label: Vidéo }
+                    - { value: team, label: Équipe }
+                    - { value: events, label: Événements }
+                    - { value: galleries, label: Galeries }
+                    - { value: highlight, label: Encadré }
+              - { name: heading, label: Titre de section, type: string }
               - name: body
-                label: "Body text (blank line = new paragraph, '- ' = bullet, **bold**)"
+                label: "Texte (ligne vide = nouveau paragraphe, '- ' = puce, **gras**)"
                 type: text
               - name: imageSide
-                label: "Image side (split blocks)"
+                label: "Position de l'image (blocs image + texte)"
                 type: select
                 options:
-                  values: [left, right]
+                  values:
+                    - { value: left, label: Gauche }
+                    - { value: right, label: Droite }
               - name: image
                 label: Image
                 type: object
                 fields:
                   - { name: src, label: Photo, type: image }
-                  - { name: caption, label: Caption, type: string }
-                  - { name: ratio, label: "Aspect ratio (advanced)", type: string }
-              - { name: text, label: "Quote text (blockquote blocks)", type: text }
-              - { name: author, label: "Quote author", type: string }
-              - { name: label, label: "Video label", type: string }
-              - { name: viewLabel, label: "Gallery link label", type: string }
-              - { name: note, label: "Footer note (events blocks)", type: text }
+                  - { name: caption, label: Légende, type: string }
+                  - { name: ratio, label: "Format d'image (avancé)", type: string }
+              - { name: text, label: "Texte de la citation (blocs citation)", type: text }
+              - { name: author, label: "Auteur de la citation", type: string }
+              - { name: label, label: "Titre de la vidéo", type: string }
+              - { name: viewLabel, label: "Libellé du lien galerie", type: string }
+              - { name: note, label: "Note de bas de liste (blocs événements)", type: text }
               - name: items
-                label: "Items (quotes / cards / events / galleries)"
+                label: "Éléments (citations / cartes / événements / galeries)"
                 type: object
                 list: true
                 fields:
-                  - { name: eyebrow, label: "Quote card label", type: string }
-                  - { name: lines, label: "Quote card lines", type: string, list: true }
-                  - { name: title, label: Title, type: string }
-                  - { name: body, label: Text, type: text }
-                  - { name: href, label: "Link path (without language prefix)", type: string }
-                  - { name: day, label: "Event day", type: string }
-                  - { name: month, label: "Event month", type: string }
-                  - { name: detail, label: "Event detail", type: string }
-                  - { name: status, label: "Event status", type: string }
-                  - { name: count, label: "Photo count", type: number }
+                  - { name: eyebrow, label: "Étiquette de la carte citation", type: string }
+                  - { name: lines, label: "Lignes de la carte citation", type: string, list: true }
+                  - { name: title, label: Titre, type: string }
+                  - { name: body, label: Texte, type: text }
+                  - { name: href, label: "Chemin du lien (sans préfixe de langue)", type: string }
+                  - { name: day, label: "Jour de l'événement", type: string }
+                  - { name: month, label: "Mois de l'événement", type: string }
+                  - { name: detail, label: "Détail de l'événement", type: string }
+                  - { name: status, label: "Statut de l'événement", type: string }
+                  - { name: count, label: "Nombre de photos", type: number }
                   - name: image
                     label: Image
                     type: object
                     fields:
                       - { name: src, label: Photo, type: image }
               - name: members
-                label: "Team members (team blocks)"
+                label: "Membres de l'équipe (blocs équipe)"
                 type: object
                 list: true
                 fields:
-                  - { name: name, label: Name, type: string }
-                  - { name: role, label: Role, type: string }
+                  - { name: name, label: Nom, type: string }
+                  - { name: role, label: Rôle, type: string }
                   - name: image
                     label: Photo
                     type: object
