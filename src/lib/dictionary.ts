@@ -20,6 +20,12 @@ export const dictionary = {
     privacyPolicy: 'Privacy Policy',
     newsletterConsent: 'I agree to receive the newsletter. I can unsubscribe at any time.',
     contactPrivacyNote: 'Your details are used only to answer your request. See our Privacy Policy.',
+    subscribing: 'Sending…',
+    subscribeSuccess: "Thanks — you're subscribed!",
+    subscribeAlready: 'You were already subscribed.',
+    subscribeError: 'Something went wrong. Please try again later.',
+    subscribeInvalidEmail: 'Please enter a valid email address.',
+    subscribeConsentRequired: 'Please check the consent box to subscribe.',
   },
   fr: {
     newsletterLabel: "Je m'abonne à la newsletter",
@@ -40,6 +46,12 @@ export const dictionary = {
     privacyPolicy: 'Politique de confidentialité',
     newsletterConsent: "J'accepte de recevoir la newsletter. Je peux me désabonner à tout moment.",
     contactPrivacyNote: 'Vos données sont utilisées uniquement pour répondre à votre demande. Voir notre Politique de confidentialité.',
+    subscribing: 'Envoi…',
+    subscribeSuccess: 'Merci — votre inscription est confirmée !',
+    subscribeAlready: 'Vous étiez déjà inscrit(e).',
+    subscribeError: "Une erreur s'est produite. Merci de réessayer plus tard.",
+    subscribeInvalidEmail: 'Merci de saisir une adresse email valide.',
+    subscribeConsentRequired: "Merci de cocher la case de consentement pour vous inscrire.",
   },
   de: {
     newsletterLabel: 'Ich abonniere den Newsletter',
@@ -60,6 +72,12 @@ export const dictionary = {
     privacyPolicy: 'Datenschutzerklärung',
     newsletterConsent: 'Ich stimme dem Erhalt des Newsletters zu. Ich kann mich jederzeit abmelden.',
     contactPrivacyNote: 'Ihre Daten werden ausschließlich zur Beantwortung Ihrer Anfrage verwendet. Siehe unsere Datenschutzerklärung.',
+    subscribing: 'Wird gesendet…',
+    subscribeSuccess: 'Danke — Sie sind angemeldet!',
+    subscribeAlready: 'Sie waren bereits angemeldet.',
+    subscribeError: 'Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.',
+    subscribeInvalidEmail: 'Bitte geben Sie eine gültige E-Mail-Adresse ein.',
+    subscribeConsentRequired: 'Bitte aktivieren Sie das Kontrollkästchen, um sich anzumelden.',
   },
 } satisfies Record<Locale, Record<string, string>>
 

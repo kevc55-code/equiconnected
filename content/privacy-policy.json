@@ -11,7 +11,7 @@
       {
         "type": "text",
         "heading": "What data we collect and why",
-        "body": "This website does not require any account and does not track you for advertising.\n\n- **Newsletter**: if you subscribe, we collect your email address, based on your consent, in order to send you our newsletter. You can withdraw consent at any time via the unsubscribe link in every email.\n- **Contact form**: if you write to us, we collect your name, email address and message, solely to answer your request.\n\nWe collect nothing else, and we never sell or share your data for marketing purposes."
+        "body": "This website does not require any account and does not track you for advertising.\n\n- **Newsletter**: if you subscribe, we collect your email address and language, based on your consent, in order to send you our newsletter. To unsubscribe, contact us at the address above and we will delete your address.\n- **Contact form**: if you write to us, we collect your name, email address and message, solely to answer your request.\n\nWe collect nothing else, and we never sell or share your data for marketing purposes."
       },
       {
         "type": "text",
@@ -21,7 +21,7 @@
       {
         "type": "text",
         "heading": "Who processes it",
-        "body": "- **Hosting**: this site is hosted by Cloudflare, Inc. (USA), under standard contractual clauses for international transfers.\n- **Newsletter sending**: [TO FILL — name of the newsletter service once chosen].\n\nThese providers act as processors on our behalf and cannot use your data for their own purposes."
+        "body": "- **Hosting**: this site is hosted by Cloudflare, Inc. (USA), under standard contractual clauses for international transfers.\n- **Newsletter storage**: subscriber email addresses are stored in a Supabase database (EU region, Paris). Supabase does not send emails on our behalf; sending is done directly by the association.\n\nThese providers act as processors on our behalf and cannot use your data for their own purposes."
       },
       {
         "type": "text",
@@ -51,7 +51,7 @@
       {
         "type": "text",
         "heading": "Quelles données collectons-nous, et pourquoi",
-        "body": "Ce site ne nécessite aucun compte et ne vous suit pas à des fins publicitaires.\n\n- **Newsletter** : si vous vous abonnez, nous collectons votre adresse email, sur la base de votre consentement, afin de vous envoyer notre newsletter. Vous pouvez retirer votre consentement à tout moment via le lien de désabonnement présent dans chaque email.\n- **Formulaire de contact** : si vous nous écrivez, nous collectons vos nom, adresse email et message, uniquement pour répondre à votre demande.\n\nNous ne collectons rien d'autre, et nous ne vendons ni ne partageons jamais vos données à des fins commerciales."
+        "body": "Ce site ne nécessite aucun compte et ne vous suit pas à des fins publicitaires.\n\n- **Newsletter** : si vous vous abonnez, nous collectons votre adresse email et votre langue, sur la base de votre consentement, afin de vous envoyer notre newsletter. Pour vous désabonner, contactez-nous à l'adresse ci-dessus et nous supprimerons votre adresse.\n- **Formulaire de contact** : si vous nous écrivez, nous collectons vos nom, adresse email et message, uniquement pour répondre à votre demande.\n\nNous ne collectons rien d'autre, et nous ne vendons ni ne partageons jamais vos données à des fins commerciales."
       },
       {
         "type": "text",
@@ -61,7 +61,7 @@
       {
         "type": "text",
         "heading": "Qui traite vos données",
-        "body": "- **Hébergement** : ce site est hébergé par Cloudflare, Inc. (États-Unis), dans le cadre de clauses contractuelles types pour les transferts internationaux.\n- **Envoi de la newsletter** : [À COMPLÉTER — nom du service d'envoi une fois choisi].\n\nCes prestataires agissent comme sous-traitants pour notre compte et ne peuvent pas utiliser vos données pour leurs propres besoins."
+        "body": "- **Hébergement** : ce site est hébergé par Cloudflare, Inc. (États-Unis), dans le cadre de clauses contractuelles types pour les transferts internationaux.\n- **Stockage de la newsletter** : les adresses email des abonnés sont stockées dans une base de données Supabase (région UE, Paris). Supabase n'envoie pas d'emails en notre nom ; l'envoi est réalisé directement par l'association.\n\nCes prestataires agissent comme sous-traitants pour notre compte et ne peuvent pas utiliser vos données pour leurs propres besoins."
       },
       {
         "type": "text",
