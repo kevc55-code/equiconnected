@@ -2,7 +2,7 @@
 
 Website for the EquiConnected association — promoting harmonious relationships between horses and humans through Paddock Paradise, natural care, horsemanship, Mountain Trail, and equine-assisted coaching.
 
-Built with Next.js 14 (static export) + Tailwind CSS. Deployed on Cloudflare Pages: every push to `master` triggers an automatic rebuild and deploy (~2 minutes).
+Built with Next.js 14 (static export) + Tailwind CSS. Deployed on GitHub Pages at equiconnected.org by the workflow in `.github/workflows/deploy.yml`: every push to `master` triggers an automatic rebuild and deploy (~2 minutes). The custom domain is set in `public/CNAME` and in the repo's Settings → Pages.
 
 ## Editing the site content (no coding required)
 
@@ -19,7 +19,7 @@ All page text and photos live in the `content/` folder — one JSON file per pag
 1. Sign in at app.pagescms.org and open the site.
 2. Pick a page under **Site pages**, choose the language section (English / Français / Deutsch), and edit the text fields.
 3. To add a photo, use the image field on a block — uploads land in `public/images/` and are referenced automatically.
-4. Hit **Save**. This creates a commit; Cloudflare Pages rebuilds and the change is live in ~2 minutes.
+4. Hit **Save**. This creates a commit; GitHub Actions rebuilds and the change is live in ~2 minutes.
 
 Body text supports simple formatting: a blank line starts a new paragraph, lines starting with `- ` become bullet points, and `**bold**` makes text bold.
 

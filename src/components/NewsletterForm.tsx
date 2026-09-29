@@ -7,6 +7,14 @@ import type { Locale } from '@/lib/i18n'
 
 type Status = 'idle' | 'loading' | 'success' | 'already' | 'error' | 'invalid_email' | 'consent_required'
 
+// The site is a static export on GitHub Pages, so the browser talks to
+// Supabase directly. The publishable key is public by design: row-level
+// security on newsletter_subscribers only allows anonymous INSERTs, so it
+// can't be used to read, change or delete subscribers.
+const SUPABASE_URL = 'https://ubehfckmknwexwsciexx.supabase.co'
+const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_q2NUyGKivimApRM_mQoR2w_K4ol0g1V'
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
 export default function NewsletterForm({ locale }: { locale: Locale }) {
   const t = getDictionary(locale)
   const [status, setStatus] = useState<Status>('idle')
@@ -14,7 +22,7 @@ export default function NewsletterForm({ locale }: { locale: Locale }) {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
     const form = e.currentTarget
-    const email = (form.elements.namedItem('email') as HTMLInputElement).value.trim()
+    const email = (form.elements.namedItem('email') as HTMLInputElement).value.trim().toLowerCase()
     const consent = (form.elements.namedItem('consent') as HTMLInputElement).checked
 
     if (!consent) {
@@ -22,21 +30,28 @@ export default function NewsletterForm({ locale }: { locale: Locale }) {
       return
     }
 
+    if (!EMAIL_RE.test(email) || email.length > 254) {
+      setStatus('invalid_email')
+      return
+    }
+
     setStatus('loading')
     try {
-      const res = await fetch('/api/subscribe', {
+      const res = await fetch(`${SUPABASE_URL}/rest/v1/newsletter_subscribers`, {
         method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ email, locale, consent }),
+        headers: {
+          apikey: SUPABASE_PUBLISHABLE_KEY,
+          'content-type': 'application/json',
+          prefer: 'return=minimal',
+        },
+        body: JSON.stringify({ email, locale, source: 'website' }),
       })
-      const data = await res.json().catch(() => ({}))
-      if (res.ok && data.already) {
-        setStatus('already')
-      } else if (res.ok) {
+      if (res.status === 201) {
         setStatus('success')
         form.reset()
-      } else if (data.error === 'invalid_email') {
-        setStatus('invalid_email')
+      } else if (res.status === 409) {
+        // Postgres unique_violation: this address is already subscribed.
+        setStatus('already')
       } else {
         setStatus('error')
       }

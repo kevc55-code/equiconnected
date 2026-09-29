@@ -5,7 +5,7 @@
     "blocks": [
       {
         "type": "text",
-        "body": "This site sets **no tracking or advertising cookies**, which is why no cookie consent banner is shown — there is nothing to consent to.\n\nThe only cookie that may appear is a strictly technical security cookie set by our host Cloudflare (such as `__cf_bm`), used to protect the site against automated abuse. It stores no personal profile and is exempt from consent requirements.\n\nFor full details, see our Privacy Policy page."
+        "body": "This site sets **no tracking or advertising cookies**, which is why no cookie consent banner is shown — there is nothing to consent to.\n\nOur host, GitHub Pages, does not set any cookies either.\n\nFor full details, see our Privacy Policy page."
       }
     ]
   },
@@ -14,7 +14,7 @@
     "blocks": [
       {
         "type": "text",
-        "body": "Ce site ne dépose **aucun cookie de suivi ou publicitaire**, c'est pourquoi aucun bandeau de consentement n'est affiché — il n'y a rien à consentir.\n\nLe seul cookie susceptible d'apparaître est un cookie de sécurité strictement technique déposé par notre hébergeur Cloudflare (comme `__cf_bm`), utilisé pour protéger le site contre les abus automatisés. Il ne contient aucun profil personnel et est exempté de consentement.\n\nPour plus de détails, consultez notre page Politique de confidentialité."
+        "body": "Ce site ne dépose **aucun cookie de suivi ou publicitaire**, c'est pourquoi aucun bandeau de consentement n'est affiché — il n'y a rien à consentir.\n\nNotre hébergeur, GitHub Pages, ne dépose pas non plus de cookie.\n\nPour plus de détails, consultez notre page Politique de confidentialité."
       }
     ]
   },
@@ -23,7 +23,7 @@
     "blocks": [
       {
         "type": "text",
-        "body": "Diese Website setzt **keine Tracking- oder Werbe-Cookies**, weshalb kein Cookie-Banner angezeigt wird — es gibt nichts, dem zugestimmt werden müsste.\n\nDas einzige Cookie, das erscheinen kann, ist ein rein technisches Sicherheits-Cookie unseres Hosters Cloudflare (wie `__cf_bm`), das die Website vor automatisiertem Missbrauch schützt. Es enthält kein persönliches Profil und ist von der Einwilligungspflicht ausgenommen.\n\nWeitere Einzelheiten finden Sie auf unserer Seite Datenschutzerklärung."
+        "body": "Diese Website setzt **keine Tracking- oder Werbe-Cookies**, weshalb kein Cookie-Banner angezeigt wird — es gibt nichts, dem zugestimmt werden müsste.\n\nAuch unser Hoster, GitHub Pages, setzt keine Cookies.\n\nWeitere Einzelheiten finden Sie auf unserer Seite Datenschutzerklärung."
       }
     ]
   }
