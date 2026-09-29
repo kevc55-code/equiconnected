@@ -5,20 +5,38 @@
       "title": "Access & Contact",
       "intro": "We offer support both on-site and at your location within a 30 km radius."
     },
-    "blocks": []
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Write to us",
+        "body": "- **General enquiries, workshops and bookings**: [secretariat@equiconnected.org](mailto:secretariat@equiconnected.org)\n- **Co-presidency**: [copresidence@equiconnected.org](mailto:copresidence@equiconnected.org)\n\nWe reply as soon as possible."
+      }
+    ]
   },
   "fr": {
     "hero": {
       "title": "Accès et Contact",
       "intro": "Nous proposons un accompagnement à la fois sur site et chez vous dans un rayon de 30 km."
     },
-    "blocks": []
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Nous écrire",
+        "body": "- **Renseignements, ateliers et réservations** : [secretariat@equiconnected.org](mailto:secretariat@equiconnected.org)\n- **Co-présidence** : [copresidence@equiconnected.org](mailto:copresidence@equiconnected.org)\n\nNous vous répondons dans les meilleurs délais."
+      }
+    ]
   },
   "de": {
     "hero": {
       "title": "Anfahrt & Kontakt",
       "intro": "Wir bieten Begleitung sowohl bei uns vor Ort als auch bei Ihnen in einem Umkreis von 30 km."
     },
-    "blocks": []
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Schreiben Sie uns",
+        "body": "- **Allgemeine Anfragen, Workshops und Buchungen**: [secretariat@equiconnected.org](mailto:secretariat@equiconnected.org)\n- **Ko-Präsidentschaft**: [copresidence@equiconnected.org](mailto:copresidence@equiconnected.org)\n\nWir antworten Ihnen so bald wie möglich."
+      }
+    ]
   }
 }
