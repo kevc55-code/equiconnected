@@ -37,6 +37,8 @@ npm run typecheck
 - Routes live under `src/app/[locale]/` and render content from `content/*.json` via `src/lib/content.ts`.
 - Page content is a list of typed blocks rendered by `src/components/Blocks.tsx` (text, split, image, quotes, blockquote, cards, video, team, events, galleries, highlight).
 - Navigation labels and UI strings (buttons, footer) are code-owned: `src/lib/nav.ts` and `src/lib/dictionary.ts`.
-- Languages: `en` (default), `fr`, `de` — added in `src/lib/i18n.ts`.
+- Languages: `fr` (default — the bare domain redirects there via `public/index.html`), `en`, `de` — set in `src/lib/i18n.ts`. Each locale is its own root layout (`src/app/[locale]/layout.tsx`) so `<html lang>` is correct.
+- `npm run build` also runs `scripts/postbuild.mjs`: it shrinks photos wider than 2000px in `out/images` (originals untouched) and installs the trilingual 404 page from `static/404.html`.
+- Page titles/descriptions come from each page's CMS hero via `src/lib/metadata.ts`; `sitemap.xml` and `robots.txt` are generated from the menus.
 
 > Note: the French and German content started as AI translations of the English copy. Have a native speaker review before promoting those languages heavily.

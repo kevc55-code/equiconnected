@@ -42,6 +42,11 @@ content:
             fields:
               - { name: title, label: Titre, type: string }
               - { name: intro, label: "Phrase d'introduction", type: string }
+              - name: image
+                label: "Grande photo d'en-tête (page d'accueil uniquement, toutes langues)"
+                type: object
+                fields:
+                  - { name: src, label: Photo, type: image }
           - { name: banner, label: "Texte du bandeau (page d'accueil uniquement)", type: string }
           - name: quickLinks
             label: "Liens rapides (page d'accueil uniquement)"
@@ -96,6 +101,7 @@ content:
               - { name: text, label: "Texte de la citation (blocs citation)", type: text }
               - { name: author, label: "Auteur de la citation", type: string }
               - { name: label, label: "Titre de la vidéo", type: string }
+              - { name: url, label: "Lien de la vidéo YouTube ou Vimeo (blocs vidéo uniquement, toutes langues) — ex. https://www.youtube.com/watch?v=…", type: string }
               - { name: viewLabel, label: "Libellé du lien galerie", type: string }
               - { name: note, label: "Note de bas de liste (blocs événements)", type: text }
               - name: items

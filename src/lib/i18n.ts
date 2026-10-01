@@ -1,6 +1,8 @@
-export const locales = ['en', 'fr', 'de'] as const
+// French first: it is the association's working language and the default
+// the bare domain redirects to (see public/index.html).
+export const locales = ['fr', 'en', 'de'] as const
 export type Locale = (typeof locales)[number]
-export const defaultLocale: Locale = 'en'
+export const defaultLocale: Locale = 'fr'
 
 export const localeNames: Record<Locale, string> = {
   en: 'EN',

@@ -11,7 +11,7 @@ export type Block =
   | { type: 'quotes'; items: { eyebrow: string; lines: string[] }[] }
   | { type: 'blockquote'; text: string; author?: string }
   | { type: 'cards'; heading?: string; items: { title: string; body: string; href?: string }[] }
-  | { type: 'video'; label: string }
+  | { type: 'video'; label: string; url?: string }
   | { type: 'team'; members: { name: string; role: string; image?: Img }[] }
   | {
       type: 'events'
@@ -22,7 +22,7 @@ export type Block =
   | { type: 'highlight'; heading?: string; body: string }
 
 export type PageContent = {
-  hero: { title: string; intro?: string }
+  hero: { title: string; intro?: string; image?: Img }
   banner?: string
   quickLinks?: { label: string; href: string }[]
   blocks: Block[]
@@ -56,6 +56,9 @@ export function getContent(locale: Locale, slug: string): PageContent {
 // locales inherit src, ratio, and imageSide (captions stay per-locale).
 // Matching is by block position, guarded by block type.
 function inheritImages(target: PageContent, source: PageContent) {
+  if (source.hero?.image?.src && !target.hero?.image?.src) {
+    target.hero = { ...target.hero, image: { ...(target.hero?.image ?? {}), src: source.hero.image.src } }
+  }
   const tBlocks: any[] = target.blocks ?? []
   const sBlocks: any[] = source.blocks ?? []
   tBlocks.forEach((tb, i) => {
@@ -70,6 +73,9 @@ function inheritImages(target: PageContent, source: PageContent) {
     }
     if (sb.imageSide && !tb.imageSide) {
       tb.imageSide = sb.imageSide
+    }
+    if (sb.url && !tb.url) {
+      tb.url = sb.url
     }
     for (const key of ['items', 'members'] as const) {
       if (Array.isArray(tb[key]) && Array.isArray(sb[key])) {

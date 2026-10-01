@@ -4,6 +4,12 @@ import Blocks from '@/components/Blocks'
 import SmartImage from '@/components/SmartImage'
 import { getContent } from '@/lib/content'
 import type { Locale } from '@/lib/i18n'
+import { pageMetadata, SITE_NAME, tagline } from '@/lib/metadata'
+
+export function generateMetadata({ params }: { params: { locale: Locale } }) {
+  const meta = pageMetadata(params.locale, '/', { slug: 'home' })
+  return { ...meta, title: { absolute: `${SITE_NAME} — ${tagline[params.locale]}` } }
+}
 
 export default function HomePage({ params }: { params: { locale: Locale } }) {
   const content = getContent(params.locale, 'home')
@@ -11,7 +17,14 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
   return (
     <div>
       <div className="relative">
-        <ImagePlaceholder ratio="16/7" className="[&_figcaption]:hidden" />
+        {content.hero.image?.src ? (
+          <div style={{ aspectRatio: '16/7' }} className="w-full overflow-hidden">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={content.hero.image.src} alt="" className="w-full h-full object-cover" />
+          </div>
+        ) : (
+          <ImagePlaceholder ratio="16/7" className="[&_figcaption]:hidden" />
+        )}
         <div className="absolute inset-x-0 -bottom-6 flex flex-wrap justify-center gap-3 px-4">
           {(content.quickLinks ?? []).map((link) => (
             <Link

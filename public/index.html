@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EquiConnected</title>
+  <link rel="icon" href="/icon.svg">
+  <link rel="canonical" href="https://equiconnected.org/fr/">
+  <link rel="alternate" hreflang="fr" href="https://equiconnected.org/fr/">
+  <link rel="alternate" hreflang="en" href="https://equiconnected.org/en/">
+  <link rel="alternate" hreflang="de" href="https://equiconnected.org/de/">
+  <link rel="alternate" hreflang="x-default" href="https://equiconnected.org/fr/">
+  <script>
+    // Send visitors to their browser's language when we have it; French otherwise.
+    (function () {
+      var supported = ['fr', 'en', 'de']
+      var prefs = navigator.languages || [navigator.language || 'fr']
+      var lang = 'fr'
+      for (var i = 0; i < prefs.length; i++) {
+        var code = String(prefs[i]).slice(0, 2).toLowerCase()
+        if (supported.indexOf(code) !== -1) { lang = code; break }
+      }
+      location.replace('/' + lang + '/')
+    })()
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/fr/"></noscript>
+  <style>body{font-family:system-ui,sans-serif;text-align:center;padding:4rem 1rem;color:#1B2620}a{color:#0E7A4F}</style>
+</head>
+<body>
+  <p><a href="/fr/">Français</a> · <a href="/en/">English</a> · <a href="/de/">Deutsch</a></p>
+</body>
+</html>

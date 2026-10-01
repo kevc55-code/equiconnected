@@ -21,12 +21,12 @@
       {
         "type": "text",
         "heading": "Who processes it",
-        "body": "- **Hosting**: this site is hosted by GitHub, Inc. (USA) via GitHub Pages, under standard contractual clauses for international transfers. GitHub records visitors' IP addresses in its server logs for security purposes.\n- **Newsletter storage**: subscriber email addresses are stored in a Supabase database (EU region, Paris). Supabase does not send emails on our behalf; sending is done directly by the association.\n\nThese providers act as processors on our behalf and cannot use your data for their own purposes."
+        "body": "- **Hosting**: this site is hosted by GitHub, Inc. (USA) via GitHub Pages, under standard contractual clauses for international transfers. GitHub records visitors' IP addresses in its server logs for security purposes.\n- **Newsletter storage**: subscriber email addresses are stored in a Supabase database (EU region, Paris). Supabase does not send emails on our behalf; sending is done directly by the association.\n- **Embedded videos**: videos from YouTube or Vimeo load only when you click play. From then on, that provider may process your IP address and set cookies under its own privacy policy.\n\nThese providers act as processors on our behalf and cannot use your data for their own purposes."
       },
       {
         "type": "text",
         "heading": "Cookies",
-        "body": "This site sets **no tracking or advertising cookies**. Our host does not set any cookies either. That is why this site shows no cookie banner — there is nothing to consent to."
+        "body": "This site sets **no tracking or advertising cookies**. Our host does not set any cookies either. Embedded videos load nothing until you click play. That is why this site shows no cookie banner — there is nothing to consent to."
       },
       {
         "type": "text",
@@ -61,12 +61,12 @@
       {
         "type": "text",
         "heading": "Qui traite vos données",
-        "body": "- **Hébergement** : ce site est hébergé par GitHub, Inc. (États-Unis) via GitHub Pages, dans le cadre de clauses contractuelles types pour les transferts internationaux. GitHub enregistre l'adresse IP des visiteurs dans ses journaux serveur à des fins de sécurité.\n- **Stockage de la newsletter** : les adresses email des abonnés sont stockées dans une base de données Supabase (région UE, Paris). Supabase n'envoie pas d'emails en notre nom ; l'envoi est réalisé directement par l'association.\n\nCes prestataires agissent comme sous-traitants pour notre compte et ne peuvent pas utiliser vos données pour leurs propres besoins."
+        "body": "- **Hébergement** : ce site est hébergé par GitHub, Inc. (États-Unis) via GitHub Pages, dans le cadre de clauses contractuelles types pour les transferts internationaux. GitHub enregistre l'adresse IP des visiteurs dans ses journaux serveur à des fins de sécurité.\n- **Stockage de la newsletter** : les adresses email des abonnés sont stockées dans une base de données Supabase (région UE, Paris). Supabase n'envoie pas d'emails en notre nom ; l'envoi est réalisé directement par l'association.\n- **Vidéos intégrées** : les vidéos YouTube ou Vimeo ne se chargent que si vous cliquez sur lecture. Dès lors, ce fournisseur peut traiter votre adresse IP et déposer des cookies selon sa propre politique de confidentialité.\n\nCes prestataires agissent comme sous-traitants pour notre compte et ne peuvent pas utiliser vos données pour leurs propres besoins."
       },
       {
         "type": "text",
         "heading": "Cookies",
-        "body": "Ce site ne dépose **aucun cookie de suivi ou publicitaire**. Notre hébergeur ne dépose pas non plus de cookie. C'est pourquoi ce site n'affiche pas de bandeau cookies — il n'y a rien à consentir."
+        "body": "Ce site ne dépose **aucun cookie de suivi ou publicitaire**. Notre hébergeur ne dépose pas non plus de cookie, et les vidéos intégrées ne chargent rien avant que vous cliquiez sur lecture. C'est pourquoi ce site n'affiche pas de bandeau cookies — il n'y a rien à consentir."
       },
       {
         "type": "text",
@@ -101,12 +101,12 @@
       {
         "type": "text",
         "heading": "Wer Ihre Daten verarbeitet",
-        "body": "- **Hosting**: Diese Website wird von GitHub, Inc. (USA) über GitHub Pages gehostet, im Rahmen von Standardvertragsklauseln für internationale Datenübermittlungen. GitHub speichert die IP-Adressen der Besucher zu Sicherheitszwecken in seinen Serverprotokollen.\n- **Newsletter-Speicherung**: Die E-Mail-Adressen der Abonnenten werden in einer Supabase-Datenbank (EU-Region, Paris) gespeichert. Supabase versendet keine E-Mails in unserem Namen; der Versand erfolgt direkt durch den Verein.\n\nDiese Dienstleister handeln als Auftragsverarbeiter in unserem Auftrag und dürfen Ihre Daten nicht für eigene Zwecke verwenden."
+        "body": "- **Hosting**: Diese Website wird von GitHub, Inc. (USA) über GitHub Pages gehostet, im Rahmen von Standardvertragsklauseln für internationale Datenübermittlungen. GitHub speichert die IP-Adressen der Besucher zu Sicherheitszwecken in seinen Serverprotokollen.\n- **Newsletter-Speicherung**: Die E-Mail-Adressen der Abonnenten werden in einer Supabase-Datenbank (EU-Region, Paris) gespeichert. Supabase versendet keine E-Mails in unserem Namen; der Versand erfolgt direkt durch den Verein.\n- **Eingebettete Videos**: Videos von YouTube oder Vimeo werden erst geladen, wenn Sie auf Abspielen klicken. Ab dann kann dieser Anbieter Ihre IP-Adresse verarbeiten und gemäß seiner eigenen Datenschutzerklärung Cookies setzen.\n\nDiese Dienstleister handeln als Auftragsverarbeiter in unserem Auftrag und dürfen Ihre Daten nicht für eigene Zwecke verwenden."
       },
       {
         "type": "text",
         "heading": "Cookies",
-        "body": "Diese Website setzt **keine Tracking- oder Werbe-Cookies**. Auch unser Hoster setzt keine Cookies. Deshalb zeigt diese Website kein Cookie-Banner — es gibt nichts, dem zugestimmt werden müsste."
+        "body": "Diese Website setzt **keine Tracking- oder Werbe-Cookies**. Auch unser Hoster setzt keine Cookies, und eingebettete Videos laden nichts, bevor Sie auf Abspielen klicken. Deshalb zeigt diese Website kein Cookie-Banner — es gibt nichts, dem zugestimmt werden müsste."
       },
       {
         "type": "text",

@@ -7,28 +7,25 @@ import Logo from './Logo'
 import LanguageSwitcher from './LanguageSwitcher'
 import { getPrimaryNav, getSecondaryNav, type NavItem } from '@/lib/nav'
 import { locales, type Locale } from '@/lib/i18n'
+import { getDictionary } from '@/lib/dictionary'
 
 function NavRow({ items, variant = 'primary' }: { items: NavItem[]; variant?: 'primary' | 'secondary' }) {
-  const [open, setOpen] = useState<string | null>(null)
   const linkClass =
     variant === 'primary'
       ? 'block px-3 py-3 text-xs md:text-sm font-bold uppercase tracking-wide text-white hover:bg-white/10 transition-colors'
       : 'block px-3 py-2 text-[11px] font-medium uppercase tracking-wide text-white/60 hover:bg-white/10 hover:text-white/90 transition-colors'
 
+  // Dropdowns open on hover and on keyboard focus (focus-within), so
+  // keyboard users can reach the sub-pages too.
   return (
     <ul className="flex flex-wrap items-center">
       {items.map((item) => (
-        <li
-          key={item.label}
-          className="relative"
-          onMouseEnter={() => item.children && setOpen(item.label)}
-          onMouseLeave={() => item.children && setOpen(null)}
-        >
-          <Link href={item.href} className={linkClass}>
+        <li key={item.label} className="relative group">
+          <Link href={item.href} className={linkClass} aria-haspopup={item.children ? 'true' : undefined}>
             {item.label}
           </Link>
-          {item.children && open === item.label ? (
-            <div className="absolute left-0 top-full min-w-[240px] bg-brand-darker shadow-lg z-30 border border-white/10">
+          {item.children ? (
+            <div className="absolute left-0 top-full min-w-[240px] bg-brand-darker shadow-lg z-30 border border-white/10 hidden group-hover:block group-focus-within:block">
               {item.children.map((child) => (
                 <Link
                   key={child.href}
@@ -114,7 +111,8 @@ export default function Header({ locale, logoSrc }: { locale: Locale; logoSrc?: 
         </Link>
         <button
           className="md:hidden text-white p-2"
-          aria-label="Toggle menu"
+          aria-label={getDictionary(locale).menuToggle}
+          aria-expanded={mobileOpen}
           onClick={() => setMobileOpen((o) => !o)}
         >
           <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2">

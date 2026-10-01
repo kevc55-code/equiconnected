@@ -2,6 +2,7 @@ import Link from 'next/link'
 import SmartImage from './SmartImage'
 import QuoteCard from './QuoteCard'
 import Galleries from './Galleries'
+import VideoEmbed from './VideoEmbed'
 import { Markdown } from '@/lib/markdown'
 import { getDictionary } from '@/lib/dictionary'
 import type { Block } from '@/lib/content'
@@ -100,11 +101,7 @@ function BlockView({ block, locale }: { block: Block; locale: Locale }) {
         </div>
       )
     case 'video':
-      return (
-        <div className="aspect-video rounded-lg bg-ink flex items-center justify-center text-white/60 text-sm text-center px-6">
-          {block.label}
-        </div>
-      )
+      return <VideoEmbed label={block.label} url={block.url} locale={locale} />
     case 'team':
       return (
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">

@@ -2,11 +2,16 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 import { getPrimaryNav, getSecondaryNav } from '@/lib/nav'
 import type { Locale } from '@/lib/i18n'
+import { pageMetadata } from '@/lib/metadata'
 
 const titles: Record<Locale, string> = {
   en: 'Site Map',
   fr: 'Plan du site',
   de: 'Sitemap',
+}
+
+export function generateMetadata({ params }: { params: { locale: Locale } }) {
+  return pageMetadata(params.locale, '/site-map', { title: ({ fr: 'Plan du site', en: 'Site Map', de: 'Sitemap' })[params.locale] })
 }
 
 export default function SiteMapPage({ params }: { params: { locale: Locale } }) {
