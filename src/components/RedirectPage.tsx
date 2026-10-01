@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function RedirectPage({ to }: { to: string }) {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16 text-center">
-      <meta httpEquiv="refresh" content={`0; url=${to}/`} />
+      <meta httpEquiv="refresh" content={`0; url=${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}${to}/`} />
       <Link href={to} className="text-brand-dark underline">
         {to}
       </Link>

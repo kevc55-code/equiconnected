@@ -29,7 +29,7 @@ export type PageContent = {
   photos?: Img[]
 }
 
-export type SiteSettings = { logo?: string }
+export type SiteSettings = { logo?: string; comingSoon?: boolean }
 
 export function getSettings(): SiteSettings {
   const file = path.join(process.cwd(), 'content', 'settings.json')

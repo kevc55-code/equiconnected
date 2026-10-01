@@ -4,8 +4,23 @@
     {
       "name": "equiconnected-dev",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
       "port": 3000
+    },
+    {
+      "name": "site-static",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "--yes",
+        "serve@14",
+        "site",
+        "-l",
+        "4000"
+      ],
+      "port": 4000
     }
   ]
 }

@@ -10,6 +10,7 @@ content:
     format: json
     fields:
       - { name: logo, label: "Logo du site (affiché dans l'en-tête ; laisser vide pour le logo par défaut)", type: image }
+      - { name: comingSoon, label: "Site en construction — cochée : le public ne voit que la page « Bientôt disponible » (l'aperçu privé montre toujours le site complet). Décocher pour mettre le site en ligne.", type: boolean }
   - name: pages
     label: Pages du site
     type: collection

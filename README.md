@@ -25,6 +25,12 @@ Body text supports simple formatting: a blank line starts a new paragraph, lines
 
 Anything structural — new pages, navigation changes, design tweaks — still needs a developer.
 
+## Coming-soon mode and private preview
+
+While **Réglages du site → Site en construction** is ticked in Pages CMS (`comingSoon` in `content/settings.json`), every public page shows a trilingual "coming soon" page and is marked noindex. The full site is always published at the unlisted preview address `https://equiconnected.org/apercu-2d108495/` (also noindex) so the team can review edits. Untick the box to launch.
+
+The deploy runs `npm run build:site` (`scripts/build-site.mjs`), which builds the public site and the preview into `site/`.
+
 ## Development
 
 ```bash
@@ -38,7 +44,7 @@ npm run typecheck
 - Page content is a list of typed blocks rendered by `src/components/Blocks.tsx` (text, split, image, quotes, blockquote, cards, video, team, events, galleries, highlight).
 - Navigation labels and UI strings (buttons, footer) are code-owned: `src/lib/nav.ts` and `src/lib/dictionary.ts`.
 - Languages: `fr` (default — the bare domain redirects there via `public/index.html`), `en`, `de` — set in `src/lib/i18n.ts`. Each locale is its own root layout (`src/app/[locale]/layout.tsx`) so `<html lang>` is correct.
-- `npm run build` also runs `scripts/postbuild.mjs`: it shrinks photos wider than 2000px in `out/images` (originals untouched) and installs the trilingual 404 page from `static/404.html`.
+- `npm run build` also runs `scripts/postbuild.mjs`: it shrinks photos wider than 2000px in `out/images` (originals untouched) and installs the trilingual 404 page from `scripts/404.html`.
 - Page titles/descriptions come from each page's CMS hero via `src/lib/metadata.ts`; `sitemap.xml` and `robots.txt` are generated from the menus.
 
 > Note: the French and German content started as AI translations of the English copy. Have a native speaker review before promoting those languages heavily.

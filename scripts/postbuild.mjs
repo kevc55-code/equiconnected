@@ -45,5 +45,5 @@ if (await stat(imagesDir).catch(() => null)) {
   console.log(`postbuild: images optimised, saved ${(saved / 1024 / 1024).toFixed(1)} MB`)
 }
 
-await copyFile('static/404.html', path.join(OUT, '404.html'))
+await copyFile('scripts/404.html', path.join(OUT, '404.html'))
 console.log('postbuild: custom 404 page installed')
