@@ -112,12 +112,13 @@ content:
                   - { name: month, label: "Mois de l'événement", type: string }
                   - { name: detail, label: "Détail de l'événement", type: string }
                   - { name: status, label: "Statut de l'événement", type: string }
-                  - { name: count, label: "Nombre de photos", type: number }
-                  - name: image
-                    label: Image
+                  - name: photos
+                    label: "Photos de la galerie (blocs galeries uniquement — la 1re photo sert de couverture ; valable pour toutes les langues)"
                     type: object
+                    list: true
                     fields:
-                      - { name: src, label: "Photo (utilisée pour toutes les langues)", type: image }
+                      - { name: src, label: Photo, type: image }
+                      - { name: caption, label: "Légende (optionnelle)", type: string }
               - name: members
                 label: "Membres de l'équipe (blocs équipe)"
                 type: object
@@ -199,7 +200,6 @@ content:
                   - { name: month, label: "Mois de l'événement", type: string }
                   - { name: detail, label: "Détail de l'événement", type: string }
                   - { name: status, label: "Statut de l'événement", type: string }
-                  - { name: count, label: "Nombre de photos", type: number }
               - name: members
                 label: "Membres de l'équipe (blocs équipe)"
                 type: object

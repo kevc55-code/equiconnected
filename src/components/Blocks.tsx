@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import SmartImage from './SmartImage'
 import QuoteCard from './QuoteCard'
+import Galleries from './Galleries'
 import { Markdown } from '@/lib/markdown'
 import { getDictionary } from '@/lib/dictionary'
 import type { Block } from '@/lib/content'
@@ -153,20 +154,11 @@ function BlockView({ block, locale }: { block: Block; locale: Locale }) {
       )
     case 'galleries':
       return (
-        <div className="grid sm:grid-cols-2 gap-6">
-          {block.items.map((g) => (
-            <div key={g.title} className="rounded-lg overflow-hidden border border-ink/10">
-              <SmartImage image={{ ...g.image, caption: undefined }} className="[&_figcaption]:hidden" />
-              <div className="p-4 flex items-center justify-between">
-                <div>
-                  <h3 className="font-serif font-semibold">{g.title}</h3>
-                  <p className="text-xs text-ink/50">{g.count} photo(s)</p>
-                </div>
-                <span className="text-xs font-semibold text-brand-dark">{block.viewLabel} &rarr;</span>
-              </div>
-            </div>
-          ))}
-        </div>
+        <Galleries
+          items={block.items.map((g) => ({ title: g.title, photos: (g.photos ?? []).filter((p) => p?.src) }))}
+          viewLabel={block.viewLabel}
+          locale={locale}
+        />
       )
     case 'highlight':
       return (

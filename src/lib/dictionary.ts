@@ -26,6 +26,12 @@ export const dictionary = {
     subscribeError: 'Something went wrong. Please try again later.',
     subscribeInvalidEmail: 'Please enter a valid email address.',
     subscribeConsentRequired: 'Please check the consent box to subscribe.',
+    photo: 'photo',
+    photos: 'photos',
+    galleryEmpty: 'Photos coming soon',
+    galleryClose: 'Close',
+    galleryPrevious: 'Previous photo',
+    galleryNext: 'Next photo',
   },
   fr: {
     newsletterLabel: "Je m'abonne à la newsletter",
@@ -52,6 +58,12 @@ export const dictionary = {
     subscribeError: "Une erreur s'est produite. Merci de réessayer plus tard.",
     subscribeInvalidEmail: 'Merci de saisir une adresse email valide.',
     subscribeConsentRequired: "Merci de cocher la case de consentement pour vous inscrire.",
+    photo: 'photo',
+    photos: 'photos',
+    galleryEmpty: 'Photos bientôt disponibles',
+    galleryClose: 'Fermer',
+    galleryPrevious: 'Photo précédente',
+    galleryNext: 'Photo suivante',
   },
   de: {
     newsletterLabel: 'Ich abonniere den Newsletter',
@@ -78,6 +90,12 @@ export const dictionary = {
     subscribeError: 'Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.',
     subscribeInvalidEmail: 'Bitte geben Sie eine gültige E-Mail-Adresse ein.',
     subscribeConsentRequired: 'Bitte aktivieren Sie das Kontrollkästchen, um sich anzumelden.',
+    photo: 'Foto',
+    photos: 'Fotos',
+    galleryEmpty: 'Fotos folgen in Kürze',
+    galleryClose: 'Schließen',
+    galleryPrevious: 'Vorheriges Foto',
+    galleryNext: 'Nächstes Foto',
   },
 } satisfies Record<Locale, Record<string, string>>
 

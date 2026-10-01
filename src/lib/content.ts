@@ -18,7 +18,7 @@ export type Block =
       items: { day: string; month: string; title: string; detail: string; status: string }[]
       note?: string
     }
-  | { type: 'galleries'; items: { title: string; count: number; image?: Img }[]; viewLabel: string }
+  | { type: 'galleries'; items: { title: string; photos?: Img[] }[]; viewLabel: string }
   | { type: 'highlight'; heading?: string; body: string }
 
 export type PageContent = {
@@ -77,6 +77,10 @@ function inheritImages(target: PageContent, source: PageContent) {
           const si = sb[key][j]
           if (si?.image?.src && !ti.image?.src) {
             ti.image = { ...(ti.image ?? {}), src: si.image.src }
+          }
+          // Gallery photos (with their captions) are shared by all locales.
+          if (Array.isArray(si?.photos) && !ti.photos?.length) {
+            ti.photos = si.photos
           }
         })
       }

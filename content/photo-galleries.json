@@ -11,11 +11,11 @@
         "items": [
           {
             "title": "Pension Paddock Paradise",
-            "count": 12
+            "photos": []
           },
           {
             "title": "Mountain Trail — 25 obstacles",
-            "count": 7
+            "photos": []
           }
         ]
       }
@@ -31,12 +31,10 @@
         "viewLabel": "Voir la galerie",
         "items": [
           {
-            "title": "Pension Paddock Paradise",
-            "count": 12
+            "title": "Pension Paddock Paradise"
           },
           {
-            "title": "Mountain Trail — 25 dispositifs",
-            "count": 7
+            "title": "Mountain Trail — 25 dispositifs"
           }
         ]
       }
@@ -52,12 +50,10 @@
         "viewLabel": "Galerie ansehen",
         "items": [
           {
-            "title": "Pension Paddock Paradise",
-            "count": 12
+            "title": "Pension Paddock Paradise"
           },
           {
-            "title": "Mountain Trail — 25 Hindernisse",
-            "count": 7
+            "title": "Mountain Trail — 25 Hindernisse"
           }
         ]
       }
