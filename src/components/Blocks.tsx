@@ -3,6 +3,7 @@ import SmartImage from './SmartImage'
 import QuoteCard from './QuoteCard'
 import Galleries from './Galleries'
 import VideoEmbed from './VideoEmbed'
+import Team from './Team'
 import { Markdown } from '@/lib/markdown'
 import { getDictionary } from '@/lib/dictionary'
 import type { Block } from '@/lib/content'
@@ -103,26 +104,7 @@ function BlockView({ block, locale }: { block: Block; locale: Locale }) {
     case 'video':
       return <VideoEmbed label={block.label} url={block.url} locale={locale} />
     case 'team':
-      return (
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {block.members.map((member) => (
-            <div key={member.name} className="rounded-lg border border-ink/10 p-6 text-center">
-              {member.image?.src ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={member.image.src}
-                  alt={member.name}
-                  className="mx-auto h-24 w-24 rounded-full object-cover mb-3"
-                />
-              ) : (
-                <div className="mx-auto h-16 w-16 rounded-full bg-brand-light mb-3" />
-              )}
-              <h3 className="font-serif font-semibold">{member.name}</h3>
-              <p className="text-xs uppercase tracking-wide text-brand-dark mt-1">{member.role}</p>
-            </div>
-          ))}
-        </div>
-      )
+      return <Team members={block.members} locale={locale} />
     case 'events':
       return (
         <div>

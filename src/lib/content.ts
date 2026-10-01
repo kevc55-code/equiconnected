@@ -12,7 +12,7 @@ export type Block =
   | { type: 'blockquote'; text: string; author?: string }
   | { type: 'cards'; heading?: string; items: { title: string; body: string; href?: string }[] }
   | { type: 'video'; label: string; url?: string }
-  | { type: 'team'; members: { name: string; role: string; image?: Img }[] }
+  | { type: 'team'; members: { name: string; role: string; image?: Img; bio?: string }[] }
   | {
       type: 'events'
       items: { day: string; month: string; title: string; detail: string; status: string }[]

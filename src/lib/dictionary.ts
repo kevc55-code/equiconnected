@@ -28,6 +28,8 @@ export const dictionary = {
     galleryNext: 'Next photo',
     videoNotice: 'Click to play. The video then loads from YouTube/Vimeo, which may set cookies.',
     menuToggle: 'Open or close the menu',
+    readBio: 'Read bio',
+    close: 'Close',
   },
   fr: {
     newsletterLabel: "Je m'abonne à la newsletter",
@@ -56,6 +58,8 @@ export const dictionary = {
     galleryNext: 'Photo suivante',
     videoNotice: 'Cliquez pour lancer la lecture. La vidéo est alors chargée depuis YouTube/Vimeo, qui peut déposer des cookies.',
     menuToggle: 'Ouvrir ou fermer le menu',
+    readBio: 'Lire la bio',
+    close: 'Fermer',
   },
   de: {
     newsletterLabel: 'Ich abonniere den Newsletter',
@@ -84,6 +88,8 @@ export const dictionary = {
     galleryNext: 'Nächstes Foto',
     videoNotice: 'Zum Abspielen klicken. Das Video wird dann von YouTube/Vimeo geladen, die Cookies setzen können.',
     menuToggle: 'Menü öffnen oder schließen',
+    readBio: 'Bio lesen',
+    close: 'Schließen',
   },
 } satisfies Record<Locale, Record<string, string>>
 

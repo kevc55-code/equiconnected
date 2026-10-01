@@ -137,6 +137,9 @@ content:
                     type: object
                     fields:
                       - { name: src, label: "Photo (utilisée pour toutes les langues)", type: image }
+                  - name: bio
+                    label: "Biographie (optionnelle — si remplie, la carte devient cliquable ; ligne vide = nouveau paragraphe, **gras**, [texte du lien](https://exemple.fr) = lien)"
+                    type: text
       - name: fr
         label: "Français (textes uniquement — les photos viennent de la section English)"
         type: object
@@ -213,6 +216,9 @@ content:
                 fields:
                   - { name: name, label: Nom, type: string }
                   - { name: role, label: Rôle, type: string }
+                  - name: bio
+                    label: "Biographie (optionnelle — si remplie, la carte devient cliquable ; ligne vide = nouveau paragraphe, **gras**, [texte du lien](https://exemple.fr) = lien)"
+                    type: text
       - name: de
         label: "Deutsch (textes uniquement — les photos viennent de la section English)"
         type: object
