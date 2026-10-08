@@ -11,11 +11,19 @@
         "items": [
           {
             "title": "Pension Paddock Paradise",
-            "photos": []
+            "photos": [
+              {
+                "src": "/images/galerie-paddock-paradise-1.jpg"
+              }
+            ]
           },
           {
             "title": "Mountain Trail — 25 obstacles",
-            "photos": []
+            "photos": [
+              {
+                "src": "/images/galerie-mountain-trail-1.jpg"
+              }
+            ]
           }
         ]
       }

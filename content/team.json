@@ -11,27 +11,45 @@
         "members": [
           {
             "name": "Myriam Hertzog",
-            "role": "Co-President"
+            "role": "Co-President",
+            "image": {
+              "src": "/images/equipe-myriam-hertzog.jpg"
+            }
           },
           {
             "name": "Erika Ver Berne",
-            "role": "Co-President"
+            "role": "Co-President",
+            "image": {
+              "src": "/images/equipe-erika-ver-berne.jpg"
+            }
           },
           {
             "name": "Virginie Tièche",
-            "role": "Secretary"
+            "role": "Secretary",
+            "image": {
+              "src": "/images/equipe-virginie-tieche.jpg"
+            }
           },
           {
             "name": "Xavier Wittig",
-            "role": "Treasurer"
+            "role": "Treasurer",
+            "image": {
+              "src": "/images/equipe-xavier-wittig.jpg"
+            }
           },
           {
             "name": "Agnès Gamp",
-            "role": "Assessor"
+            "role": "Assessor",
+            "image": {
+              "src": "/images/equipe-agnes-gamp.jpg"
+            }
           },
           {
             "name": "Laure Flota",
-            "role": "Social Media"
+            "role": "Social Media",
+            "image": {
+              "src": "/images/equipe-laure-flota.jpg"
+            }
           }
         ]
       }

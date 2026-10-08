@@ -2,7 +2,10 @@
   "label": "Page d'accueil",
   "en": {
     "hero": {
-      "title": "EquiConnected"
+      "title": "EquiConnected",
+      "image": {
+        "src": "/images/home-hero-chevaux.jpg"
+      }
     },
     "banner": "Listening to the horse above all",
     "quickLinks": [
@@ -28,7 +31,8 @@
         "type": "image",
         "image": {
           "caption": "Horses resting in the shelter",
-          "ratio": "21/9"
+          "ratio": "21/9",
+          "src": "/images/home-abri-chevaux.jpg"
         }
       },
       {
@@ -36,7 +40,8 @@
         "imageSide": "right",
         "heading": "Our approach — Base line",
         "image": {
-          "caption": "A horse resting under the trees"
+          "caption": "A horse resting under the trees",
+          "src": "/images/home-cheval-sous-les-arbres.jpg"
         },
         "body": "**The EquiConnected** association was founded in October 2025. Its main goal is to promote **harmonious relationships between horses and humans**. Indeed, what rider hasn't dreamed of getting along with their horse to the point of becoming one with their mount?\n\nOur respective journeys left us wanting more in the area of connecting with animals, so we observed horses a lot, opened our minds to other possibilities by drawing inspiration from the connection some people have with their horses in freedom and, above all, by experiencing the immense joy that this new approach provides.\n\nClearly, the horse deserves to be better understood as a sensitive animal. It has much to teach us if we know how to listen to it.\n\nTo do this we were inspired by **Maslow's famous pyramid**, which we adapted **for horses.**\n\nOur support is geared towards this goal, by meeting the fundamental needs of horses, enabling them to be available for harmonious interspecies relationships such as:\n\n- Equine-assisted coaching\n- Horsemanship\n- Mountain Trail\n\nThe **horse** is housed and cared for **naturally.**"
       },

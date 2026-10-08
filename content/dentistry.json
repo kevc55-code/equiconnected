@@ -9,7 +9,8 @@
       {
         "type": "split",
         "image": {
-          "caption": "A dental technician at work, caring for a defective tooth"
+          "caption": "A dental technician at work, caring for a defective tooth",
+          "src": "/images/dentisterie-technicienne.jpg"
         },
         "body": "Equine dental technicians, trained and grouped within a federation in France, perform dental care **without sedation** using the same professional equipment as a veterinarian who would prefer to sedate the horse with a chemical product.\n\nA conscientious technician will also know when to hand over to a veterinarian when the situation requires it."
       },
