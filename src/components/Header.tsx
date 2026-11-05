@@ -2,11 +2,10 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
 import Logo from './Logo'
 import LanguageSwitcher from './LanguageSwitcher'
 import { getPrimaryNav, getSecondaryNav, type NavItem } from '@/lib/nav'
-import { locales, type Locale } from '@/lib/i18n'
+import type { Locale } from '@/lib/i18n'
 import { getDictionary } from '@/lib/dictionary'
 
 function NavRow({ items, variant = 'primary' }: { items: NavItem[]; variant?: 'primary' | 'secondary' }) {
@@ -44,10 +43,9 @@ function NavRow({ items, variant = 'primary' }: { items: NavItem[]; variant?: 'p
 }
 
 function MobileNav({ locale, onNavigate }: { locale: Locale; onNavigate: () => void }) {
-  const pathname = usePathname()
   const all = [...getPrimaryNav(locale), ...getSecondaryNav(locale)]
   return (
-    <div className="bg-brand-darker px-4 py-4 space-y-1">
+    <div className="bg-brand-darker px-4 py-4 space-y-1 max-h-[calc(100dvh-3.5rem)] overflow-y-auto overscroll-contain">
       {all.map((item) => (
         <div key={item.label}>
           <Link
@@ -73,19 +71,6 @@ function MobileNav({ locale, onNavigate }: { locale: Locale; onNavigate: () => v
           ) : null}
         </div>
       ))}
-      <div className="pt-3 flex gap-2">
-        {locales.map((l) => (
-          <Link
-            key={l}
-            href={pathname.replace(`/${locale}`, `/${l}`)}
-            className={`px-3 py-1 rounded-full text-xs font-semibold border ${
-              l === locale ? 'bg-white text-brand-darker border-white' : 'border-white/40 text-white/70'
-            }`}
-          >
-            {l.toUpperCase()}
-          </Link>
-        ))}
-      </div>
     </div>
   )
 }
@@ -109,16 +94,19 @@ export default function Header({ locale, logoSrc }: { locale: Locale; logoSrc?: 
             EquiConnected
           </span>
         </Link>
-        <button
-          className="md:hidden text-white p-2"
-          aria-label={getDictionary(locale).menuToggle}
-          aria-expanded={mobileOpen}
-          onClick={() => setMobileOpen((o) => !o)}
-        >
-          <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2">
-            <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
+        <div className="md:hidden flex items-center gap-1">
+          <LanguageSwitcher locale={locale} compact />
+          <button
+            className="text-white p-2"
+            aria-label={getDictionary(locale).menuToggle}
+            aria-expanded={mobileOpen}
+            onClick={() => setMobileOpen((o) => !o)}
+          >
+            <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2">
+              <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
         <div className="hidden md:flex items-center gap-4">
           <nav>
             <NavRow items={primaryNav} variant="primary" />
