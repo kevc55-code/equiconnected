@@ -13,6 +13,12 @@
             "title": "Pension Paddock Paradise",
             "photos": [
               {
+                "src": "/images/paddock-paradise-piste.jpg"
+              },
+              {
+                "src": "/images/paddock-paradise-abri.jpg"
+              },
+              {
                 "src": "/images/galerie-paddock-paradise-1.jpg"
               }
             ]
@@ -20,6 +26,15 @@
           {
             "title": "Mountain Trail — 25 obstacles",
             "photos": [
+              {
+                "src": "/images/mountain-trail-obstacle-rondins.jpg"
+              },
+              {
+                "src": "/images/mountain-trail-cavalier-obstacle.jpg"
+              },
+              {
+                "src": "/images/mountain-trail-cheval-bac-sable.jpg"
+              },
               {
                 "src": "/images/galerie-mountain-trail-1.jpg"
               }
