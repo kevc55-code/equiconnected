@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { DM_Sans, Cormorant_Garamond } from 'next/font/google'
+import localFont from 'next/font/local'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import ComingSoon from '@/components/ComingSoon'
@@ -9,17 +9,22 @@ import { locales, type Locale } from '@/lib/i18n'
 import { SITE_NAME, SITE_URL, siteDescription, tagline } from '@/lib/metadata'
 import '../globals.css'
 
-const dmSans = DM_Sans({
-  subsets: ['latin'],
+// Fonts are stored in the repo (src/fonts, latin subset, variable weights)
+// so the build never depends on a Google Fonts download.
+const dmSans = localFont({
+  src: '../../fonts/dm-sans-variable.woff2',
   variable: '--font-dm-sans',
-  weight: ['400', '500', '700'],
+  weight: '400 700',
+  display: 'swap',
 })
 
-const garamond = Cormorant_Garamond({
-  subsets: ['latin'],
+const garamond = localFont({
+  src: [
+    { path: '../../fonts/cormorant-garamond-variable.woff2', weight: '400 600', style: 'normal' },
+    { path: '../../fonts/cormorant-garamond-italic-variable.woff2', weight: '400 600', style: 'italic' },
+  ],
   variable: '--font-garamond',
-  weight: ['400', '500', '600'],
-  style: ['normal', 'italic'],
+  display: 'swap',
 })
 
 export function generateStaticParams() {
