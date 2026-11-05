@@ -29,8 +29,8 @@ export default function ComingSoon({ locale }: { locale: Locale }) {
       <h1 className="mt-10 font-serif italic text-4xl md:text-5xl font-semibold">{t.heading}</h1>
       <p className="mt-6 max-w-xl text-white/80 leading-relaxed">{t.body}</p>
       <p className="mt-10 text-sm text-white/70">{t.contact}</p>
-      <a href="mailto:secretariat@equiconnected.org" className="mt-1 underline hover:text-brand-light">
-        secretariat@equiconnected.org
+      <a href="mailto:secretaire@equiconnected.org" className="mt-1 underline hover:text-brand-light">
+        secretaire@equiconnected.org
       </a>
       <nav className="mt-12 flex gap-2" aria-label="Language">
         {locales.map((l) => (
