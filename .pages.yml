@@ -1,3 +1,4 @@
+# Pages CMS editing schema. Team members have an optional "bio" (opens a pop-up on the Team page).
 media:
   input: public/images
   output: /images
