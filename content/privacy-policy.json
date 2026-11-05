@@ -13,17 +13,17 @@
       {
         "type": "text",
         "heading": "What data we collect and why",
-        "body": "This website does not require any account and does not track you for advertising.\n\n- **Newsletter**: if you subscribe, we collect your email address and language, based on your consent, in order to send you our newsletter. To unsubscribe, contact us at the address above and we will delete your address.\n- **Contacting us by email**: if you write to us, we receive your name, email address and message, solely to answer your request.\n\nWe collect nothing else, and we never sell or share your data for marketing purposes."
+        "body": "This website does not require any account and does not track you for advertising.\n\n- **Newsletter**: if you subscribe, we collect your email address and the language of the site you used to sign up, based on your consent, in order to send you our newsletter. You can unsubscribe at any time using the link at the bottom of every newsletter, or by writing to us at the address above.\n- **Contacting us by email**: if you write to us, we receive your name, email address and message, solely to answer your request.\n\nWe collect nothing else, and we never sell or share your data for marketing purposes."
       },
       {
         "type": "text",
         "heading": "How long we keep it",
-        "body": "- Newsletter addresses: until you unsubscribe.\n- Contact requests: up to 12 months after our last exchange, then deleted."
+        "body": "- Newsletter addresses: until you unsubscribe. After that, your address is kept only as \"unsubscribed\", so that we respect your choice and never write to you again; you can ask for it to be erased completely at any time.\n- Contact requests: up to 12 months after our last exchange, then deleted."
       },
       {
         "type": "text",
         "heading": "Who processes it",
-        "body": "- **Hosting**: this site is hosted by GitHub, Inc. (USA) via GitHub Pages, under standard contractual clauses for international transfers. GitHub records visitors' IP addresses in its server logs for security purposes.\n- **Newsletter storage**: subscriber email addresses are stored in a Supabase database (EU region, Paris). Supabase does not send emails on our behalf; sending is done directly by the association.\n- **Embedded videos**: videos from YouTube or Vimeo load only when you click play. From then on, that provider may process your IP address and set cookies under its own privacy policy.\n\nThese providers act as processors on our behalf and cannot use your data for their own purposes."
+        "body": "- **Hosting**: this site is hosted by GitHub, Inc. (USA) via GitHub Pages, under standard contractual clauses for international transfers. GitHub records visitors' IP addresses in its server logs for security purposes.\n- **Newsletter storage**: subscriber email addresses are stored in a Supabase database (EU region, Paris).\n- **Newsletter sending**: the newsletter is sent by Brevo (Brevo SAS, a French company based in Paris). When you subscribe, your email address and language are passed to it automatically, solely to send the newsletter and to handle unsubscribes and invalid addresses. Brevo gives the association sending statistics (opens and clicks). Brevo acts as a processor under a GDPR data processing agreement.\n- **Embedded videos**: videos from YouTube or Vimeo load only when you click play. From then on, that provider may process your IP address and set cookies under its own privacy policy.\n\nThese providers act as processors on our behalf and cannot use your data for their own purposes."
       },
       {
         "type": "text",
@@ -55,17 +55,17 @@
       {
         "type": "text",
         "heading": "Quelles données collectons-nous, et pourquoi",
-        "body": "Ce site ne nécessite aucun compte et ne vous suit pas à des fins publicitaires.\n\n- **Newsletter** : si vous vous abonnez, nous collectons votre adresse email et votre langue, sur la base de votre consentement, afin de vous envoyer notre newsletter. Pour vous désabonner, contactez-nous à l'adresse ci-dessus et nous supprimerons votre adresse.\n- **Contact par email** : si vous nous écrivez, nous recevons vos nom, adresse email et message, uniquement pour répondre à votre demande.\n\nNous ne collectons rien d'autre, et nous ne vendons ni ne partageons jamais vos données à des fins commerciales."
+        "body": "Ce site ne nécessite aucun compte et ne vous suit pas à des fins publicitaires.\n\n- **Newsletter** : si vous vous abonnez, nous collectons votre adresse email et la langue du site utilisée lors de l'inscription, sur la base de votre consentement, afin de vous envoyer notre newsletter. Vous pouvez vous désabonner à tout moment grâce au lien présent en bas de chaque newsletter, ou en nous écrivant à l'adresse ci-dessus.\n- **Contact par email** : si vous nous écrivez, nous recevons vos nom, adresse email et message, uniquement pour répondre à votre demande.\n\nNous ne collectons rien d'autre, et nous ne vendons ni ne partageons jamais vos données à des fins commerciales."
       },
       {
         "type": "text",
         "heading": "Durées de conservation",
-        "body": "- Adresses newsletter : jusqu'à votre désabonnement.\n- Demandes de contact : au maximum 12 mois après notre dernier échange, puis suppression."
+        "body": "- Adresses newsletter : jusqu'à votre désabonnement. Ensuite, votre adresse n'est conservée que comme « désabonnée », pour respecter votre choix et ne plus vous écrire ; vous pouvez en demander l'effacement complet à tout moment.\n- Demandes de contact : au maximum 12 mois après notre dernier échange, puis suppression."
       },
       {
         "type": "text",
         "heading": "Qui traite vos données",
-        "body": "- **Hébergement** : ce site est hébergé par GitHub, Inc. (États-Unis) via GitHub Pages, dans le cadre de clauses contractuelles types pour les transferts internationaux. GitHub enregistre l'adresse IP des visiteurs dans ses journaux serveur à des fins de sécurité.\n- **Stockage de la newsletter** : les adresses email des abonnés sont stockées dans une base de données Supabase (région UE, Paris). Supabase n'envoie pas d'emails en notre nom ; l'envoi est réalisé directement par l'association.\n- **Vidéos intégrées** : les vidéos YouTube ou Vimeo ne se chargent que si vous cliquez sur lecture. Dès lors, ce fournisseur peut traiter votre adresse IP et déposer des cookies selon sa propre politique de confidentialité.\n\nCes prestataires agissent comme sous-traitants pour notre compte et ne peuvent pas utiliser vos données pour leurs propres besoins."
+        "body": "- **Hébergement** : ce site est hébergé par GitHub, Inc. (États-Unis) via GitHub Pages, dans le cadre de clauses contractuelles types pour les transferts internationaux. GitHub enregistre l'adresse IP des visiteurs dans ses journaux serveur à des fins de sécurité.\n- **Stockage de la newsletter** : les adresses email des abonnés sont stockées dans une base de données Supabase (région UE, Paris).\n- **Envoi de la newsletter** : l'envoi est assuré par Brevo (Brevo SAS, société française, Paris). Lorsque vous vous abonnez, votre adresse email et votre langue lui sont transmises automatiquement, uniquement pour envoyer la newsletter et gérer les désinscriptions et les adresses invalides. Brevo fournit à l'association des statistiques d'envoi (ouvertures et clics). Brevo agit comme sous-traitant, dans le cadre d'un accord de traitement des données conforme au RGPD.\n- **Vidéos intégrées** : les vidéos YouTube ou Vimeo ne se chargent que si vous cliquez sur lecture. Dès lors, ce fournisseur peut traiter votre adresse IP et déposer des cookies selon sa propre politique de confidentialité.\n\nCes prestataires agissent comme sous-traitants pour notre compte et ne peuvent pas utiliser vos données pour leurs propres besoins."
       },
       {
         "type": "text",
@@ -97,17 +97,17 @@
       {
         "type": "text",
         "heading": "Welche Daten wir erheben und warum",
-        "body": "Diese Website erfordert kein Konto und verfolgt Sie nicht zu Werbezwecken.\n\n- **Newsletter**: Wenn Sie sich anmelden, erheben wir Ihre E-Mail-Adresse auf Grundlage Ihrer Einwilligung, um Ihnen unseren Newsletter zu senden. Sie können Ihre Einwilligung jederzeit über den Abmeldelink in jeder E-Mail widerrufen.\n- **Kontakt per E-Mail**: Wenn Sie uns schreiben, erhalten wir Ihren Namen, Ihre E-Mail-Adresse und Ihre Nachricht, ausschließlich um Ihre Anfrage zu beantworten.\n\nWir erheben nichts weiter und verkaufen oder teilen Ihre Daten niemals zu Marketingzwecken."
+        "body": "Diese Website erfordert kein Konto und verfolgt Sie nicht zu Werbezwecken.\n\n- **Newsletter**: Wenn Sie sich anmelden, erheben wir Ihre E-Mail-Adresse und die Sprache der Website, die Sie bei der Anmeldung genutzt haben, auf Grundlage Ihrer Einwilligung, um Ihnen unseren Newsletter zu senden. Sie können sich jederzeit über den Abmeldelink am Ende jedes Newsletters abmelden oder uns unter der oben genannten Adresse schreiben.\n- **Kontakt per E-Mail**: Wenn Sie uns schreiben, erhalten wir Ihren Namen, Ihre E-Mail-Adresse und Ihre Nachricht, ausschließlich um Ihre Anfrage zu beantworten.\n\nWir erheben nichts weiter und verkaufen oder teilen Ihre Daten niemals zu Marketingzwecken."
       },
       {
         "type": "text",
         "heading": "Speicherdauer",
-        "body": "- Newsletter-Adressen: bis zu Ihrer Abmeldung.\n- Kontaktanfragen: höchstens 12 Monate nach unserem letzten Austausch, danach Löschung."
+        "body": "- Newsletter-Adressen: bis zu Ihrer Abmeldung. Danach wird Ihre Adresse nur noch als „abgemeldet“ gespeichert, damit wir Ihre Entscheidung respektieren und Ihnen nie wieder schreiben; Sie können jederzeit die vollständige Löschung verlangen.\n- Kontaktanfragen: höchstens 12 Monate nach unserem letzten Austausch, danach Löschung."
       },
       {
         "type": "text",
         "heading": "Wer Ihre Daten verarbeitet",
-        "body": "- **Hosting**: Diese Website wird von GitHub, Inc. (USA) über GitHub Pages gehostet, im Rahmen von Standardvertragsklauseln für internationale Datenübermittlungen. GitHub speichert die IP-Adressen der Besucher zu Sicherheitszwecken in seinen Serverprotokollen.\n- **Newsletter-Speicherung**: Die E-Mail-Adressen der Abonnenten werden in einer Supabase-Datenbank (EU-Region, Paris) gespeichert. Supabase versendet keine E-Mails in unserem Namen; der Versand erfolgt direkt durch den Verein.\n- **Eingebettete Videos**: Videos von YouTube oder Vimeo werden erst geladen, wenn Sie auf Abspielen klicken. Ab dann kann dieser Anbieter Ihre IP-Adresse verarbeiten und gemäß seiner eigenen Datenschutzerklärung Cookies setzen.\n\nDiese Dienstleister handeln als Auftragsverarbeiter in unserem Auftrag und dürfen Ihre Daten nicht für eigene Zwecke verwenden."
+        "body": "- **Hosting**: Diese Website wird von GitHub, Inc. (USA) über GitHub Pages gehostet, im Rahmen von Standardvertragsklauseln für internationale Datenübermittlungen. GitHub speichert die IP-Adressen der Besucher zu Sicherheitszwecken in seinen Serverprotokollen.\n- **Newsletter-Speicherung**: Die E-Mail-Adressen der Abonnenten werden in einer Supabase-Datenbank (EU-Region, Paris) gespeichert.\n- **Newsletter-Versand**: Der Newsletter wird über Brevo versendet (Brevo SAS, ein französisches Unternehmen mit Sitz in Paris). Bei Ihrer Anmeldung werden Ihre E-Mail-Adresse und Ihre Sprache automatisch dorthin übermittelt, ausschließlich um den Newsletter zu versenden und Abmeldungen und ungültige Adressen zu verwalten. Brevo stellt dem Verein Versandstatistiken (Öffnungen und Klicks) zur Verfügung. Brevo handelt als Auftragsverarbeiter auf Grundlage eines DSGVO-konformen Auftragsverarbeitungsvertrags.\n- **Eingebettete Videos**: Videos von YouTube oder Vimeo werden erst geladen, wenn Sie auf Abspielen klicken. Ab dann kann dieser Anbieter Ihre IP-Adresse verarbeiten und gemäß seiner eigenen Datenschutzerklärung Cookies setzen.\n\nDiese Dienstleister handeln als Auftragsverarbeiter in unserem Auftrag und dürfen Ihre Daten nicht für eigene Zwecke verwenden."
       },
       {
         "type": "text",

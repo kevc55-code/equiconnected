@@ -31,6 +31,17 @@ While **Réglages du site → Site en construction** is ticked in Pages CMS (`co
 
 The deploy runs `npm run build:site` (`scripts/build-site.mjs`), which builds the public site and the preview into `site/`.
 
+## Newsletter (Supabase → Brevo)
+
+Sign-ups from the footer form are stored in Supabase (`newsletter_subscribers`). **Brevo** writes and sends the newsletter; the `brevo-sync` Edge Function (`supabase/functions/brevo-sync/`) keeps the two in step:
+
+- **New subscriber → Brevo.** A database trigger calls the function right after each sign-up; an hourly `pg_cron` job (`brevo-sync-hourly`) retries anything that failed. The contact is added to one Brevo list with a `LANGUAGE` attribute (FR/EN/DE).
+- **Brevo unsubscribe/bounce → Supabase.** On the same runs (at most every 10 minutes) the function asks Brevo which contacts are unsubscribed or blocklisted and sets `unsubscribed_at` here. The row is kept, as a "do not write" record.
+
+The function does nothing until two secrets exist (Supabase dashboard → Edge Functions → Secrets; never put them in the repo): `BREVO_API_KEY` and `BREVO_LIST_ID` (the number of the Brevo list). In Brevo, create a text contact attribute named `LANGUAGE` first; without it people are still added, just without a language. The database objects are in `supabase/migrations/`; redeploy the function from `supabase/functions/brevo-sync/index.ts` (it needs `verify_jwt` off: it takes no input and only works on what is already in the table).
+
+Check it worked: Supabase → Edge Functions → `brevo-sync` → Logs, or `select email, brevo_synced_at from newsletter_subscribers`. Known limits: someone who unsubscribed cannot re-subscribe through the form (the email is unique and the row is kept); they must ask the association.
+
 ## Development
 
 ```bash
