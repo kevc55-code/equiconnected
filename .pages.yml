@@ -58,7 +58,7 @@ content:
               - { name: label, label: Libellé, type: string }
               - { name: href, label: "Chemin du lien (sans préfixe de langue)", type: string }
           - name: blocks
-            label: Blocs de contenu
+            label: "Blocs de contenu — mêmes blocs, dans le même ordre, dans les 3 langues (ajouter / supprimer / déplacer un bloc : le faire dans FR, EN et DE)"
             type: object
             list: true
             view:
@@ -161,7 +161,7 @@ content:
               - { name: label, label: Libellé, type: string }
               - { name: href, label: "Chemin du lien (sans préfixe de langue)", type: string }
           - name: blocks
-            label: Blocs de contenu
+            label: "Blocs de contenu — mêmes blocs, dans le même ordre, dans les 3 langues (ajouter / supprimer / déplacer un bloc : le faire dans FR, EN et DE)"
             type: object
             list: true
             view:

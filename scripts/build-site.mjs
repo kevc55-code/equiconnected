@@ -12,6 +12,9 @@ export const PREVIEW_PATH = 'apercu-2d108495'
 const run = (env = {}) =>
   execSync('npm run build', { stdio: 'inherit', env: { ...process.env, ...env } })
 
+// Stop before building if the three languages are out of step (see scripts/check-content.mjs).
+execSync('node scripts/check-content.mjs', { stdio: 'inherit' })
+
 await rm('site', { recursive: true, force: true })
 
 run({ NEXT_PUBLIC_BASE_PATH: '' })
