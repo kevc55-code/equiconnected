@@ -3,9 +3,7 @@
   "en": {
     "hero": {
       "title": "EquiConnected",
-      "image": {
-        "src": "/images/home-hero-chevaux.jpg"
-      }
+      "image": {}
     },
     "banner": "Listening to the horse above all",
     "quickLinks": [
@@ -30,18 +28,14 @@
       {
         "type": "image",
         "image": {
-          "caption": "Horses resting in the shelter",
-          "ratio": "21/9",
-          "src": "/images/home-abri-chevaux.jpg"
+          "caption": "Horses resting in the shelter"
         }
       },
       {
         "type": "split",
-        "imageSide": "right",
         "heading": "Our approach — Base line",
         "image": {
-          "caption": "A horse resting under the trees",
-          "src": "/images/home-cheval-sous-les-arbres.jpg"
+          "caption": "A horse resting under the trees"
         },
         "body": "**The EquiConnected** association was founded in October 2025. Its main goal is to promote **harmonious relationships between horses and humans**. Indeed, what rider hasn't dreamed of getting along with their horse to the point of becoming one with their mount?\n\nOur respective journeys left us wanting more in the area of connecting with animals, so we observed horses a lot, opened our minds to other possibilities by drawing inspiration from the connection some people have with their horses in freedom and, above all, by experiencing the immense joy that this new approach provides.\n\nClearly, the horse deserves to be better understood as a sensitive animal. It has much to teach us if we know how to listen to it.\n\nTo do this we were inspired by **Maslow's famous pyramid**, which we adapted **for horses.**\n\nOur support is geared towards this goal, by meeting the fundamental needs of horses, enabling them to be available for harmonious interspecies relationships such as:\n\n- Equine-assisted coaching\n- Horsemanship\n- Mountain Trail\n\nThe **horse** is housed and cared for **naturally.**"
       },
@@ -79,7 +73,10 @@
   },
   "fr": {
     "hero": {
-      "title": "EquiConnected"
+      "title": "EquiConnected",
+      "image": {
+        "src": "/images/home-hero-chevaux.jpg"
+      }
     },
     "banner": "L'écoute du cheval avant tout",
     "quickLinks": [
@@ -105,7 +102,8 @@
         "type": "image",
         "image": {
           "caption": "Des chevaux au repos sous l'abri",
-          "ratio": "21/9"
+          "ratio": "21/9",
+          "src": "/images/home-abri-chevaux.jpg"
         }
       },
       {
@@ -113,7 +111,8 @@
         "imageSide": "right",
         "heading": "Notre approche — Ligne directrice",
         "image": {
-          "caption": "Un cheval au repos sous les arbres"
+          "caption": "Un cheval au repos sous les arbres",
+          "src": "/images/home-cheval-sous-les-arbres.jpg"
         },
         "body": "**L'association EquiConnected** a été fondée en octobre 2025. Son objectif principal est de promouvoir des **relations harmonieuses entre chevaux et humains**. En effet, quel cavalier n'a jamais rêvé de s'entendre avec son cheval au point de ne faire qu'un avec sa monture ?\n\nNos parcours respectifs nous ont donné envie d'aller plus loin dans la connexion avec les animaux. Nous avons donc beaucoup observé les chevaux, ouvert notre esprit à d'autres possibilités en nous inspirant de la connexion que certaines personnes entretiennent avec leurs chevaux en liberté et, surtout, en faisant l'expérience de l'immense joie que procure cette nouvelle approche.\n\nDe toute évidence, le cheval mérite d'être mieux compris en tant qu'animal sensible. Il a beaucoup à nous apprendre si nous savons l'écouter.\n\nPour cela, nous nous sommes inspirées de la **célèbre pyramide de Maslow**, que nous avons **adaptée aux chevaux.**\n\nNotre accompagnement vise cet objectif, en répondant aux besoins fondamentaux des chevaux afin qu'ils soient disponibles pour des relations interspécifiques harmonieuses telles que :\n\n- Coaching équin\n- Horsemanship\n- Mountain Trail\n\nLe **cheval** est hébergé et soigné de manière **naturelle.**"
       },
@@ -176,13 +175,11 @@
       {
         "type": "image",
         "image": {
-          "caption": "Pferde ruhen im Unterstand",
-          "ratio": "21/9"
+          "caption": "Pferde ruhen im Unterstand"
         }
       },
       {
         "type": "split",
-        "imageSide": "right",
         "heading": "Unser Ansatz — Leitlinie",
         "image": {
           "caption": "Ein Pferd ruht unter den Bäumen"

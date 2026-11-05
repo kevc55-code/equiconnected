@@ -44,7 +44,7 @@ export function getContent(locale: Locale, slug: string): PageContent {
   const file = path.join(process.cwd(), 'content', `${slug}.json`)
   const data = JSON.parse(fs.readFileSync(file, 'utf-8'))
   const content = data[locale]
-  if (locale !== 'en' && data.en) inheritImages(content, data.en)
+  if (locale !== 'fr' && data.fr) inheritImages(content, data.fr)
   // Top-level photo gallery, shared across all locales
   if (Array.isArray(data.photos) && data.photos.length > 0) {
     content.photos = data.photos.filter((p: Img) => p?.src)
@@ -52,7 +52,7 @@ export function getContent(locale: Locale, slug: string): PageContent {
   return content
 }
 
-// Photos and visual layout are managed once, on the English section; other
+// Photos and visual layout are managed once, on the French section; other
 // locales inherit src, ratio, and imageSide (captions stay per-locale).
 // Matching is by block position, guarded by block type.
 function inheritImages(target: PageContent, source: PageContent) {

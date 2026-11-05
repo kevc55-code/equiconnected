@@ -10,6 +10,25 @@
         "viewLabel": "View gallery",
         "items": [
           {
+            "title": "Pension Paddock Paradise"
+          },
+          {
+            "title": "Mountain Trail — 25 obstacles"
+          }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "hero": {
+      "title": "Galeries Photo"
+    },
+    "blocks": [
+      {
+        "type": "galleries",
+        "viewLabel": "Voir la galerie",
+        "items": [
+          {
             "title": "Pension Paddock Paradise",
             "photos": [
               {
@@ -27,7 +46,7 @@
             ]
           },
           {
-            "title": "Mountain Trail — 25 obstacles",
+            "title": "Mountain Trail — 25 dispositifs",
             "photos": [
               {
                 "src": "/images/mountain-trail-obstacle-rondins.jpg"
@@ -42,25 +61,6 @@
                 "src": "/images/galerie-mountain-trail-1.jpg"
               }
             ]
-          }
-        ]
-      }
-    ]
-  },
-  "fr": {
-    "hero": {
-      "title": "Galeries Photo"
-    },
-    "blocks": [
-      {
-        "type": "galleries",
-        "viewLabel": "Voir la galerie",
-        "items": [
-          {
-            "title": "Pension Paddock Paradise"
-          },
-          {
-            "title": "Mountain Trail — 25 dispositifs"
           }
         ]
       }

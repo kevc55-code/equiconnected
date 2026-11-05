@@ -12,44 +12,32 @@
           {
             "name": "Myriam Hertzog",
             "role": "Co-President",
-            "image": {
-              "src": "/images/equipe-myriam-hertzog.jpg"
-            }
+            "image": {}
           },
           {
             "name": "Erika Ver Berne",
             "role": "Co-President",
-            "image": {
-              "src": "/images/equipe-erika-ver-berne.jpg"
-            }
+            "image": {}
           },
           {
             "name": "Virginie Tièche",
             "role": "Secretary",
-            "image": {
-              "src": "/images/equipe-virginie-tieche.jpg"
-            }
+            "image": {}
           },
           {
             "name": "Xavier Wittig",
             "role": "Treasurer",
-            "image": {
-              "src": "/images/equipe-xavier-wittig.jpg"
-            }
+            "image": {}
           },
           {
             "name": "Agnès Gamp",
             "role": "Assessor",
-            "image": {
-              "src": "/images/equipe-agnes-gamp.jpg"
-            }
+            "image": {}
           },
           {
             "name": "Laure Flota",
             "role": "Social Media",
-            "image": {
-              "src": "/images/equipe-laure-flota.jpg"
-            }
+            "image": {}
           }
         ]
       }
@@ -66,27 +54,45 @@
         "members": [
           {
             "name": "Myriam Hertzog",
-            "role": "Co-Présidente"
+            "role": "Co-Présidente",
+            "image": {
+              "src": "/images/equipe-myriam-hertzog.jpg"
+            }
           },
           {
             "name": "Erika Ver Berne",
-            "role": "Co-Présidente"
+            "role": "Co-Présidente",
+            "image": {
+              "src": "/images/equipe-erika-ver-berne.jpg"
+            }
           },
           {
             "name": "Virginie Tièche",
-            "role": "Secrétaire"
+            "role": "Secrétaire",
+            "image": {
+              "src": "/images/equipe-virginie-tieche.jpg"
+            }
           },
           {
             "name": "Xavier Wittig",
-            "role": "Trésorier"
+            "role": "Trésorier",
+            "image": {
+              "src": "/images/equipe-xavier-wittig.jpg"
+            }
           },
           {
             "name": "Agnès Gamp",
-            "role": "Assesseure"
+            "role": "Assesseure",
+            "image": {
+              "src": "/images/equipe-agnes-gamp.jpg"
+            }
           },
           {
             "name": "Laure Flota",
-            "role": "Réseaux sociaux"
+            "role": "Réseaux sociaux",
+            "image": {
+              "src": "/images/equipe-laure-flota.jpg"
+            }
           }
         ]
       }

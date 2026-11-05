@@ -1,7 +1,9 @@
 {
   "label": "Pied de page — Politique de confidentialité",
   "en": {
-    "hero": { "title": "Privacy Policy" },
+    "hero": {
+      "title": "Privacy Policy"
+    },
     "blocks": [
       {
         "type": "text",
@@ -41,7 +43,9 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Politique de confidentialité" },
+    "hero": {
+      "title": "Politique de confidentialité"
+    },
     "blocks": [
       {
         "type": "text",
@@ -81,7 +85,9 @@
     ]
   },
   "de": {
-    "hero": { "title": "Datenschutzerklärung" },
+    "hero": {
+      "title": "Datenschutzerklärung"
+    },
     "blocks": [
       {
         "type": "text",

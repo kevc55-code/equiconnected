@@ -7,7 +7,6 @@
     "blocks": [
       {
         "type": "split",
-        "imageSide": "right",
         "image": {
           "caption": "Groundwork session"
         },
@@ -47,7 +46,6 @@
     "blocks": [
       {
         "type": "split",
-        "imageSide": "right",
         "image": {
           "caption": "Bodenarbeit-Sitzung"
         },

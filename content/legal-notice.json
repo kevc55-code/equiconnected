@@ -1,7 +1,9 @@
 {
   "label": "Pied de page — Mentions légales",
   "en": {
-    "hero": { "title": "Legal Notice" },
+    "hero": {
+      "title": "Legal Notice"
+    },
     "blocks": [
       {
         "type": "text",
@@ -26,7 +28,9 @@
     ]
   },
   "fr": {
-    "hero": { "title": "Mentions légales" },
+    "hero": {
+      "title": "Mentions légales"
+    },
     "blocks": [
       {
         "type": "text",
@@ -51,7 +55,9 @@
     ]
   },
   "de": {
-    "hero": { "title": "Impressum" },
+    "hero": {
+      "title": "Impressum"
+    },
     "blocks": [
       {
         "type": "text",

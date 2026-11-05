@@ -7,7 +7,6 @@
     "blocks": [
       {
         "type": "split",
-        "imageSide": "right",
         "heading": "What Is Team Coaching with Horses?",
         "image": {
           "caption": "A team working together on the ground"
@@ -69,7 +68,6 @@
     "blocks": [
       {
         "type": "split",
-        "imageSide": "right",
         "heading": "Was ist Teamcoaching mit Pferden?",
         "image": {
           "caption": "Ein Team arbeitet gemeinsam am Boden"

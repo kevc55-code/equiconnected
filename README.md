@@ -17,7 +17,7 @@ All page text and photos live in the `content/` folder — one JSON file per pag
 ### Editing workflow
 
 1. Sign in at app.pagescms.org and open the site.
-2. Pick a page under **Site pages**, choose the language section (English / Français / Deutsch), and edit the text fields.
+2. Pick a page under **Site pages**, choose the language section (Français / English / Deutsch), and edit the text fields. **Français is the main language:** photos, image layout, gallery photos and team portraits are set once in the French section and are shared with English and German (only the captions and text are translated per language).
 3. To add a photo, use the image field on a block — uploads land in `public/images/` and are referenced automatically.
 4. Hit **Save**. This creates a commit; GitHub Actions rebuilds and the change is live in ~2 minutes.
 
@@ -47,4 +47,4 @@ npm run typecheck
 - `npm run build` also runs `scripts/postbuild.mjs`: it shrinks photos wider than 2000px in `out/images` (originals untouched) and installs the trilingual 404 page from `scripts/404.html`.
 - Page titles/descriptions come from each page's CMS hero via `src/lib/metadata.ts`; `sitemap.xml` and `robots.txt` are generated from the menus.
 
-> Note: the French and German content started as AI translations of the English copy. Have a native speaker review before promoting those languages heavily.
+> Note: the English and German texts started as AI translations. Have a native speaker review them before promoting those languages heavily.
